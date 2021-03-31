@@ -1,0 +1,86 @@
+{
+    "Header": {
+        "title": "Taahira Modeling Academy",
+        "paragraph": "Motto."
+    },
+
+    "FAQ": [
+            {
+                "question": "Who can enroll?",
+                "answer": "Due to the fact that the academy is not stigmatized, plus size models, LGBTQI community are free to enroll."
+            },
+            {
+                "question": "Q21",
+                "answer": "A1"
+            },
+            {
+                "question": "Q1",
+                "answer": "A1"
+            }
+    ],
+    "Fitness": {
+        "paragraph": "Taahirah Modeling Academy believes in keeping our models in shape. Their health and fitness is very important to us. As a result we offer:",
+        "trainings": [
+            "Agile Strength",
+            "Emotional Strength",
+            "Yoga",
+            "Meditation",
+            "Strength Endurance",
+            "Explosive Strength",
+            "Relative Strength",
+            "Speed Strength",
+            "Starting Strength"
+        ]
+    },
+    "Workshops": {
+        "paragraph": "As the name says, Taahirah Modelling Academy is an academy therefore we aim to equip our models with basic knowledge and skills for them to be successful as models and as citizens of the world.",
+        "skills": [
+            "Basic Computing Skills.",
+            "Basic Computer Programming",
+            "Fashion Seminars",
+            "Woman Empowerment Workshops",
+            "Lifestyle Training"
+        ]
+    },
+    "Benefits": {
+        "benefit": [
+            "Photoshoots",
+            "Z-cards",
+            "Portfolios",
+            "Fitness",
+            "Fashion/runway shows",
+            "Pageant competition"
+        ]
+    },
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "2696 James Watt Cres, Mafikeng Industrial, Mahikeng, 2745",
+        "phone": "+27 81 361 3191",
+        "email": "t.modelingacademy@gmail.com",
+        "facebook": "https://www.facebook.com/Taahirah-Modeling-Academy-100298541503442/",
+        "instagram": "https://www.instagram.com/taahirah_modeling_academy/?hl=en",
+        "paragraph": "TAAHIRAH MODELING ACADEMY established in 2019, with the aim to illuminate models with the modeling industry by pinning its focus firstly on modeling fundamental features such as cultivating one’s self esteem, confidence, and personality. Secondly, we will educate models with aspects such as runway and pageant walks; public speaking and fashion sense. Thirdly, the academy will outline how modeling and fitness intertwine. Furthermore, the academy will partake in encountering communal activities as part of the TMA charity foundation, like the community outreach. TAAHIRAH MODELING ACADEMY is a licensed agency located in North West, Mahikeng In addition to being a start-up academy in Mahikeng, we offer modeling development, photoshoot skills, public speaking skills, pageant and runway skills and life skills. Our mission is to provide them with training and once they are well trained, we take them to various competitions locally and nationally. TAAHIRAH MODELING ACADEMY represents both males and females between 5-35 years of age, including Plus Size and LGBTQ models."
+    },
+    "About": {
+        "paragraph": "TAAHIRAH MODELING ACADEMY established in 2019, with the aim to illuminate models with the modeling industry by pinning its focus firstly on modeling fundamental features such as cultivating one’s self esteem, confidence, and personality. Secondly, we will educate models with aspects such as runway and pageant walks; public speaking and fashion sense. Thirdly, the academy will outline how modeling and fitness intertwine. Furthermore, the academy will partake in encountering communal activities as part of the TMA charity foundation, like the community outreach. TAAHIRAH MODELING ACADEMY is a licensed agency located in North West, Mahikeng In addition to being a start-up academy in Mahikeng, we offer modeling development, photoshoot skills, public speaking skills, pageant and runway skills and life skills. Our mission is to provide them with training and once they are well trained, we take them to various competitions locally and nationally. TAAHIRAH MODELING ACADEMY represents both males and females between 5-35 years of age, including Plus Size and LGBTQ models."
+    }
+}
