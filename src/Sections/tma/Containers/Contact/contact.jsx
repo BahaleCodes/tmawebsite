@@ -182,31 +182,23 @@ export class Contact extends Component {
 					<div className="col-md-12">
 						<div className="row">
 							<div className="social">
-
-								<ul>
-									<li>
-										<a
-											href={
-													this.props.data 
-													? this.props.data.facebook 
-													: "/"}
-											>
-												<Icon pic={fb} />
-										</a>
-									</li>
-									<li>
-										<a
-											href={
-												this.props.data 
-													? this.props.data.instagram 
-													: "/"
-											}
-											>
-												<Icon pic={insta} />
-										</a> 
-									</li>
-								</ul>
-
+                                <ul>
+                                    <li>
+                                        <a href={this.props.data ? this.props.data.facebook : '/'} >
+                                            <i className="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={this.props.data ? this.props.data.linkedIn : '/'} >
+                                            <i className="fa fa-linkedIn"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={this.props.data ? this.props.data.instagram : '/'} >
+                                            <i className="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
 							</div>
 						</div>
 					</div>

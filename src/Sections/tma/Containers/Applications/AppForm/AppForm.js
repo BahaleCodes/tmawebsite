@@ -29,9 +29,6 @@ class AppForm extends Component {
                 shoesize: props.shoesize,
                 shirtsize: props.shirtsize,
                 loading: false,
-                // idcopy: {},
-                // pop: {},
-                // pic: {},
           }
         }
       }
@@ -383,17 +380,51 @@ class AppForm extends Component {
             form = <Spinner />;
         }
         return (
-            <div className={"text-center"}>
-
-            <Helmet>
-                <title>Application</title>
-            </Helmet>
-                <div className="Heading">
-                    <h2>TMA Application Form</h2>
-                    <h3>Application will be considered successful once the R150 application fee payment is done</h3>
+            <div id="contact" className="text-center">
+                <Helmet>
+                    <title>Application</title>
+                </Helmet>
+                <div className="container">
+                    <div className="Heading">
+                        <h2>TMA Application Form</h2>
+                        <h3>Applications are currently closed. Please follow us on our social media platforms to see when applications will be reopened.</h3>
+                        <br></br>
+                    </div>
+                    <div className="col-md-12">
+                        <div className="row">
+                            <div className="social">
+                                <ul>
+                                    <li>
+                                        <a href={'https://www.facebook.com/Taahirah-Modeling-Academy-100298541503442/'} >
+                                            <i className="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={'https://www.linkedin.com/in/taahirah-zungu-95a194203/?originalSubdomain=za'} >
+                                            <i className="fa fa-linkedIn"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={'https://www.instagram.com/taahirah_modeling_academy/?hl=en'} >
+                                            <i className="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                    {form}
             </div>
+            // <div className={"text-center"}>
+            //     <Helmet>
+            //         <title>Application</title>
+            //     </Helmet>
+            //     <div className="Heading">
+            //         <h2>TMA Application Form</h2>
+            //         <h3>Applications are currently closed. Please follow us on our social media platforms to see when will the we reopen applications.</h3>
+            //     </div>
+                    // {/* {form} */}
+            // </div>
         )
     }
 }
