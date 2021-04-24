@@ -13,8 +13,8 @@ const kitso = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                'img/KitsoKwenamore/IMG_8571.CR2.jpg',
                                 'img/KitsoKwenamore/kitso.jpg',
+                                'img/KitsoKwenamore/IMG_8571.CR2.jpg',
                                 'img/KitsoKwenamore/kitso(2).jpg',
                                 'img/KitsoKwenamore/IMG_8664.jpg',
                             ]}/>

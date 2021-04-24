@@ -15,7 +15,7 @@ import Kitso from './Sections/tma/Containers/OurModels/Kitso/Kitso';
 import Sections from './Sections/Sections';
 import ayanda from './Sections/tma/Containers/OurModels/Ayanda/Ayanda';
 import boitumelo from './Sections/tma/Containers/OurModels/Boitumelo/Boitumelo';
-import bokamoso from './Sections/tma/Containers/OurModels/Bonolo/Bonolo';
+import bokamoso from './Sections/tma/Containers/OurModels/bokamoso/bokamoso';
 import bonoloS from './Sections/tma/Containers/OurModels/BonoloS/Bonolo-s';
 import bonolo from './Sections/tma/Containers/OurModels/Bonolo/Bonolo';
 import ipeleng from './Sections/tma/Containers/OurModels/Ipeleng/Ipeleng';

@@ -14,8 +14,8 @@ const thato = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                    'img/ThatoMotsatsi/IMG_8638.jpg',
                                     'img/ThatoMotsatsi/thatoM.jpg',
+                                    'img/ThatoMotsatsi/IMG_8638.jpg',
                                     'img/ThatoMotsatsi/thatoM(2).jpg',
                                     'img/ThatoMotsatsi/IMG_8638nw.jpg',
                                     
