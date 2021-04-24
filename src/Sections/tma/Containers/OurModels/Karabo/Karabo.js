@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
-import pic1 from '../../../../../img/IMG_8578.jpg';
-import pic2 from '../../../../../img/IMG_8586nw.jpg';
-import pic3 from '../../../../../img/IMG_8601.jpg';
 
 const karabo = () => {
     return (
@@ -16,9 +13,9 @@ const karabo = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                pic1,
-                                pic2,
-                                pic3
+                                'img/Karabo/IMG_8578.jpg',
+                                'img/Karabo/IMG_8586nw.jpg',
+                                'img/Karabo/IMG_8601.jpg'
                             ]}/>
     </div>
     )

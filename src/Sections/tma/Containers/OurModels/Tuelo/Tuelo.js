@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
-import pic1 from '../../../../../img/IMG_8573.jpg';
-import pic2 from '../../../../../img/IMG_8575.jpg';
-import pic3 from '../../../../../img/IMG_8615.jpg';
 
 const tuelo = () => {
     return (
@@ -17,9 +14,9 @@ const tuelo = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                    pic1,
-                                    pic2,
-                                    pic3
+                                    'img/Tuelo/IMG_8573.jpg',
+                                    'img/Tuelo/IMG_8575.jpg',
+                                    'img/Tuelo/IMG_8615.jpg'
                                 ]}/>
         </div>
     )

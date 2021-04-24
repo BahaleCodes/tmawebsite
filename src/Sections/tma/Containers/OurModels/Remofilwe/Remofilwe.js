@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
-import pic1 from '../../../../../img/IMG_8593.jpg';
-import pic2 from '../../../../../img/IMG_8616.jpg';
 
 const remofilwe = () => {
     return (
@@ -17,8 +15,8 @@ const remofilwe = () => {
                 Our Models
 			</h2>
             <ImageSlider images={[
-                                    pic1,
-                                    pic2,
+                                    'img/RemofilweDire/IMG_8593.jpg',
+                                    'img/RemofilweDire/IMG_8616.jpg'
                                 ]}/>
         </div>
     )

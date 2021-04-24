@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet';
-import { Route, BrowserRouter } from 'react-router-dom';
 
 import Navigation from './Containers/navigation';
 import Home from './Containers/Home/Home';
@@ -16,14 +15,14 @@ import Sponsors from './Containers/Sponsors/Sponsors';
 
 export class Tma extends Component {
 	state = {
-		landingPageData: {},
+		tmaData: {},
 	}
-	getlandingPageData() {
-		this.setState({landingPageData : JsonData})
+	gettmaData() {
+		this.setState({tmaData : JsonData})
   	}
 
   	componentDidMount() {
-    	this.getlandingPageData();
+    	this.gettmaData();
   	}
 	
 	render() {
@@ -34,14 +33,14 @@ export class Tma extends Component {
 				</Helmet>
 				<Navigation />
 				<Home />
-				<OurModels />
-				<Fitness data={this.state.landingPageData.Fitness}/>
-				<Workshop data={this.state.landingPageData.Workshops}/>
-				<Benefits data={this.state.landingPageData.Benefits}/>
-				<FAQ data={this.state.landingPageData.FAQ}/>
-				<Applications data={this.state.landingPageData.About}/>
+				<OurModels data={this.state.tmaData.Models}/>
+				<Fitness data={this.state.tmaData.Fitness}/>
+				<Workshop data={this.state.tmaData.Workshops}/>
+				<Benefits data={this.state.tmaData.Benefits}/>
+				<FAQ data={this.state.tmaData.FAQ}/>
+				<Applications data={this.state.tmaData.About}/>
 				<Sponsors />
-				<Contact data={this.state.landingPageData.Contact} />
+				<Contact data={this.state.tmaData.Contact} />
       		</div>
     	)
   	}

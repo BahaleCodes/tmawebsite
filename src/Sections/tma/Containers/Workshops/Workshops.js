@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import pic from '../../../../img/work.jpg';
-
 class Workshops extends Component{
     render() {
         return(
@@ -38,7 +36,7 @@ class Workshops extends Component{
                                 </div>
                             </div>
                             <div className="col-xs-12 col-md-6">
-                                <img src={pic} className="img-responsive" alt=""/>
+                                <img src={'img/work.jpg'} className="img-responsive" alt=""/>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 class Benefits extends Component{
     render() {
         return(
@@ -28,7 +27,6 @@ class Benefits extends Component{
                                         </ul>
                                     </div>
                                 </div>
-                            {/* </div> */}
                         </div>
                     </div>
                 </div>

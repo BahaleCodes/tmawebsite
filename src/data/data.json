@@ -1,9 +1,4 @@
 {
-    "Header": {
-        "title": "Taahira Modeling Academy",
-        "paragraph": "Motto."
-    },
-
     "FAQ": [
             {
                 "question": "Who can enroll?",
@@ -71,7 +66,182 @@
             "name": "Karen Doe",
             "job": "Project Manager"
         }
+    ], 
+    "Models": [{
+            "pic": "img/MonoImages/IMG_8563.jpg",
+            "name": "Remofilwe Dire",
+            "link": "/remofilwe"
+        },{
+            "pic": "img/MonoImages/IMG_8576.jpg",
+            "name": "Tuelo Perez",
+            "link": "/tuelo"
+        },{
+            "pic": "img/MonoImages/IMG_8586bnw.jpg",
+            "name": "Karabo Sefatsa",
+            "link": "/karabo"
+        },{
+            "pic": "img/ThatoMotsatsi/thatoM(4).jpg",
+            "name": "Thato Motsatsi",
+            "link": "/thato"
+        },{
+            "pic": "img/MonoImages/IMG_8648.jpg",
+            "name": "Refentse Phutieagae",
+            "link": "/refentse"
+        },{
+            "pic": "img/KitsoKwenamore/kitso(3).jpg",
+            "name": "Kitso Kwenamore",
+            "link": "/kitso"
+        },{
+            "pic": "img/AyandaMbali/ayanda(3).jpg",
+            "name": "Ayanda Mbali",
+            "link": "/ayanda"
+        },{
+            "pic": "img/BoitumeloMokgatlhe/BoitumeloM(2).jpg",
+            "name": "Boitumelo Mokgatlhe",
+            "link": "/boitumelo"
+        },{
+            "pic": "img/BokamosoSebokolodi/Bokamoso(3).jpg",
+            "name": "Bokamoso Sebokolodi",
+            "link": "/bokamoso"
+        },{
+            "pic": "img/BonoloDingoko/bonolo(2).jpg",
+            "name": "Bonolo Dingoko",
+            "link": "/bonolo-dingoko"
+        },{
+            "pic": "img/BonoloSaliwe/saliwe(2).jpg",
+            "name": "Bonolo Saliwe",
+            "link": "/bonolo-saliwe"
+        },{
+            "pic": "img/BontleMokgosi/Bontle(2).jpg",
+            "name": "Bontle Mokgosi",
+            "link": "/bontle"
+        },{
+            "pic": "img/IpelengPelele/Ipeleng(3).jpg",
+            "name": "Ipeleng Pelele",
+            "link": "/ipeleng"
+        },{
+            "pic": "img/IzabelaMlambo/Izabella(2).jpg",
+            "name": "Izabela Mlambo",
+            "link": "/izabella"
+        },{
+            "pic": "img/JenniferGaegane/Jennifer(2).jpg",
+            "name": "Jennifer Gaegane",
+            "link": "/jennifer"
+        },{
+            "pic": "img/JermaineSetzin/keenan(3).jpg",
+            "name": "Jermaine Setzin",
+            "link": "/keenan"
+        },{
+            "pic": "img/KatlegoZungu/katlego(3).jpg",
+            "name": "Katlego Zungu",
+            "link": "/katlego"
+        },{
+            "pic": "img/KekgabileMashaba/kekgabile2(2).jpg",
+            "name": "Kekgabile Mashaba",
+            "link": "/kekgabile"
+        },{
+            "pic": "img/KeletsoJonas/keletso(3).jpg",
+            "name": "Keletso Jonas",
+            "link": "/keletso"
+        },{
+            "pic": "img/KetshepaoneDireng/ketshepaone(3).jpg",
+            "name": "Ketshepaone Direng",
+            "link": "/ketshepaone"
+        },{
+            "pic": "img/KokeletsoPelele/Kokeletso(2).jpg",
+            "name": "Kokeletso Pelele",
+            "link": "/kokeletso"
+        },{
+            "pic": "img/LeratoPhologane/LeratoP(2).jpg",
+            "name": "Lerato Phologane",
+            "link": "/lerato"
+        },{
+            "pic": "img/MalebogoMashetla/Malebo(3).jpg",
+            "name": "Malebogo Mashetla",
+            "link": "/malebogo"
+        },{
+            "pic": "img/MelagriesMlambo/Melagries(2).jpg",
+            "name": "Melagries Mlambo",
+            "link": "/melagries"
+        },{
+            "pic": "img/MiguelaMlambo/Miguela(2).jpg",
+            "name": "Miguela Mlambo",
+            "link": "/miguela"
+        },{
+            "pic": "img/NalediMmekwa/Naledi11(2).jpg",
+            "name": "Naledi Mmekwa",
+            "link": "/naledi-m"
+        },{
+            "pic": "img/NalediSebokolodi/mbali(3).jpg",
+            "name": "Naledi Sebokolodi",
+            "link": "/naledi-s"
+        },{
+            "pic": "img/OmphileMahura/OmphileM(2).jpg",
+            "name": "Omphile Mahura",
+            "link": "/omphile"
+        },{
+            "pic": "img/OrefileMale/Orefile(2).jpg",
+            "name": "Orefile Male",
+            "link": "/orefile"
+        },{
+            "pic": "img/OtengShuenyane/Oteng(2).jpg",
+            "name": "Oteng Shuenyane",
+            "link": "/oteng"
+        },{
+            "pic": "img/PabaleloMotlhabedi/Pabalelo(2).jpg",
+            "name": "Pabalelo Motlhabedi",
+            "link": "/pabalelo"
+        },{
+            "pic": "img/RemofilweBadise/badise(2).jpg",
+            "name": "Remofilwe Badise",
+            "link": "/remofilwe-b"
+        },{
+            "pic": "img/ThabisoMakoto/thabiso(2).jpg",
+            "name": "Thabiso Makoto",
+            "link": "/thabiso"
+        },{
+            "pic": "img/ThaboBadirwang/Thabo(3).jpg",
+            "name": "Thabo Badirwang",
+            "link": "/thabo"
+        },{
+            "pic": "img/TlotlegoSephiri/Tlotlego(2).jpg",
+            "name": "Tlotlego Sephiri",
+            "link": "/tlotlego"
+        },{
+            "pic": "img/ZureidaLeepo/zureida(3).jpg",
+            "name": "Zureida Leepo",
+            "link": "/zureida"
+        }
     ],
+    "Model": {
+        "Karabo": [
+            "/img/IMG_8578.jpg",
+            "/img/IMG_8586nw.jpg",
+            "/img/IMG_8601.jpg"
+        ],
+        "Tuelo": [
+            "/img/IMG_8573.jpg",
+            "/img/IMG_8575.jpg",
+            "/img/IMG_8615.jpg"
+        ],
+        "Thato": [
+            "/img/IMG_8638.jpg",
+            "/img/IMG_8638nw.jpg"
+        ],
+        "Remofilwe": [
+            "/img/IMG_8593.jpg",
+            "/img/IMG_8616.jpg"
+        ],
+        "Refentse": [
+            "/img/IMG_8650.jpg",
+            "/img/IMG_8653.jpg"
+        ],
+        "Kitso": [
+            "/img/IMG_8571.CR2.jpg",
+            "/img/IMG_8664.jpg"
+        ]
+    },
+    
     "Contact": {
         "address": "2696 James Watt Cres, Mafikeng Industrial, Mahikeng, 2745",
         "phone": "+27 81 361 3191",

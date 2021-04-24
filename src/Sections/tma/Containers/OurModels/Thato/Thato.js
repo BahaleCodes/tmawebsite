@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
-import pic1 from '../../../../../img/IMG_8638.jpg';
-import pic2 from '../../../../../img/IMG_8638nw.jpg';
 
 const thato = () => {
     return (
@@ -16,8 +14,11 @@ const thato = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                    pic1,
-                                    pic2,
+                                    'img/ThatoMotsatsi/IMG_8638.jpg',
+                                    'img/ThatoMotsatsi/thatoM.jpg',
+                                    'img/ThatoMotsatsi/thatoM(2).jpg',
+                                    'img/ThatoMotsatsi/IMG_8638nw.jpg',
+                                    
                                 ]}/>
         </div>
     )

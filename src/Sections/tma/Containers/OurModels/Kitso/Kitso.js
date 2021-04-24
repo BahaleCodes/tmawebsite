@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
-import pic1 from '../../../../../img/IMG_8571.CR2.jpg';
-import pic2 from '../../../../../img/IMG_8664.jpg';
 
 const kitso = () => {
     return (
@@ -15,8 +13,10 @@ const kitso = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                pic1,
-                                pic2,
+                                'img/KitsoKwenamore/IMG_8571.CR2.jpg',
+                                'img/KitsoKwenamore/kitso.jpg',
+                                'img/KitsoKwenamore/kitso(2).jpg',
+                                'img/KitsoKwenamore/IMG_8664.jpg',
                             ]}/>
         </div>
     )

@@ -1,10 +1,5 @@
 import React, {Component} from 'react';
 
-import spo1 from '../../../../img/sponsors/IMG_2026.jpeg';
-import spo2 from '../../../../img/sponsors/IMG_2035.jpeg';
-import spo3 from '../../../../img/sponsors/IMG_2036.jpeg';
-import spo4 from '../../../../img/sponsors/IMG_2037.jpeg';
-
 class Sponsors extends Component {
     render() {
         return (
@@ -27,9 +22,9 @@ class Sponsors extends Component {
                                         <h4>MDIHub</h4>
                                     </div>
                                     <img
-                                        src={spo1}
+                                        src={'img/sponsors/IMG_2026.jpeg'}
                                         className="img-responsive"
-                                        alt="Project Title"
+                                        alt="Mafikeng Digital Innovation Hub"
                                     />{" "}
                                     </a>{" "}
                                 </div>
@@ -48,9 +43,9 @@ class Sponsors extends Component {
                                         <h4>Sholex Lewix</h4>
                                     </div>
                                     <img
-                                        src={spo4}
+                                        src={'img/sponsors/IMG_2037.jpeg'}
                                         className="img-responsive"
-                                        alt="Project Title"
+                                        alt="Sholex Lewix Fashion Designer"
                                     />{" "}
                                     </a>{" "}
                                 </div>
@@ -69,9 +64,9 @@ class Sponsors extends Component {
                                         <h4>Lichibrand</h4>
                                     </div>
                                     <img
-                                        src={spo3}
+                                        src={'img/sponsors/IMG_2036.jpeg'}
                                         className="img-responsive"
-                                        alt="Project Title"
+                                        alt="Lichibrand Couture"
                                     />{" "}
                                     </a>{" "}
                                 </div>
@@ -90,9 +85,30 @@ class Sponsors extends Component {
                                         <h4>Da6lacknwhite</h4>
                                     </div>
                                     <img
-                                        src={spo2}
+                                        src={'img/sponsors/IMG_2035.jpeg'}
                                         className="img-responsive"
-                                        alt="Project Title"
+                                        alt="Da6lacknwhite Photography"
+                                    />{" "}
+                                    </a>{" "}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-lg-4">
+                            <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    <a
+                                    href={"/"}
+                                    title="MK Media Production"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>MK Media Production (pty) ltd</h4>
+                                    </div>
+                                    <img
+                                        src={'img/sponsors/IMG_5496.jpeg'}
+                                        className="img-responsive"
+                                        alt="Da6lacknwhite Photography"
                                     />{" "}
                                     </a>{" "}
                                 </div>

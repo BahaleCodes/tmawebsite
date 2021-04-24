@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import emailjs from 'emailjs-com';
 
 import apiKeys from '../Applications/AppForm/apiKeys';
-import insta from '../../../../img/ins.jpeg';
-import fb from '../../../../img/fb.png';
-import Icon from '../../../../Components/Icon/Icon';
 import Spinner from "../../../../Components/Spinner/Spinner";
 
 export class Contact extends Component {

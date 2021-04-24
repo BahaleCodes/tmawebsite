@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import pic from '../../../../img/fitness.jpg';
-
 class Fitness extends Component{
     render() {
         return(
@@ -14,7 +12,7 @@ class Fitness extends Component{
                         <div className="row">
                                     <h1>A healthy body is a beautiful body</h1>
                             <div className="col-xs-12 col-md-6">
-                                <img src={pic} className="img-responsive" alt=""/>
+                                <img src={"img/fitness.jpg"} className="img-responsive" alt=""/>
                             </div>
                             <div className="col-xs-12 col-md-6">
                                 <div className="about-text">
