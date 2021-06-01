@@ -14,7 +14,8 @@ const nalediS = () => {
             </h2>
             <ImageSlider images={[
                                 'img/NalediSebokolodi/mbali.jpg',
-                                'img/NalediSebokolodi/mbali(2).jpg'
+                                'img/NalediSebokolodi/mbali(2).jpg',
+                                'img/NalediSebokolodi/mbali2.jpg'
                             ]}/>
     </div>
     )

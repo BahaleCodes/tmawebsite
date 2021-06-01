@@ -18,6 +18,7 @@ const thato = () => {
                                     'img/ThatoMotsatsi/IMG_8638.jpg',
                                     'img/ThatoMotsatsi/thatoM(2).jpg',
                                     'img/ThatoMotsatsi/IMG_8638nw.jpg',
+                                    'img/ThatoMotsatsi/thatoM1.jpg'
                                     
                                 ]}/>
         </div>

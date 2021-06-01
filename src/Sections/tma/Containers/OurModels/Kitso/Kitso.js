@@ -17,6 +17,7 @@ const kitso = () => {
                                 'img/KitsoKwenamore/IMG_8571.CR2.jpg',
                                 'img/KitsoKwenamore/kitso(2).jpg',
                                 'img/KitsoKwenamore/IMG_8664.jpg',
+                                'img/KitsoKwenamore/kitso2.jpg',
                             ]}/>
         </div>
     )

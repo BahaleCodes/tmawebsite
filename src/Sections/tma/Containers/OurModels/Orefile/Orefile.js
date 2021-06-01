@@ -14,7 +14,10 @@ const orefile = () => {
             </h2>
             <ImageSlider images={[
                                 'img/OrefileMale/Orefile.jpg',
-                                'img/OrefileMale/Orefile2.jpg'
+                                'img/OrefileMale/Orefile2.jpg',
+                                'img/OrefileMale/Orefile3.jpg',
+                                'img/OrefileMale/Orefile4.jpg',
+                                'img/OrefileMale/Orefile5.jpg'
                             ]}/>
     </div>
     )

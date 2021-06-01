@@ -36,7 +36,6 @@ import omphile from './Sections/tma/Containers/OurModels/Omphile/Omphile';
 import orefile from './Sections/tma/Containers/OurModels/Orefile/Orefile';
 import oteng from './Sections/tma/Containers/OurModels/Oteng/Oteng';
 import pabalelo from './Sections/tma/Containers/OurModels/Pabalelo/Pabalelo';
-import remofilwe from './Sections/tma/Containers/OurModels/Remofilwe/Remofilwe';
 import thabiso from './Sections/tma/Containers/OurModels/Thabiso/Thabiso';
 import thabo from './Sections/tma/Containers/OurModels/Thabo/Thabo';
 import tlotlego from './Sections/tma/Containers/OurModels/Tlotlego/Tlotlego';

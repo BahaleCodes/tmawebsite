@@ -14,7 +14,9 @@ const lerato = () => {
             </h2>
             <ImageSlider images={[
                                 'img/LeratoPhologane/LeratoP.jpg',
-                                'img/LeratoPhologane/LeratoP2.jpg'
+                                'img/LeratoPhologane/LeratoP2.jpg',
+                                'img/LeratoPhologane/LeratoP3.jpg',
+                                'img/LeratoPhologane/LeratoP4.jpg'
                             ]}/>
     </div>
     )

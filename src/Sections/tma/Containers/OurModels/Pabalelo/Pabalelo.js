@@ -14,7 +14,8 @@ const pabalelo = () => {
             </h2>
             <ImageSlider images={[
                                 'img/PabaleloMotlhabedi/Pabalelo.jpg',
-                                'img/PabaleloMotlhabedi/Pabalelo2.jpg'
+                                'img/PabaleloMotlhabedi/Pabalelo2.jpg',
+                                'img/PabaleloMotlhabedi/Pabalelo3.jpg'
                             ]}/>
     </div>
     )

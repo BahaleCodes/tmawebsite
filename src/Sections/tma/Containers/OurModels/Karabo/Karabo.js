@@ -15,7 +15,8 @@ const karabo = () => {
             <ImageSlider images={[
                                 'img/Karabo/IMG_8578.jpg',
                                 'img/Karabo/IMG_8586nw.jpg',
-                                'img/Karabo/IMG_8601.jpg'
+                                'img/Karabo/IMG_8601.jpg',
+                                'img/Karabo/karabo.jpg'
                             ]}/>
     </div>
     )
