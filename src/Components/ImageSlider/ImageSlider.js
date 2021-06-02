@@ -13,6 +13,7 @@ export default function ImageSlider({images=[]}){
             backgroundPosition: 'center',
             backgroundSize: '100% 750px',
             backgroundRepeat: 'no-repeat',
+            height: 'auto',
         });
     }, [images, currentSlide]);
 
@@ -33,17 +34,21 @@ export default function ImageSlider({images=[]}){
     }
 
     return (
-        <section className={"ImageSlider"}>
+        <section id="imageSlider" className={"ImageSlider"}>
             <div className={"ImageSliderController"}>
                 <div >
                 <section>
                     <div>
-                        <img className={"img-responsive"} src={images[currentSlide]} />
+                        <img className={"img-responsive-sl"} src={images[currentSlide]} />
                     </div>
                 </section>
             </div>
-                <h3 className={"span-P"} onClick={previous}>PREV</h3>
-                <h3 className={"span-N"} onClick={next}>NEXT</h3>
+                <div className='span-P' onClick={previous}>
+                    <i className="fa fa-arrow-circle-left"></i>
+                </div>
+                <div className='span-N' onClick={next}>
+                    <i className="fa fa-arrow-circle-right"></i>
+                </div>
             </div>
         </section>
     );

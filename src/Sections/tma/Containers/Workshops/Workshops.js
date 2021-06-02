@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Slideshow from '../../../../Components/Slideshow/Slideshow';
+
 class Workshops extends Component{
     render() {
         return(
@@ -21,6 +23,7 @@ class Workshops extends Component{
                                             : 'loading...'
                                         }
                                     </h3>
+                                    <p>Guest Speakers :</p>
                                     <div className="list-style">
                                         <ul>
                                             {this.props.data 
@@ -36,7 +39,11 @@ class Workshops extends Component{
                                 </div>
                             </div>
                             <div className="col-xs-12 col-md-6">
-                                <img src={'img/work.jpg'} className="img-responsive" alt=""/>
+                                <Slideshow images={[
+                                    'img/work1.jpg',
+                                    'img/work2.jpg'
+                                ]} />
+                                {/* <img src={'img/work.jpg'} className="img-responsive" alt=""/> */}
                             </div>
                         </div>
                     </div>

@@ -13,8 +13,8 @@ const tshegofatso = () => {
                 Our Models
             </h2>
             <ImageSlider images={[
-                                'img/TshegofatsoTshepe/tshegofatso.jpg',
-                                'img/tshegofatsoTshepe/tshegofatso2.jpg'
+                                'img/TshegofatsoTshepe/Tshegofatso.jpg',
+                                'img/TshegofatsoTshepe/Tshegofatso1.jpg'
                             ]}/>
         </div>
     )

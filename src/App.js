@@ -43,6 +43,10 @@ import zureida from './Sections/tma/Containers/OurModels/Zureida/Zureida';
 import melagries from './Sections/tma/Containers/OurModels/Melagries/Melagries';
 import bontle from './Sections/tma/Containers/OurModels/Bontle/Bontle';
 import RemofilweBadise from './Sections/tma/Containers/OurModels/RemofilweBadise/RemofilweBadise';
+import jerome from './Sections/tma/Containers/OurModels/Jerome/Jerome';
+import kegomoditswe from './Sections/tma/Containers/OurModels/Kegomoditswe/Kegomoditswe';
+import tshegofatso from './Sections/tma/Containers/OurModels/Tshegofatso/Tshegofatso';
+
 
 export class App extends Component {
   state = {
@@ -98,6 +102,9 @@ export class App extends Component {
         <Route path="/thabo" component={thabo} />
         <Route path="/tlotlego" component={tlotlego} />
         <Route path="/zureida" component={zureida} />
+        <Route path="/jerome" component={jerome} />
+        <Route path="/kegomoditswe" component={kegomoditswe} />
+        <Route path="/tshegofatso" component={tshegofatso} />
         <Route path="/application" component={AppForm} />
       </div>
     )
