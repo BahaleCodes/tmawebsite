@@ -14,7 +14,6 @@ import Refentse from './Sections/tma/Containers/OurModels/Refentse/Refentse';
 import Kitso from './Sections/tma/Containers/OurModels/Kitso/Kitso';
 import Sections from './Sections/Sections';
 import ayanda from './Sections/tma/Containers/OurModels/Ayanda/Ayanda';
-import boitumelo from './Sections/tma/Containers/OurModels/Boitumelo/Boitumelo';
 import bokamoso from './Sections/tma/Containers/OurModels/bokamoso/bokamoso';
 import bonoloS from './Sections/tma/Containers/OurModels/BonoloS/Bonolo-s';
 import bonolo from './Sections/tma/Containers/OurModels/Bonolo/Bonolo';
@@ -73,7 +72,6 @@ export class App extends Component {
         <Route path="/refentse" component={Refentse} />
         <Route path="/kitso" component={Kitso} />
         <Route path="/ayanda" component={ayanda} />
-        <Route path="/boitumelo" component={boitumelo} />
         <Route path="/bokamoso" component={bokamoso} />
         <Route path="/bonolo-dingoko" component={bonolo} />
         <Route path="/bonolo-saliwe" component={bonoloS} />
