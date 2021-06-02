@@ -14,11 +14,14 @@ const OurModel = (props) => {
                                         {props.name}
                                     </h4>
                                 </div>
-                                <img 
-                                    src={props.pic}
-                                    className="img-responsive"
-                                    alt={props.name}
-                                />{" "}
+                                <div className="img-container">
+                                    <img 
+                                        src={props.pic}
+                                        className="img-responsive"
+                                        alt={props.name}
+                                    />{" "}
+
+                                </div>
                             </a>{" "}
                 </div>
             </div>

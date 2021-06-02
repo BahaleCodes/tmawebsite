@@ -572,6 +572,14 @@ color: #777;
 	border-bottom: 2px solid #608dfd;
 }
 
+.img-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 389px;
+	height: 486px;
+}
+
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
