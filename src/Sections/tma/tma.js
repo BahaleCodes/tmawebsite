@@ -12,6 +12,7 @@ import Contact from './Containers/Contact/contact';
 import JsonData from '../../data/data.json';
 import Applications from './Containers/Applications/Applications';
 import Sponsors from './Containers/Sponsors/Sponsors';
+import Footer from '../../Components/footer';
 
 export class Tma extends Component {
 	state = {
@@ -41,6 +42,7 @@ export class Tma extends Component {
 				<Applications data={this.state.tmaData.About}/>
 				<Sponsors />
 				<Contact data={this.state.tmaData.Contact} />
+				<Footer />
       		</div>
     	)
   	}

@@ -79,7 +79,7 @@ export class App extends Component {
         <Route path="/ipeleng" component={ipeleng} />
         <Route path="/izabella" component={izabella} />
         <Route path="/jennifer" component={jennifer} />
-        <Route path="/keenan" component={jermaine} />4
+        <Route path="/keenan" component={jermaine} />
         <Route path="/kekgabile" component={kekgabile} />
         <Route path="/keletso" component={keletso} />
         <Route path="/ketshepaone" component={ketshepaone} />
@@ -102,7 +102,6 @@ export class App extends Component {
         <Route path="/kegomoditswe" component={kegomoditswe} />
         <Route path="/tshegofatso" component={tshegofatso} />
         <Route path="/application" component={AppForm} />
-        {/* <Route path="/remofilwe" component={Model} /> */}
       </div>
     )
   }

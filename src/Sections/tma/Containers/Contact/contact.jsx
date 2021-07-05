@@ -73,140 +73,135 @@ export class Contact extends Component {
 			form = <Spinner />
 		}
 		return (
-		<div>
-			<div id="contact">
-				<div className="container">
-					<h2>
-						About Us
-					</h2>
-					<div className="about-text">
-						<p>
-							{
-								this.props.data
-								? this.props.data.paragraph
-								: 'loading...'
-							}
-						</p>
-					</div>
-					<div className="col-md-8">
-						<div className="row">
-							<div className="section-title">
-								
-								<h2>Get In Touch</h2>
+			<div>
+				<div id="contact">
+					<div className="container">
+						<h2>
+							About Us
+						</h2>
+						<div className="about-text">
+							<p>
+								{
+									this.props.data
+									? this.props.data.paragraph
+									: 'loading...'
+								}
+							</p>
+						</div>
+						<div className="col-md-8">
+							<div className="row">
+								<div className="section-title">
+									
+									<h2>Get In Touch</h2>
+									<p>
+										Please fill out the form below to send us an email and we
+										will get back to you as soon as possible.
+									</p>
+								</div>
+								<form name="sentMessage" id="contactForm" onSubmit={this.handleSubmit}>
+									<div className="row">
+										<div className="col-md-6">
+											<div className="form-group">
+												<input
+													type="text"
+													id="name"
+													className="form-control"
+													placeholder="Name"
+													required
+													value={this.state.name}
+													onChange={this.handleName.bind(this)}
+												/>
+												<p className="help-block text-danger"></p>
+											</div>
+										</div>
+										<div className="col-md-6">
+											<div className="form-group">
+												<input
+													type="email"
+													id="email"
+													className="form-control"
+													placeholder="Email"
+													required="required"
+													value={this.state.email}
+													onChange={this.handleEmail.bind(this)}
+												/>
+												<p className="help-block text-danger"></p>
+											</div>
+										</div>
+									</div>
+									<div className="form-group">
+										<textarea
+											name="message"
+											id="message"
+											className="form-control"
+											rows="4"
+											placeholder="Message"
+											required
+											value={this.state.message}
+											onChange={this.handleMessage.bind(this)}
+											></textarea>
+										<p className="help-block text-danger"></p>
+									</div>
+									{form}
+									<button type="submit" className="btn btn-custom btn-lg">
+										Send Message
+									</button>
+								</form>
+							</div>
+						</div>
+						<div className="col-md-3 col-md-offset-1 contact-info">
+							<div className="contact-item">
+								<h3>Contact Info</h3>
+							</div>
+							<div className="contact-item">
 								<p>
-									Please fill out the form below to send us an email and we
-									will get back to you as soon as possible.
+									<span>
+										<i className="fa fa-phone"></i> WhatsApp
+									</span>{" "}
+									{
+										this.props.data 
+										? this.props.data.phone 
+										: "loading"}
 								</p>
 							</div>
-							<form name="sentMessage" id="contactForm" onSubmit={this.handleSubmit}>
-								<div className="row">
-									<div className="col-md-6">
-										<div className="form-group">
-											<input
-												type="text"
-												id="name"
-												className="form-control"
-												placeholder="Name"
-												required
-												value={this.state.name}
-												onChange={this.handleName.bind(this)}
-											/>
-											<p className="help-block text-danger"></p>
-										</div>
-									</div>
-									<div className="col-md-6">
-										<div className="form-group">
-											<input
-												type="email"
-												id="email"
-												className="form-control"
-												placeholder="Email"
-												required="required"
-												value={this.state.email}
-												onChange={this.handleEmail.bind(this)}
-											/>
-											<p className="help-block text-danger"></p>
-										</div>
-									</div>
+							<div className="contact-item">
+								<p href="t.modelingacademy@gmail.com">
+									<span>
+										<i className="fa fa-envelope-o"></i> Email
+									</span>{" "}
+									{
+										this.props.data 
+										? this.props.data.email 
+										: "loading"}
+								</p>
+							</div>
+						</div>
+						<div className="col-md-12">
+							<div className="row">
+								<div className="social">
+									<ul>
+										<li>
+											<a href={this.props.data ? this.props.data.facebook : '/'} >
+												<i className="fa fa-facebook"></i>
+											</a>
+										</li>
+										<li>
+											<a href={this.props.data ? this.props.data.linkedIn : '/'} >
+												<i className="fa fa-linkedIn"></i>
+											</a>
+										</li>
+										<li>
+											<a href={this.props.data ? this.props.data.instagram : '/'} >
+												<i className="fa fa-instagram"></i>
+											</a>
+										</li>
+									</ul>
 								</div>
-								<div className="form-group">
-									<textarea
-										name="message"
-										id="message"
-										className="form-control"
-										rows="4"
-										placeholder="Message"
-										required
-										value={this.state.message}
-										onChange={this.handleMessage.bind(this)}
-										></textarea>
-									<p className="help-block text-danger"></p>
-								</div>
-								{form}
-								<button type="submit" className="btn btn-custom btn-lg">
-									Send Message
-								</button>
-							</form>
-						</div>
-					</div>
-					<div className="col-md-3 col-md-offset-1 contact-info">
-						<div className="contact-item">
-							<h3>Contact Info</h3>
-						</div>
-						<div className="contact-item">
-							<p>
-								<span>
-									<i className="fa fa-phone"></i> WhatsApp
-								</span>{" "}
-								{
-									this.props.data 
-									? this.props.data.phone 
-									: "loading"}
-							</p>
-						</div>
-						<div className="contact-item">
-							<p href="t.modelingacademy@gmail.com">
-								<span>
-									<i className="fa fa-envelope-o"></i> Email
-								</span>{" "}
-								{
-									this.props.data 
-									? this.props.data.email 
-									: "loading"}
-							</p>
-						</div>
-					</div>
-					<div className="col-md-12">
-						<div className="row">
-							<div className="social">
-                                <ul>
-                                    <li>
-                                        <a href={this.props.data ? this.props.data.facebook : '/'} >
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={this.props.data ? this.props.data.linkedIn : '/'} >
-                                            <i className="fa fa-linkedIn"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={this.props.data ? this.props.data.instagram : '/'} >
-                                            <i className="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-        	<div id="footer">
-          		<div className="container text-center">
-            		<h1>Powered by Bahale Codes</h1>
-          		</div>
-        	</div>
-      	</div>
     	);
   	}
 }
