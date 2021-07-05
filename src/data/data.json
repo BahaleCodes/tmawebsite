@@ -69,7 +69,7 @@
             "name": "Remofilwe Dire",
             "link": "/remofilwe"
         },{
-            "pic": "img/Tuelo/tuelo.jpg",
+            "pic": "img/Tuelo/tuelo2.jpg",
             "name": "Tuelo Perez",
             "link": "/tuelo"
         },{
@@ -77,7 +77,7 @@
             "name": "Karabo Sefatsa",
             "link": "/karabo"
         },{
-            "pic": "img/ThatoMotsatsi/thatoM1.jpg",
+            "pic": "img/ThatoMotsatsi/thatoM2.jpg",
             "name": "Thato Motsatsi",
             "link": "/thato"
         },{
@@ -93,23 +93,27 @@
             "name": "Ayanda Mbali",
             "link": "/ayanda"
         },{
-            "pic": "img/BokamosoSebokolodi/Bokamoso(4).jpg",
+            "pic": "img/BokamosoSebokolodi/Bokamoso(5).jpg",
             "name": "Bokamoso Sebokolodi",
             "link": "/bokamoso"
         },{
-            "pic": "img/BonoloDingoko/bonolo4.jpg",
+            "pic": "img/BonoloDingoko/bonolo5.jpg",
             "name": "Bonolo Dingoko",
             "link": "/bonolo-dingoko"
         },{
-            "pic": "img/BonoloSaliwe/saliwe3.jpg",
+            "pic": "img/BonoloSaliwe/saliwe4.jpg",
             "name": "Bonolo Saliwe",
             "link": "/bonolo-saliwe"
         },{
-            "pic": "img/IpelengPelele/ipeleng2.jpg",
+            "pic": "img/BontleMokgosi/Bontle3.jpg",
+            "name": "Bontle Mokgosi",
+            "link": "/bontle"
+        },{
+            "pic": "img/IpelengPelele/ipeleng6.jpg",
             "name": "Ipeleng Pelele",
             "link": "/ipeleng"
         },{
-            "pic": "img/IzabelaMlambo/izabella3.jpg",
+            "pic": "img/IzabelaMlambo/Izabella4.jpg",
             "name": "Izabela Mlambo",
             "link": "/izabella"
         },{
@@ -125,11 +129,7 @@
             "name": "Jermaine Setzin",
             "link": "/keenan"
         },{
-            "pic": "img/KatlegoZungu/katlego(2).jpg",
-            "name": "Katlego Zungu",
-            "link": "/katlego"
-        },{
-            "pic": "img/KegomoditsweNageng/kegomoditswe.jpg",
+            "pic": "img/KegomoditsweNageng/kegomoditswe4.jpg",
             "name": "Kegomoditswe Nageng",
             "link": "/kegomoditswe" 
         },
@@ -142,23 +142,19 @@
             "name": "Keletso Jonas",
             "link": "/keletso"
         },{
-            "pic": "img/KetshepaoneDireng/ketshepaone2.jpg",
+            "pic": "img/KetshepaoneDireng/ketshepaone(6).jpg",
             "name": "Ketshepaone Direng",
             "link": "/ketshepaone"
-        },{
-            "pic": "img/KokeletsoPelele/Kokeletso3.jpg",
-            "name": "Kokeletso Pelele",
-            "link": "/kokeletso"
         },{
             "pic": "img/LeratoPhologane/LeratoP4.jpg",
             "name": "Lerato Phologane",
             "link": "/lerato"
         },{
-            "pic": "img/MalebogoMashetla/Malebo2.jpg",
+            "pic": "img/MalebogoMashetla/Malebo(4).jpg",
             "name": "Malebogo Mashetla",
             "link": "/malebogo"
         },{
-            "pic": "img/MelagriesMlambo/Melagries3.jpg",
+            "pic": "img/MelagriesMlambo/Melagries6.jpg",
             "name": "Melagries Mlambo",
             "link": "/melagries"
         },{
@@ -170,11 +166,11 @@
             "name": "Naledi Mmekwa",
             "link": "/naledi-m"
         },{
-            "pic": "img/NalediSebokolodi/mbali2.jpg",
+            "pic": "img/NalediSebokolodi/mbali(6).jpg",
             "name": "Naledi Sebokolodi",
             "link": "/naledi-s"
         },{
-            "pic": "img/OmphileMahura/OmphileM4.jpg",
+            "pic": "img/OmphileMahura/OmphileM5.jpg",
             "name": "Omphile Mahura",
             "link": "/omphile"
         },{
@@ -182,11 +178,11 @@
             "name": "Orefile Male",
             "link": "/orefile"
         },{
-            "pic": "img/OtengShuenyane/Oteng3.jpg",
+            "pic": "img/OtengShuenyane/Oteng5.jpg",
             "name": "Oteng Shuenyane",
             "link": "/oteng"
         },{
-            "pic": "img/PabaleloMotlhabedi/Pabalelo3.jpg",
+            "pic": "img/PabaleloMotlhabedi/Pabalelo6.jpg",
             "name": "Pabalelo Motlhabedi",
             "link": "/pabalelo"
         },{
@@ -194,7 +190,7 @@
             "name": "Remofilwe Badise",
             "link": "/remofilwe-b"
         },{
-            "pic": "img/ThabisoMakoto/thabiso3.jpg",
+            "pic": "img/ThabisoMakoto/thabiso4.jpg",
             "name": "Thabiso Makoto",
             "link": "/thabiso"
         },{
@@ -202,7 +198,7 @@
             "name": "Thabo Badirwang",
             "link": "/thabo"
         },{
-            "pic": "img/TshegofatsoTshepe/Tshegofatso1.jpg",
+            "pic": "img/TshegofatsoTshepe/Tshegofatso2.jpg",
             "name": "Tshegofatso Tshepe",
             "link": "/tshegofatso"
         },{

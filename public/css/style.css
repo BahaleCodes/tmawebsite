@@ -580,6 +580,14 @@ color: #777;
 	height: 486px;
 }
 
+/* Our Model */
+#our-model{
+	margin: 0;
+}
+#our-model .section-title{
+	margin-top: -200px;
+	margin-bottom: -40px;
+}
 @media (max-width: 768px) {
 	#about img {
 		margin: 50px 0;

@@ -1,23 +1,24 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React, { Component } from 'react';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
 
-const tshegofatso = () => {
-    return (
-        <div id="our-models" className="text-center">
-            <Helmet>
-                <title>Tshegofatso Tshepe</title>
-            </Helmet>
-            <h2>
-                Our Models
-            </h2>
-            <ImageSlider images={[
+class tshegofatso extends Component {
+    render() {
+        const { state } = this.props.location;
+        return (
+            <div id="our-model" className="text-center">
+                <div className="section-title">
+                    <h2>Our Models</h2>
+                    <h1>{state.name}</h1>
+                </div>
+                <ImageSlider images={[
                                 'img/TshegofatsoTshepe/Tshegofatso.jpg',
-                                'img/TshegofatsoTshepe/Tshegofatso1.jpg'
+                                'img/TshegofatsoTshepe/Tshegofatso1.jpg',
+                                'img/TshegofatsoTshepe/Tshegofatso2.jpg',
+                                'img/TshegofatsoTshepe/Tshegofatso3.jpg'
                             ]}/>
-        </div>
-    )
+            </div>
+        )
+    }
 }
-
 export default tshegofatso;

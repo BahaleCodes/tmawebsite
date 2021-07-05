@@ -21,11 +21,11 @@ import ipeleng from './Sections/tma/Containers/OurModels/Ipeleng/Ipeleng';
 import izabella from './Sections/tma/Containers/OurModels/Izabela/Izabella';
 import jennifer from './Sections/tma/Containers/OurModels/Jennifer/Jenifor';
 import jermaine from './Sections/tma/Containers/OurModels/Jermaine/Jermaine';
-import katlego from './Sections/tma/Containers/OurModels/Katlego/Katlego';
+// import katlego from './Sections/tma/Containers/OurModels/Katlego/Katlego';
 import kekgabile from './Sections/tma/Containers/OurModels/Kekgabile/Kekgabile';
 import keletso from './Sections/tma/Containers/OurModels/Keletso/Keletso';
 import ketshepaone from './Sections/tma/Containers/OurModels/Ketshepaone/Ketshepaone';
-import kokeletso from './Sections/tma/Containers/OurModels/Kokeletso/Kokeletso';
+// import kokeletso from './Sections/tma/Containers/OurModels/Kokeletso/Kokeletso';
 import lerato from './Sections/tma/Containers/OurModels/Lerato/Lerato';
 import malebogo from './Sections/tma/Containers/OurModels/Malebogo/Malebogo';
 import miguela from './Sections/tma/Containers/OurModels/Miguela/Miguela';
@@ -45,7 +45,7 @@ import RemofilweBadise from './Sections/tma/Containers/OurModels/RemofilweBadise
 import jerome from './Sections/tma/Containers/OurModels/Jerome/Jerome';
 import kegomoditswe from './Sections/tma/Containers/OurModels/Kegomoditswe/Kegomoditswe';
 import tshegofatso from './Sections/tma/Containers/OurModels/Tshegofatso/Tshegofatso';
-
+import Model from './Sections/tma/Containers/OurModels/Model';
 
 export class App extends Component {
   state = {
@@ -79,12 +79,10 @@ export class App extends Component {
         <Route path="/ipeleng" component={ipeleng} />
         <Route path="/izabella" component={izabella} />
         <Route path="/jennifer" component={jennifer} />
-        <Route path="/keenan" component={jermaine} />
-        <Route path="/katlego" component={katlego} />
+        <Route path="/keenan" component={jermaine} />4
         <Route path="/kekgabile" component={kekgabile} />
         <Route path="/keletso" component={keletso} />
         <Route path="/ketshepaone" component={ketshepaone} />
-        <Route path="/kokeletso" component={kokeletso} />
         <Route path="/lerato" component={lerato} />
         <Route path="/malebogo" component={malebogo} />
         <Route path="/melagries" component={melagries} />
@@ -104,6 +102,7 @@ export class App extends Component {
         <Route path="/kegomoditswe" component={kegomoditswe} />
         <Route path="/tshegofatso" component={tshegofatso} />
         <Route path="/application" component={AppForm} />
+        {/* <Route path="/remofilwe" component={Model} /> */}
       </div>
     )
   }

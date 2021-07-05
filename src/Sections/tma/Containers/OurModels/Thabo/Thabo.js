@@ -16,7 +16,10 @@ const thabo = () => {
                                 'img/ThaboBadirwang/Thabo.jpg',
                                 'img/ThaboBadirwang/Thabo(2).jpg',
                                 'img/ThaboBadirwang/Thabo2.jpg',
-                                'img/ThaboBadirwang/Thabo3.jpg'
+                                'img/ThaboBadirwang/Thabo3.jpg',
+                                'img/ThaboBadirwang/Thabo4.jpg',
+                                'img/ThaboBadirwang/Thabo5.jpg',
+                                'img/ThaboBadirwang/Thabo6.jpg'
                             ]}/>
     </div>
     )

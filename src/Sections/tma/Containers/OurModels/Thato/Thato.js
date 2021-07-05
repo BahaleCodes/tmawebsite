@@ -1,28 +1,30 @@
-import React from 'react';
-import Helmet from 'react-helmet';
+import React, { Component } from 'react';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
 
-const thato = () => {
-    return (
-        <div id="our-models" className="text-center">
-            
-            <Helmet>
-                <title>Thato Motsatsi</title>
-            </Helmet>
-            <h2>
-                Our Models
-            </h2>
-            <ImageSlider images={[
+class thato extends Component {
+    render() {
+        const { state } = this.props.location;
+        return (
+            <div id="our-model" className="text-center">
+                <div className="section-title">
+                    <h2>Our Models</h2>
+                    <h1>{state.name}</h1>
+                </div>
+                <ImageSlider images={[
                                     'img/ThatoMotsatsi/thatoM.jpg',
                                     'img/ThatoMotsatsi/IMG_8638.jpg',
                                     'img/ThatoMotsatsi/thatoM(2).jpg',
                                     'img/ThatoMotsatsi/IMG_8638nw.jpg',
-                                    'img/ThatoMotsatsi/thatoM1.jpg'
+                                    'img/ThatoMotsatsi/thatoM1.jpg',
+                                    'img/ThatoMotsatsi/thatoM2.jpg',
+                                    'img/ThatoMotsatsi/thatoM3.jpg',
+                                    'img/ThatoMotsatsi/thatoM4.jpg'
                                     
                                 ]}/>
-        </div>
-    )
+            </div>
+        )
+    }
 }
 
 export default thato;

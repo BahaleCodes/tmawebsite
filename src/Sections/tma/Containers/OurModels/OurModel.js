@@ -1,13 +1,23 @@
+import react from "react";
+import { Link } from 'react-router-dom';
+
 const OurModel = (props) => {
     return (
         <div className="col-sm-6 col-md-4 col-lg-4">
             <div className="portfolio-item">
                 <div className="hover-bg">
                     {" "}
-                        <a
+                        <Link
+                            to={{
+                                pathname: `${props.link}`,
+                                state: {
+                                    name: `${props.name}`,
+                                    pics: `${props.pics}`
+                                }
+                            }}
                             title={props.name}
                             data-lightbox-gallery="gallery1"
-                            href={props.link}
+                            // href={props.link}
                             >
                                 <div className="hover-text">
                                     <h4>
@@ -22,7 +32,7 @@ const OurModel = (props) => {
                                     />{" "}
 
                                 </div>
-                            </a>{" "}
+                            </Link>{" "}
                 </div>
             </div>
         </div>

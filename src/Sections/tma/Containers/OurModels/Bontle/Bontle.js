@@ -1,24 +1,24 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React, { Component } from 'react';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
 
-const bontle = () => {
-    return (
-        <div id="our-models" className="text-center">
-            <Helmet>
-                <title>Bontle Mokgosi</title>
-            </Helmet>
-            <h2>
-                Our Models
-            </h2>
-            <ImageSlider images={[
-                                'img/BontleMokgosi/Bontle.jpg',
-                                'img/BontleMokgosi/Bontle2.jpg',
-                                'img/BontleMokgosi/Bontle3.jpg'
-                            ]}/>
-    </div>
-    )
+class bontle extends Component {
+    render() {
+        const { state } = this.props.location;
+        return (
+            <div id="our-model" className="text-center">
+                <div className="section-title">
+                    <h2>Our Models</h2>
+                    <h1>{state.name}</h1>
+                </div>
+                <ImageSlider images={[
+                                    'img/BontleMokgosi/Bontle.jpg',
+                                    'img/BontleMokgosi/Bontle2.jpg',
+                                    'img/BontleMokgosi/Bontle3.jpg'
+                                ]}/>
+        </div>
+        )
+    }
 }
 
 export default bontle;

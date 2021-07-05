@@ -20,6 +20,7 @@ export class OurModels extends Component {
 									link={d.link}
 									name={d.name}
 									pic={d.pic}
+									pics={d.pics}
 									/>
 							))
 							: 'loading'

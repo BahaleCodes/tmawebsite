@@ -1,25 +1,27 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React, { Component } from 'react';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
 
-const oteng = () => {
-    return (
-        <div id="our-models" className="text-center">
-            <Helmet>
-                <title>Oteng Shuenyane</title>
-            </Helmet>
-            <h2>
-                Our Models
-            </h2>
-            <ImageSlider images={[
+class oteng extends Component {
+    render() {
+        const { state } = this.props.location;
+        return (
+            <div id="our-model" className="text-center">
+                <div className="section-title">
+                    <h2>Our Models</h2>
+                    <h1>{state.name}</h1>
+                </div>
+                <ImageSlider images={[
                                 'img/OtengShuenyane/Oteng.jpg',
                                 'img/OtengShuenyane/oteng2.jpg',
                                 'img/OtengShuenyane/Oteng3.jpg',
-                                'img/OtengShuenyane/Oteng4.jpg'
+                                'img/OtengShuenyane/Oteng4.jpg',
+                                'img/OtengShuenyane/Oteng5.jpg',
+                                'img/OtengShuenyane/Oteng6.jpg',
+                                'img/OtengShuenyane/Oteng7.jpg'
                             ]}/>
-    </div>
-    )
+            </div>
+        )
+    }
 }
-
 export default oteng;

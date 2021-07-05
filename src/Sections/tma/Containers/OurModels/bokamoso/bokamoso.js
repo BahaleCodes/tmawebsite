@@ -1,24 +1,27 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React, { Component } from 'react';
 
 import ImageSlider from '../../../../../Components/ImageSlider/ImageSlider';
 
-const bokamoso = () => {
-    return (
-        <div id="our-models" className="text-center">
-            <Helmet>
-                <title>Bokamoso Sebokolodi</title>
-            </Helmet>
-            <h2>
-                Our Models
-            </h2>
-            <ImageSlider images={[
-                                'img/BokamosoSebokolodi/Bokamoso.jpg',
-                                'img/BokamosoSebokolodi/Bokamoso(2).jpg',
-                                'img/BokamosoSebokolodi/Bokamoso(4).jpg'
-                            ]}/>
-    </div>
-    )
+class bokamoso extends Component{
+    render() {
+        const { state } = this.props.location;
+        return (
+            <div id="our-model" className="text-center">
+                <div className="section-title">
+                    <h2>Our Models</h2>
+                    <h1>{state.name}</h1>
+                </div>
+                <ImageSlider images={[
+                                    'img/BokamosoSebokolodi/Bokamoso.jpg',
+                                    'img/BokamosoSebokolodi/Bokamoso(2).jpg',
+                                    'img/BokamosoSebokolodi/Bokamoso(4).jpg',
+                                    'img/BokamosoSebokolodi/Bokamoso(5).jpg',
+                                    'img/BokamosoSebokolodi/Bokamoso(6).jpg',
+                                    'img/BokamosoSebokolodi/Bokamoso(7).jpg'
+                                ]}/>
+            </div>
+        )
+    }
 }
 
 export default bokamoso;
