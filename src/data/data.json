@@ -44,6 +44,24 @@
             "Pageant competition"
         ]
     },
+    "FoNMM": {
+        "about1": "THE AIM OF OUR PAGEANT IS TO EMPOWER AND GROW THE YOUTH TO BECOME BETTER FUTURE LEADERS THROUGH THE SKILLS OFFERED DURING THEIR ‘FACE OF NGAKA MODIRI MOLEMA’ JOURNEY.",
+        "about2": "FACE OF NGAKA MODIRI MOLEMA IS A PAGEANT COMETITION FOUNDED IN THE CAPITAL CITY, MAFIKENG, AND SHALL BE HOSTED ANNUALLY AT DIFFERENT SUB DISTRICTS.",
+        "about3": "IT IS A PLATFORM FOR BOTH MALES AND FEMALES AGED 8-29 YEARS RESIDING IN THE NGAKA MODIRI MOLEMA DISTRICT.",
+        "requirements": [
+            "- All applicants must be South African citizens.",
+            "- Must be between 8-29 years of age.",
+            "- All applicants should not be married",
+            "- ALL APPLICANTS QUALIFY WITH OR WITHOUT A CHILD",
+            "- No height and weight requirements",
+            "- No modelling experience needed.",
+            "- Applicants should have no criminal record.",
+            "- Applicants should have Instagram and/or Facebook.",
+            "- Duties and Tasks are mandatory.",
+            "- Application fee (R250) to be paid to the banking details sent by the pageant director only.",
+            "- For safety and security purposes, banking details will be sent to applicants via E-mail and WhatsApp after application form is submitted."
+        ]
+    },
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "John Doe",

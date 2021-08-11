@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Route} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import JsonData from './data/data.json';
 
@@ -46,65 +46,68 @@ import jerome from './Sections/tma/Containers/OurModels/Jerome/Jerome';
 import kegomoditswe from './Sections/tma/Containers/OurModels/Kegomoditswe/Kegomoditswe';
 import tshegofatso from './Sections/tma/Containers/OurModels/Tshegofatso/Tshegofatso';
 import Model from './Sections/tma/Containers/OurModels/Model';
+import Fonmm from './Sections/tma/Containers/FoNMM/fonmm';
+import fonmmForm from './Sections/tma/Containers/FoNMM/fonmm-form';
 
 export class App extends Component {
-  state = {
-    landingPageData: {},
-  }
-  getlandingPageData() {
-    this.setState({landingPageData : JsonData})
-  }
+	state = {
+		landingPageData: {},
+	}
+	getlandingPageData() {
+		this.setState({ landingPageData: JsonData })
+	}
 
-  componentDidMount() {
-    this.getlandingPageData();
-  }
+	componentDidMount() {
+		this.getlandingPageData();
+	}
 
-  render() {
-    return (
-      <div>
-        <Route path="/" exact component={Sections} />
-        <Route path="/tma" component={Tma} />
-        <Route path="/charity" component={Charity} />
-        <Route path="/remofilwe" component={Remofilwe} />
-        <Route path="/tuelo" component={Tuelo} />
-        <Route path="/karabo" component={Karabo} />
-        <Route path="/thato" component={Thato} />
-        <Route path="/refentse" component={Refentse} />
-        <Route path="/kitso" component={Kitso} />
-        <Route path="/ayanda" component={ayanda} />
-        <Route path="/bokamoso" component={bokamoso} />
-        <Route path="/bonolo-dingoko" component={bonolo} />
-        <Route path="/bonolo-saliwe" component={bonoloS} />
-        <Route path="/bontle" component={bontle} />
-        <Route path="/ipeleng" component={ipeleng} />
-        <Route path="/izabella" component={izabella} />
-        <Route path="/jennifer" component={jennifer} />
-        <Route path="/keenan" component={jermaine} />
-        <Route path="/kekgabile" component={kekgabile} />
-        <Route path="/keletso" component={keletso} />
-        <Route path="/ketshepaone" component={ketshepaone} />
-        <Route path="/lerato" component={lerato} />
-        <Route path="/malebogo" component={malebogo} />
-        <Route path="/melagries" component={melagries} />
-        <Route path="/miguela" component={miguela} />
-        <Route path="/naledi-m" component={naledi} />
-        <Route path="/naledi-s" component={nalediS} />
-        <Route path="/omphile" component={omphile} />
-        <Route path="/orefile" component={orefile} />
-        <Route path="/oteng" component={oteng} />
-        <Route path="/pabalelo" component={pabalelo} />
-        <Route path="/remofilwe-b" component={RemofilweBadise} />
-        <Route path="/thabiso" component={thabiso} />
-        <Route path="/thabo" component={thabo} />
-        <Route path="/tlotlego" component={tlotlego} />
-        <Route path="/zureida" component={zureida} />
-        <Route path="/jerome" component={jerome} />
-        <Route path="/kegomoditswe" component={kegomoditswe} />
-        <Route path="/tshegofatso" component={tshegofatso} />
-        <Route path="/application" component={AppForm} />
-      </div>
-    )
-  }
+	render() {
+		return (
+			<div>
+				<Route path="/" exact component={Sections} />
+				<Route path='/fonmm' component={fonmmForm} />
+				<Route path="/tma" component={Tma} />
+				<Route path="/charity" component={Charity} />
+				<Route path="/remofilwe" component={Remofilwe} />
+				<Route path="/tuelo" component={Tuelo} />
+				<Route path="/karabo" component={Karabo} />
+				<Route path="/thato" component={Thato} />
+				<Route path="/refentse" component={Refentse} />
+				<Route path="/kitso" component={Kitso} />
+				<Route path="/ayanda" component={ayanda} />
+				<Route path="/bokamoso" component={bokamoso} />
+				<Route path="/bonolo-dingoko" component={bonolo} />
+				<Route path="/bonolo-saliwe" component={bonoloS} />
+				<Route path="/bontle" component={bontle} />
+				<Route path="/ipeleng" component={ipeleng} />
+				<Route path="/izabella" component={izabella} />
+				<Route path="/jennifer" component={jennifer} />
+				<Route path="/keenan" component={jermaine} />
+				<Route path="/kekgabile" component={kekgabile} />
+				<Route path="/keletso" component={keletso} />
+				<Route path="/ketshepaone" component={ketshepaone} />
+				<Route path="/lerato" component={lerato} />
+				<Route path="/malebogo" component={malebogo} />
+				<Route path="/melagries" component={melagries} />
+				<Route path="/miguela" component={miguela} />
+				<Route path="/naledi-m" component={naledi} />
+				<Route path="/naledi-s" component={nalediS} />
+				<Route path="/omphile" component={omphile} />
+				<Route path="/orefile" component={orefile} />
+				<Route path="/oteng" component={oteng} />
+				<Route path="/pabalelo" component={pabalelo} />
+				<Route path="/remofilwe-b" component={RemofilweBadise} />
+				<Route path="/thabiso" component={thabiso} />
+				<Route path="/thabo" component={thabo} />
+				<Route path="/tlotlego" component={tlotlego} />
+				<Route path="/zureida" component={zureida} />
+				<Route path="/jerome" component={jerome} />
+				<Route path="/kegomoditswe" component={kegomoditswe} />
+				<Route path="/tshegofatso" component={tshegofatso} />
+				<Route path="/application" component={AppForm} />
+			</div>
+		)
+	}
 }
 
 export default App;
