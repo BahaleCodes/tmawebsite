@@ -96,24 +96,24 @@ const FonmmForm = () => {
             emailjs.send(apiKeys.SERVICE_ID, "template_spkntrh", templateParams, apiKeys.USER_ID)
             .then( result => {
                 alert('Message sent, we will respond shortly. Thank you.', result.text);
+                setData({
+                    ...data,
+                    isSubmitting: false
+                })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
                 },
                 error => {
                     alert('An error was encounter, Please try again', error.text);
                 }
             )
-            setData({
-                ...data,
-                errorFound: true
-            })
+            // setData({
+            //     ...data,
+            //     errorFound: true
+            // })
         })
             .catch(error => {
                 console.log(error.message);
                 return;
             });
-        setData({
-            ...data,
-            isSubmitting: false
-        })
         setDidSubmit(true);
     }
 
