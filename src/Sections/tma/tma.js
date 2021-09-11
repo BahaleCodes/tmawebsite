@@ -47,11 +47,11 @@ export class Tma extends Component {
 							<h2>Face of Ngaka Modiri Molema</h2>
 							</div>
 							<Fonmm  data={this.state.tmaData.FoNMM}/>
-							<p>Do you have what it takes to be the Face of Ngaka Modiri Molema?</p>
+							{/* <p>Do you have what it takes to be the Face of Ngaka Modiri Molema?</p>
 							<p>Your journey starts by clicking the button bellow!</p>
 							<a href='/fonmm' type="submit" className="btn btn-custom btn-lg">
 								Register
-							</a>
+							</a> */}
 					</div>
 				</div>
 				<OurModels data={this.state.tmaData.Models} />

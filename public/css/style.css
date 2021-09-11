@@ -389,6 +389,30 @@ header .intro-text {
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+#fonmm .social {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+#fonmm .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#fonmm .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#fonmm .social i.fa:hover{
+  background: white;
+  color: black;
+}
 
 /* FoNMM Form */
 #fonmm-form {

@@ -14,9 +14,34 @@ const Fonmm = (props) => {
                             <p>{props.data ? props.data.about3 : 'loading...'}</p>
                         </div>
                     </div>
-                    <h1>Requirements</h1>
+                    {/* <h1>Requirements</h1> */}
+                    <h1>Applications are currently closed.</h1>
+                    <h4>Follow us on our social media pages to stay in the loop about the pageant.</h4>
                     <div className='Cnt1'>
-                        <ul>{
+                        <div className="col-md-12">
+                            <div className="row">
+                                <div className="social">
+                                    <ul>
+                                        <li>
+                                            <a href={'https://www.facebook.com/Taahirah-Modeling-Academy-100298541503442/'} >
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={'https://www.linkedin.com/in/taahirah-zungu-95a194203/?originalSubdomain=za'} >
+                                                <i className="fa fa-linkedIn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={'https://www.instagram.com/taahirah_modeling_academy/?hl=en'} >
+                                                <i className="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <ul>{
                             props.data
                                 ? props.data.requirements.map(
                                     (d, i) =>
@@ -25,7 +50,7 @@ const Fonmm = (props) => {
                                         </h4>
                                 )
                                 : 'loading...'
-                        }</ul>
+                        }</ul> */}
                     </div>
                 </div>
             </div>
