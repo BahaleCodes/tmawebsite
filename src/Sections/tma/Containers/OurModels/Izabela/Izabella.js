@@ -12,13 +12,17 @@ class izabella extends Component {
                     <h1>{state.name}</h1>
                 </div>
                 <ImageSlider images={[
-                                'img/IzabelaMlambo/Izabella.jpg',
-                                'img/IzabelaMlambo/Izabella2.jpg',
-                                'img/IzabelaMlambo/izabella3.jpg',
-                                'img/IzabelaMlambo/Izabella3.jpg',
-                                'img/IzabelaMlambo/Izabella4.jpg',
-                                'img/IzabelaMlambo/Izabella5.jpg'
-                            ]}/>
+                    'img/IzabelaMlambo/Izabella.jpg',
+                    'img/IzabelaMlambo/Izabella2.jpg',
+                    'img/IzabelaMlambo/izabella3.jpg',
+                    'img/IzabelaMlambo/Izabella3.jpg',
+                    'img/IzabelaMlambo/Izabella4.jpg',
+                    'img/IzabelaMlambo/Izabella5.jpg',
+                    'img/IzabelaMlambo/izabella6.jpg',
+                    'img/IzabelaMlambo/Izabella7.jpg',
+                    'img/IzabelaMlambo/Izabella8.jpg',
+                    'img/IzabelaMlambo/Izabella9.jpg'
+                ]} />
             </div>
         )
     }

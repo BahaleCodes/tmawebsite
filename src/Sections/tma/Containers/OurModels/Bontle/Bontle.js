@@ -12,11 +12,14 @@ class bontle extends Component {
                     <h1>{state.name}</h1>
                 </div>
                 <ImageSlider images={[
-                                    'img/BontleMokgosi/Bontle.jpg',
-                                    'img/BontleMokgosi/Bontle2.jpg',
-                                    'img/BontleMokgosi/Bontle3.jpg'
-                                ]}/>
-        </div>
+                    'img/BontleMokgosi/Bontle.jpg',
+                    'img/BontleMokgosi/Bontle2.jpg',
+                    'img/BontleMokgosi/Bontle3.jpg',
+                    'img/BontleMokgosi/Bontle4.jpg',
+                    'img/BontleMokgosi/Bontle5.jpg',
+                    'img/BontleMokgosi/Bontle6.jpg'
+                ]} />
+            </div>
         )
     }
 }
