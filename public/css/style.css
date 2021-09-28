@@ -290,6 +290,14 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+/* Finalists */
+#finalists {
+  margin: 0;
+}
+#finalists .section-title h2{
+  margin-top: 20px;
+}
+
 /* FoNMM Section */
 #fonmm {
   background-color: black;

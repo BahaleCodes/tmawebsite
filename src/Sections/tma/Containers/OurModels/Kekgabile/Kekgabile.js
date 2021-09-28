@@ -14,7 +14,12 @@ class kekgabile extends Component {
                 <ImageSlider images={[
                                 'img/KekgabileMashaba/kekgabile.jpg',
                                 'img/KekgabileMashaba/kekgabile2.jpg',
-                                'img/KekgabileMashaba/kekgabile3.jpg'
+                                'img/KekgabileMashaba/kekgabile3.jpg',
+                                'img/KekgabileMashaba/Kekgabile4.jpg',
+                                'img/KekgabileMashaba/Kekgabile5.jpg',
+                                'img/KekgabileMashaba/Kekgabile7.jpg',
+                                'img/KekgabileMashaba/Kekgabile6.jpg',
+                                'img/KekgabileMashaba/Kekgabile9.jpg'
                             ]}/>
         </div>
         )

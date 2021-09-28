@@ -15,7 +15,10 @@ class jennifer extends Component {
                 <ImageSlider images={[
                                 'img/JenniferGaegane/Jennifer.jpg',
                                 'img/JenniferGaegane/Jennifer2.jpg',
-                                'img/JenniferGaegane/Jennifer3.jpg'
+                                'img/JenniferGaegane/Jennifer3.jpg',
+                                'img/JenniferGaegane/Jennifer5.jpg',
+                                'img/JenniferGaegane/Jennifer6.jpg',
+                                'img/JenniferGaegane/Jennifer7.jpg'
                             ]}/>
             </div>
         )

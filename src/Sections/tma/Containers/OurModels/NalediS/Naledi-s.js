@@ -17,7 +17,15 @@ class nalediS extends Component {
                                 'img/NalediSebokolodi/mbali2.jpg',
                                 'img/NalediSebokolodi/mbali(4).jpg',
                                 'img/NalediSebokolodi/mbali(5).jpg',
-                                'img/NalediSebokolodi/mbali(6).jpg'
+                                'img/NalediSebokolodi/mbali(6).jpg',
+                                'img/NalediSebokolodi/Mbali3.jpg',
+                                'img/NalediSebokolodi/Mbali4.jpg',
+                                'img/NalediSebokolodi/Mbali5.jpg',
+                                'img/NalediSebokolodi/Mbali6.jpg',
+                                'img/NalediSebokolodi/Mbali11.jpg',
+                                'img/NalediSebokolodi/Mbali8.jpg',
+                                'img/NalediSebokolodi/Mbali9.jpg',
+                                'img/NalediSebokolodi/Mbali10.jpg'
                             ]}/>
             </div>
         )

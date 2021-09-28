@@ -12,10 +12,14 @@ class RemofilweBadise extends Component {
                     <h1>{state.name}</h1>
                 </div>
                 <ImageSlider images={[
-                                    'img/RemofilweBadise/badise.jpg',
-                                    'img/RemofilweBadise/badise2.jpg',
-                                    'img/RemofilweBadise/badise3.jpg'
-                                ]}/>
+                    'img/RemofilweBadise/badise.jpg',
+                    'img/RemofilweBadise/badise2.jpg',
+                    'img/RemofilweBadise/badise3.jpg',
+                    'img/RemofilweBadise/Badise5.jpg',
+                    'img/RemofilweBadise/Badise6.jpg',
+                    'img/RemofilweBadise/Badise7.jpg',
+                    'img/RemofilweBadise/Badise8.jpg'
+                ]} />
             </div>
         )
     }

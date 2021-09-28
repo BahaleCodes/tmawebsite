@@ -17,7 +17,17 @@ class bonolo extends Component {
                                     'img/BonoloDingoko/bonolo3.jpg',
                                     'img/BonoloDingoko/bonolo4.jpg',
                                     'img/BonoloDingoko/bonolo5.jpg',
-                                    'img/BonoloDingoko/bonolo6.jpg'
+                                    'img/BonoloDingoko/bonolo6.jpg',
+                                    'img/BonoloDingoko/Bonolo7.jpg',
+                                    'img/BonoloDingoko/Bonolo8.jpg',
+                                    'img/BonoloDingoko/Bonolo9.jpg',
+                                    'img/BonoloDingoko/Bonolo10.jpg',
+                                    'img/BonoloDingoko/Bonolo11.jpg',
+                                    'img/BonoloDingoko/Bonolo12.jpg',
+                                    'img/BonoloDingoko/Bonolo13.jpg',
+                                    'img/BonoloDingoko/Bonolo14.jpg',
+                                    'img/BonoloDingoko/Bonolo15.jpg',
+                                    'img/BonoloDingoko/Bonolo16.jpg'
                                 ]}/>
             </div>
         )

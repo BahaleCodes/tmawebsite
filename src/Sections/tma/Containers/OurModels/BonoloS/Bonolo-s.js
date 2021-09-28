@@ -17,7 +17,15 @@ class bonoloS extends Component {
                                 'img/BonoloSaliwe/saliwe3.jpg',
                                 'img/BonoloSaliwe/saliwe4.jpg',
                                 'img/BonoloSaliwe/saliwe5.jpg',
-                                'img/BonoloSaliwe/saliwe6.jpg'
+                                'img/BonoloSaliwe/saliwe6.jpg',
+                                'img/BonoloSaliwe/Saliwe(1).jpg',
+                                'img/BonoloSaliwe/Saliwe(3).jpg',
+                                'img/BonoloSaliwe/Saliwe(4).jpg',
+                                'img/BonoloSaliwe/Saliwe(5).jpg',
+                                'img/BonoloSaliwe/Saliwe(6).jpg',
+                                'img/BonoloSaliwe/Saliwe(7).jpg',
+                                'img/BonoloSaliwe/Saliwe(4).jpg',
+                                'img/BonoloSaliwe/Saliwe(9).jpg'
                             ]}/>
         </div>
         )

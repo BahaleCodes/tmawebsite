@@ -12,12 +12,21 @@ class orefile extends Component {
                     <h1>{state.name}</h1>
                 </div>
                 <ImageSlider images={[
-                                'img/OrefileMale/Orefile.jpg',
-                                'img/OrefileMale/Orefile2.jpg',
-                                'img/OrefileMale/Orefile3.jpg',
-                                'img/OrefileMale/Orefile4.jpg',
-                                'img/OrefileMale/Orefile5.jpg'
-                            ]}/>
+                    'img/OrefileMale/Orefile.jpg',
+                    'img/OrefileMale/Orefile2.jpg',
+                    'img/OrefileMale/Orefile3.jpg',
+                    'img/OrefileMale/Orefile4.jpg',
+                    'img/OrefileMale/Orefile5.jpg',
+                    'img/OrefileMale/Orefile7.jpg',
+                    'img/OrefileMale/Orefile8.jpg',
+                    'img/OrefileMale/Orefile9.jpg',
+                    'img/OrefileMale/Orefile10.jpg',
+                    'img/OrefileMale/Orefile11.jpg',
+                    'img/OrefileMale/Orefile12.jpg',
+                    'img/OrefileMale/Orefile6.jpg',
+                    'img/OrefileMale/Orefile14.jpg',
+                    'img/OrefileMale/Orefile15.jpg'
+                ]} />
             </div>
         )
     }

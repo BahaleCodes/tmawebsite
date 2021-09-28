@@ -1,0 +1,59 @@
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  .cards_md{
+    display: none;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  .card_column{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+  h2{
+    /* background: white; */
+    color: #333;
+    font-size: 26px;
+  }
+  .kota_builder{
+    border-top: 3px solid #333;
+  }
+  
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards {
+      display: none;
+    }
+    .cards_md {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .cards_md {
+      display: none;
+    }
+    .cards {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
+  }

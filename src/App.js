@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom';
 
-import JsonData from './data/data.json';
+import JsonData from './data/fonmm.json';
 
 import Tma from './Sections/tma/tma';
 import Charity from './Sections/charity/charity';
@@ -48,6 +48,7 @@ import tshegofatso from './Sections/tma/Containers/OurModels/Tshegofatso/Tshegof
 import Model from './Sections/tma/Containers/OurModels/Model';
 import Fonmm from './Sections/tma/Containers/FoNMM/fonmm';
 import fonmmForm from './Sections/tma/Containers/FoNMM/fonmm-form';
+import Finalists from './Sections/tma/Containers/FoNMM/finalists';
 
 export class App extends Component {
 	state = {
@@ -105,6 +106,7 @@ export class App extends Component {
 				<Route path="/kegomoditswe" component={kegomoditswe} />
 				<Route path="/tshegofatso" component={tshegofatso} />
 				<Route path="/application" component={AppForm} />
+				<Route path='/finalists' render={(props) => (<Finalists data={this.state.landingPageData.fonmm}/>)} />
 			</div>
 		)
 	}

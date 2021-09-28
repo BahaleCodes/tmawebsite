@@ -17,7 +17,15 @@ class thabiso extends Component {
                                 'img/ThabisoMakoto/thabiso3.jpg',
                                 'img/ThabisoMakoto/thabiso4.jpg',
                                 'img/ThabisoMakoto/thabiso5.jpg',
-                                'img/ThabisoMakoto/thabiso6.jpg'
+                                'img/ThabisoMakoto/thabiso6.jpg',
+                                'img/ThabisoMakoto/Thabiso8.jpg',
+                                'img/ThabisoMakoto/Thabiso9.jpg',
+                                'img/ThabisoMakoto/Thabiso10.jpg',
+                                'img/ThabisoMakoto/Thabiso11.jpg',
+                                'img/ThabisoMakoto/Thabiso12.jpg',
+                                'img/ThabisoMakoto/Thabiso13.jpg',
+                                'img/ThabisoMakoto/Thabiso14.jpg',
+                                'img/ThabisoMakoto/Thabiso16.jpg'
                             ]}/>
             </div>
         )

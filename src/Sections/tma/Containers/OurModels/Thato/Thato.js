@@ -19,7 +19,13 @@ class thato extends Component {
                                     'img/ThatoMotsatsi/thatoM1.jpg',
                                     'img/ThatoMotsatsi/thatoM2.jpg',
                                     'img/ThatoMotsatsi/thatoM3.jpg',
-                                    'img/ThatoMotsatsi/thatoM4.jpg'
+                                    'img/ThatoMotsatsi/thatoM4.jpg',
+                                    'img/ThatoMotsatsi/ThatoM5.jpg',
+                                    'img/ThatoMotsatsi/ThatoM6.jpg',
+                                    'img/ThatoMotsatsi/ThatoM7.jpg',
+                                    'img/ThatoMotsatsi/ThatoM8.jpg',
+                                    'img/ThatoMotsatsi/ThatoM9.jpg',
+                                    'img/ThatoMotsatsi/ThatoM10.jpg'
                                     
                                 ]}/>
             </div>
