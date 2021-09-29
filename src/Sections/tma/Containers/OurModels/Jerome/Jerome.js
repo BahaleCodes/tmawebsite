@@ -19,12 +19,7 @@ class jerome extends Component {
                     'img/JeromeMolamu/Jerome5.jpg',
                     'img/JeromeMolamu/Jerome6.jpg',
                     'img/JeromeMolamu/Jerome8.jpg',
-                    'img/JeromeMolamu/Jerome9.jpg',
-                    'img/JeromeMolamu/Jerome10.jpg',
-                    'img/JeromeMolamu/Jerome11.jpg',
-                    'img/JeromeMolamu/Jerome12.jpg',
-                    'img/JeromeMolamu/Jerome13.jpg',
-                    'img/JeromeMolamu/Jerome14.jpg'
+                    'img/JeromeMolamu/Jerome9.jpg'
                 ]} />
             </div>
         )

@@ -23,7 +23,6 @@ class zureida extends Component {
                                 'img/ZureidaLeepo/Zureida8.jpg',
                                 'img/ZureidaLeepo/Zureida9.jpg',
                                 'img/ZureidaLeepo/Zureida10.jpg',
-                                'img/ZureidaLeepo/Zureida11.jpg',
                                 'img/ZureidaLeepo/Zureida12.jpg',
                                 'img/ZureidaLeepo/face.jpg',
                                 'img/ZureidaLeepo/Zureida14.jpg',

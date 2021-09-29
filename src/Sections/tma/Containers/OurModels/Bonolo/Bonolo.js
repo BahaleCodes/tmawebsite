@@ -19,7 +19,6 @@ class bonolo extends Component {
                                     'img/BonoloDingoko/bonolo5.jpg',
                                     'img/BonoloDingoko/bonolo6.jpg',
                                     'img/BonoloDingoko/Bonolo7.jpg',
-                                    'img/BonoloDingoko/Bonolo8.jpg',
                                     'img/BonoloDingoko/Bonolo9.jpg',
                                     'img/BonoloDingoko/Bonolo10.jpg',
                                     'img/BonoloDingoko/Bonolo11.jpg',
