@@ -156,7 +156,7 @@ export class Contact extends Component {
 							<div className="contact-item">
 								<p>
 									<span>
-										<i className="fa fa-phone"></i> WhatsApp
+										<i className="fa fa-whatsapp"></i> WhatsApp
 									</span>{" "}
 									{
 										this.props.data 

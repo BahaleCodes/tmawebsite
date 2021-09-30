@@ -10,7 +10,7 @@
     {
       "src": "img/TMAlogo.jpeg",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "512x512"
     },
     {
       "src": "img/TMAlogo.jpeg",
@@ -21,6 +21,6 @@
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#111",
-  "background_color": "#000"
+  "theme_color": "#000000",
+  "background_color": "FFFFFF"
 }
