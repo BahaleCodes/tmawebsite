@@ -3,52 +3,52 @@ import { Route } from 'react-router-dom';
 
 import JsonData from './data/fonmm.json';
 
-import Tma from './Sections/tma/tma';
-import Charity from './Sections/charity/charity';
-import AppForm from './Sections/tma/Containers/Applications/AppForm/AppForm';
-import Remofilwe from './Sections/tma/Containers/OurModels/Remofilwe/Remofilwe';
-import Tuelo from './Sections/tma/Containers/OurModels/Tuelo/Tuelo';
-import Karabo from './Sections/tma/Containers/OurModels/Karabo/Karabo';
-import Thato from './Sections/tma/Containers/OurModels/Thato/Thato';
-import Refentse from './Sections/tma/Containers/OurModels/Refentse/Refentse';
-import Kitso from './Sections/tma/Containers/OurModels/Kitso/Kitso';
-import Sections from './Sections/Sections';
-import ayanda from './Sections/tma/Containers/OurModels/Ayanda/Ayanda';
-import bokamoso from './Sections/tma/Containers/OurModels/bokamoso/bokamoso';
-import bonoloS from './Sections/tma/Containers/OurModels/BonoloS/Bonolo-s';
-import bonolo from './Sections/tma/Containers/OurModels/Bonolo/Bonolo';
-import ipeleng from './Sections/tma/Containers/OurModels/Ipeleng/Ipeleng';
-import izabella from './Sections/tma/Containers/OurModels/Izabela/Izabella';
-import jennifer from './Sections/tma/Containers/OurModels/Jennifer/Jenifor';
-import jermaine from './Sections/tma/Containers/OurModels/Jermaine/Jermaine';
-// import katlego from './Sections/tma/Containers/OurModels/Katlego/Katlego';
-import kekgabile from './Sections/tma/Containers/OurModels/Kekgabile/Kekgabile';
-import keletso from './Sections/tma/Containers/OurModels/Keletso/Keletso';
-import ketshepaone from './Sections/tma/Containers/OurModels/Ketshepaone/Ketshepaone';
-// import kokeletso from './Sections/tma/Containers/OurModels/Kokeletso/Kokeletso';
-import lerato from './Sections/tma/Containers/OurModels/Lerato/Lerato';
-import malebogo from './Sections/tma/Containers/OurModels/Malebogo/Malebogo';
-import miguela from './Sections/tma/Containers/OurModels/Miguela/Miguela';
-import naledi from './Sections/tma/Containers/OurModels/Naledi/Naledi';
-import nalediS from './Sections/tma/Containers/OurModels/NalediS/Naledi-s';
-import omphile from './Sections/tma/Containers/OurModels/Omphile/Omphile';
-import orefile from './Sections/tma/Containers/OurModels/Orefile/Orefile';
-import oteng from './Sections/tma/Containers/OurModels/Oteng/Oteng';
-import pabalelo from './Sections/tma/Containers/OurModels/Pabalelo/Pabalelo';
-import thabiso from './Sections/tma/Containers/OurModels/Thabiso/Thabiso';
-import thabo from './Sections/tma/Containers/OurModels/Thabo/Thabo';
-import tlotlego from './Sections/tma/Containers/OurModels/Tlotlego/Tlotlego';
-import zureida from './Sections/tma/Containers/OurModels/Zureida/Zureida';
-import melagries from './Sections/tma/Containers/OurModels/Melagries/Melagries';
-import bontle from './Sections/tma/Containers/OurModels/Bontle/Bontle';
-import RemofilweBadise from './Sections/tma/Containers/OurModels/RemofilweBadise/RemofilweBadise';
-import jerome from './Sections/tma/Containers/OurModels/Jerome/Jerome';
-import kegomoditswe from './Sections/tma/Containers/OurModels/Kegomoditswe/Kegomoditswe';
-import tshegofatso from './Sections/tma/Containers/OurModels/Tshegofatso/Tshegofatso';
-import Model from './Sections/tma/Containers/OurModels/Model';
-import Fonmm from './Sections/tma/Containers/FoNMM/fonmm';
-import fonmmForm from './Sections/tma/Containers/FoNMM/fonmm-form';
-import Finalists from './Sections/tma/Containers/FoNMM/finalists';
+import Tma from './TMA/tma';
+// import Charity from './Sections/charity/charity';
+import AppForm from './TMA/Applications/AppForm/AppForm';
+import Remofilwe from './TMA/OurModels/Remofilwe/Remofilwe';
+import Tuelo from './TMA/OurModels/Tuelo/Tuelo';
+import Karabo from './TMA/OurModels/Karabo/Karabo';
+import Thato from './TMA/OurModels/Thato/Thato';
+import Refentse from './TMA/OurModels/Refentse/Refentse';
+import Kitso from './TMA/OurModels/Kitso/Kitso';
+import Sections from './TMA/Sections';
+import ayanda from './TMA/OurModels/Ayanda/Ayanda';
+import bokamoso from './TMA/OurModels/bokamoso/bokamoso';
+import bonoloS from './TMA/OurModels/BonoloS/Bonolo-s';
+import bonolo from './TMA/OurModels/Bonolo/Bonolo';
+import ipeleng from './TMA/OurModels/Ipeleng/Ipeleng';
+import izabella from './TMA/OurModels/Izabela/Izabella';
+import jennifer from './TMA/OurModels/Jennifer/Jenifor';
+import jermaine from './TMA/OurModels/Jermaine/Jermaine';
+// import katlego from './TMA/OurModels/Katlego/Katlego';
+import kekgabile from './TMA/OurModels/Kekgabile/Kekgabile';
+import keletso from './TMA/OurModels/Keletso/Keletso';
+import ketshepaone from './TMA/OurModels/Ketshepaone/Ketshepaone';
+// import kokeletso from './TMA/OurModels/Kokeletso/Kokeletso';
+import lerato from './TMA/OurModels/Lerato/Lerato';
+import malebogo from './TMA/OurModels/Malebogo/Malebogo';
+import miguela from './TMA/OurModels/Miguela/Miguela';
+import naledi from './TMA/OurModels/Naledi/Naledi';
+import nalediS from './TMA/OurModels/NalediS/Naledi-s';
+import omphile from './TMA/OurModels/Omphile/Omphile';
+import orefile from './TMA/OurModels/Orefile/Orefile';
+import oteng from './TMA/OurModels/Oteng/Oteng';
+import pabalelo from './TMA/OurModels/Pabalelo/Pabalelo';
+import thabiso from './TMA/OurModels/Thabiso/Thabiso';
+import thabo from './TMA/OurModels/Thabo/Thabo';
+import tlotlego from './TMA/OurModels/Tlotlego/Tlotlego';
+import zureida from './TMA/OurModels/Zureida/Zureida';
+import melagries from './TMA/OurModels/Melagries/Melagries';
+import bontle from './TMA/OurModels/Bontle/Bontle';
+import RemofilweBadise from './TMA/OurModels/RemofilweBadise/RemofilweBadise';
+import jerome from './TMA/OurModels/Jerome/Jerome';
+import kegomoditswe from './TMA/OurModels/Kegomoditswe/Kegomoditswe';
+import tshegofatso from './TMA/OurModels/Tshegofatso/Tshegofatso';
+import Model from './TMA/OurModels/Model';
+import Fonmm from './TMA/FoNMM/fonmm';
+import fonmmForm from './TMA/FoNMM/fonmm-form';
+import Finalists from './TMA/FoNMM/finalists';
 
 export class App extends Component {
 	state = {
@@ -68,7 +68,7 @@ export class App extends Component {
 				<Route path="/" exact component={Sections} />
 				<Route path='/fonmm' component={fonmmForm} />
 				<Route path="/tma" component={Tma} />
-				<Route path="/charity" component={Charity} />
+				{/* <Route path="/charity" component={Charity} /> */}
 				<Route path="/remofilwe" component={Remofilwe} />
 				<Route path="/tuelo" component={Tuelo} />
 				<Route path="/karabo" component={Karabo} />
@@ -105,7 +105,7 @@ export class App extends Component {
 				<Route path="/jerome" component={jerome} />
 				<Route path="/kegomoditswe" component={kegomoditswe} />
 				<Route path="/tshegofatso" component={tshegofatso} />
-				<Route path="/application" component={AppForm} />
+				{/* <Route path="/application" component={AppForm} /> */}
 				<Route path='/finalists' render={(props) => (<Finalists data={this.state.landingPageData.fonmm}/>)} />
 			</div>
 		)
