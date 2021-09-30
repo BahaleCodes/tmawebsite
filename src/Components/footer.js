@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <div id="footer" className="text-center">
             <div className="container">
                 <div className="footer">
                     <div className="footer-items">
                         <div className="footer-img">
-                            <img src={'img/TMAlogo.jpeg'} alt={"Footer logo"} lazy/>
+                            <img src={'img/TMA.jpg'} alt={"Footer logo"} lazy="true" />
                         </div>
                         <div className="footer-text">
 							<p>Established: 2019</p>

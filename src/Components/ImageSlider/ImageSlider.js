@@ -39,7 +39,7 @@ export default function ImageSlider({images=[]}){
                 <div >
                 <section>
                     <div>
-                        <img className={"img-responsive-sl"} src={images[currentSlide]} />
+                        <img lazy="true" className={"img-responsive-sl"} src={images[currentSlide]} />
                     </div>
                 </section>
             </div>

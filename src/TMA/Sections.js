@@ -23,6 +23,7 @@ const sections = () => {
                                         <h4>Taahirah Modeling Academy</h4>
                                     </div>
                                     <img
+                                        lazy="true"
                                         src={'img/TMAlogo.jpeg'}
                                         className="img-responsive"
                                         alt="Project Title"
