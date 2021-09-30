@@ -3,7 +3,7 @@
   "name": "Taahirah Modeling Academy",
   "icons": [
     {
-      "src": "tma.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -21,6 +21,6 @@
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "black",
-  "background_color": "white"
+  "theme_color": "#111",
+  "background_color": "#000"
 }
