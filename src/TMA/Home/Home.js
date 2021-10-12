@@ -11,7 +11,7 @@ export class Home extends Component {
                         interval={3000}
                         images={[
                             'img/Group/IMG_8277.jpg',
-                            'img/tah.webp',
+                            'img/tah.jpg',
                             'img/slide/Slide4.jpeg',
                             'img/slide/Slide5.jpeg',
                             'img/Group/IMG_8256.jpg',
