@@ -7,7 +7,7 @@ const Item = (props) => {
         <li className={classes.item}>
             <div>
                 <div className={classes.head_img}>
-                    <img lazy="true" src={props.image} alt='Category' />
+                    <img loading='lazy'src={props.image} alt='Category' />
                 </div>
                 <h3>{props.name}</h3>
                 <div className={classes.age}>

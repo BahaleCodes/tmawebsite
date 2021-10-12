@@ -12,7 +12,7 @@ class Fitness extends Component{
                         <div className="row">
                                     <h1>A healthy body is a beautiful body</h1>
                             <div className="col-xs-12 col-md-6">
-                                <img lazy="true" src={"img/fitness.jpg"} className="img-responsive" alt=""/>
+                                <img loading='lazy'src={"img/fitness.webp"} className="img-responsive" alt=""/>
                             </div>
                             <div className="col-xs-12 col-md-6">
                                 <div className="about-text">

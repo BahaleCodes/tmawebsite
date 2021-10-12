@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="footer">
                     <div className="footer-items">
                         <div className="footer-img">
-                            <img src={'img/TMA.jpg'} alt={"Footer logo"} lazy="true" />
+                            <img src={'img/TMA.jpg'} alt={"Footer logo"} loading='lazy' />
                         </div>
                         <div className="footer-text">
 							<p>Established: 2019</p>

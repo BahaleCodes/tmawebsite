@@ -7,7 +7,7 @@ const Fonmm = (props) => {
                 <div className='container'>
                     {/* <p>{props.data ? props.data.paragraph : 'loading...'}</p> */}
                     <div className='Cnt'>
-                        <img lazy="true" src='img/face.jpg' className='img-responsive' alt='' />
+                        <img loading='lazy'src='img/face.webp' className='img-responsive' alt='' />
                         <div className='abtContainer'>
                             <p>{props.data ? props.data.about1 : 'loading...'}</p>
                             <p>{props.data ? props.data.about2 : 'loading...'}</p>

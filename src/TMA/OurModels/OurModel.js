@@ -26,7 +26,7 @@ const OurModel = (props) => {
                                 </div>
                                 <div className="img-container">
                                     <img 
-                                        lazy="true"
+                                        loading='lazy'
                                         src={props.pic}
                                         className="img-responsive"
                                         alt={props.name}

@@ -57,7 +57,7 @@ export default function Slideshow({images=[], interval=3000}){
             <div >
                 <div >
                     <div >
-                        <img lazy="true" className="img-responsive" src={images[currentSlide]} />
+                        <img loading='lazy' alt='Slideshow' className="img-responsive" src={images[currentSlide]} />
                     </div>
                 </div>
             </div>

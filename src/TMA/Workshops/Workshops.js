@@ -40,8 +40,8 @@ class Workshops extends Component{
                             </div>
                             <div className="col-xs-12 col-md-6">
                                 <Slideshow images={[
-                                    'img/work1.jpg',
-                                    'img/work2.jpg'
+                                    'img/work1.webp',
+                                    'img/work2.webp'
                                 ]} />
                                 {/* <img src={'img/work.jpg'} className="img-responsive" alt=""/> */}
                             </div>
