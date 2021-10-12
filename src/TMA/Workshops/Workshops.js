@@ -40,8 +40,8 @@ class Workshops extends Component{
                             </div>
                             <div className="col-xs-12 col-md-6">
                                 <Slideshow images={[
-                                    'img/work1.jpg',
-                                    'img/work2.jpg'
+                                    'https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Fwork1.jpg?alt=media&token=26b03085-a271-4dc6-8075-b7e7007880e0',
+                                    'https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Fwork2.jpg?alt=media&token=6174217f-bea2-4481-986a-c19b2b14922c'
                                 ]} />
                                 {/* <img src={'img/work.jpg'} className="img-responsive" alt=""/> */}
                             </div>

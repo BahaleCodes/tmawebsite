@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-class Fitness extends Component{
+class Fitness extends Component {
     render() {
-        return(
+        return (
             <div id="fitness" className="text-center">
                 <div className="section-title">
                     <h2>
@@ -10,31 +10,36 @@ class Fitness extends Component{
                     </h2>
                     <div className="container">
                         <div className="row">
-                                    <h1>A healthy body is a beautiful body</h1>
+                            <h1>A healthy body is a beautiful body</h1>
                             <div className="col-xs-12 col-md-6">
-                                <img loading='lazy' src={"img/fitness.jpg"} className="img-responsive" alt=""/>
+                                <img
+                                    loading='lazy'
+                                    src={"https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Ffitness.jpg?alt=media&token=2ba12fee-9093-416a-b4d5-b4dcf8f387a1"}
+                                    className="img-responsive"
+                                    alt=""
+                                />
                             </div>
                             <div className="col-xs-12 col-md-6">
                                 <div className="about-text">
                                     <h3>
                                         {
-                                            this.props.data 
-                                            ? this.props.data.paragraph 
-                                            : 'loading...'
+                                            this.props.data
+                                                ? this.props.data.paragraph
+                                                : 'loading...'
                                         }
-                                        </h3>
+                                    </h3>
                                     <div className="list-style">
-                                            <ul>
-                                                {
-                                                    this.props.data 
+                                        <ul>
+                                            {
+                                                this.props.data
                                                     ? this.props.data.trainings.map(
-                                                        (d, i) => 
-                                                            <p  key={`${d}-${i}`}>
+                                                        (d, i) =>
+                                                            <p key={`${d}-${i}`}>
                                                                 {d}
-                                                            </p>) 
+                                                            </p>)
                                                     : 'loading'
-                                                }
-                                            </ul>
+                                            }
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
