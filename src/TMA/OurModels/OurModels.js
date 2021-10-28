@@ -7,29 +7,26 @@ export class OurModels extends Component {
 		return (
 			<div id="our-models" className="text-center">
 				<div className="container">
-					<div className="section-title">
-						<h2>
-							Our Models
-						</h2>
-					</div>
+					<button onClick={this.props.toggle} className='btn-custom'>Hide 2021 Models</button>
+
 					<div className="row">
 						{
 							this.props.data
-							? this.props.data.map((d, i) => (
-								<OurModel key={`${d.name}-${i}`}
-									link={d.link}
-									name={d.name}
-									pic={d.pic}
-									pics={d.pics}
+								? this.props.data.map((d, i) => (
+									<OurModel key={`${d.name}-${i}`}
+										link={d.link}
+										name={d.name}
+										pic={d.pic}
+										pics={d.pics}
 									/>
-							))
-							: 'loading'
+								))
+								: 'loading'
 						}
-            		</div>
-          		</div>
-        	</div>
-   		);
-  	}
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
 export default OurModels;

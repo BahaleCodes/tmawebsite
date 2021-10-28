@@ -9,7 +9,7 @@ const Fonmm = (props) => {
                     <div className='Cnt'>
                         <img 
                             loading='lazy' 
-                            src='https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Fface.jpeg?alt=media&token=80357c29-27cf-4c3a-b91e-dbd240411c49`' 
+                            src='https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Fface.jpeg?alt=media&token=80357c29-27cf-4c3a-b91e-dbd240411c49`w' 
                             className='img-responsive' alt='' />
                         <div className='abtContainer'>
                             <p>{props.data ? props.data.about1 : 'loading...'}</p>

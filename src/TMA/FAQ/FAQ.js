@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 import Questions from './Questions.json';
 
-class FAQ extends Component{
+class FAQ extends Component {
     render() {
-        return(
+        return (
             <div id="faq" className="text-center">
                 <div className="section-title">
                     <h2>
@@ -21,9 +21,8 @@ class FAQ extends Component{
                     <div>
                         <ul>
                             <h3>How much is the fee?</h3>
-                            <p>- REGISTRATION FEE: R150 (models will recieve a T-shirt after registration payment)</p>
-                            <p>- Per month: R250</p>
-                            <p>- Private lessons: R300 (per month)</p>
+                            <p>- REGISTRATION FEE: R180 (models will recieve a T-shirt after registration payment)</p>
+                            <h4>Please refer to <a href='/tma#2022-packages'>2022 packages as our prices vary</a></h4>
                         </ul>
                         <ul>
                             <h3>Application requirements?</h3>
@@ -37,7 +36,7 @@ class FAQ extends Component{
                             <p>- Photoshoots</p>
                             <p>- Events to attend</p>
                             <p>- Z-card and portfolios</p>
-                            
+
                         </ul>
                         <ul>
                             <h3>Where are you based?</h3>

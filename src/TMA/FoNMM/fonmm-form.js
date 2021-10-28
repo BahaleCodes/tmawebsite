@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 import apiKeys from '../Applications/AppForm/apiKeys';
 import Footer from '../../Components/footer';
-import Navigation from '../navigation';
+import Navigation from '../Navigation';
 
 const FonmmForm = () => {
     const [didSubmit, setDidSubmit] = useState(false);

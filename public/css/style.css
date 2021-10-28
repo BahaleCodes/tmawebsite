@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: black;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -13,6 +13,12 @@ h2,
 h3,
 h4 {
   font-family: "Raleway", sans-serif;
+}
+h1{
+  text-transform: capitalize;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 h2 {
   text-transform: uppercase;
@@ -99,6 +105,19 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+}
+#menu .nav-pic {
+  margin: -27px 10px 10px 10px;
+	width: 70px;
+	height: 70px;
+}
+#menu .img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+#menu .img:hover {
+	margin-left: 10px;
 }
 #menu.navbar-default {
   background-color: white;
@@ -490,7 +509,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  margin-top: -10rem;
 }
 #about h3 {
   font-size: 22px;
@@ -509,6 +528,19 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, black 0%, #333 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#about p{
+  color: black;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -581,6 +613,9 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+}
+#portfolio h2{
+  color: black;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -663,6 +698,44 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+/* TMA */
+#tma .text:hover{
+  font-size: 20px;
+}
+#tma .text span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* FEES */
+#fees {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+#fees .section-title {
+  margin-bottom: 50px;
+}
+#fees .section-title h2 {
+  /* color: white; */
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+#fees .section-title h2::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+#fees .text {
+  color: white;
+}
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -710,9 +783,6 @@ header .intro-text {
 }
 #contact h3 {
   color: white;
-  margin-top: 80px;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
   font-weight: 400;
 }
 #contact form {
@@ -814,13 +884,6 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 389px;
-  height: 486px;
-}
 
 /* Our Model */
 #our-model {
@@ -831,6 +894,34 @@ label {
   margin-bottom: -40px;
 }
 
+#our-model .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 389px;
+  height: 490px;
+}
+
+/* Sponsors */
+#sponsors {
+  padding: 2rem;
+}
+
+#sponsors .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 389px;
+  height: 350px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 389px;
+  height: 350px;
+}
 /* Footer Section*/
 #footer {
   background: white;
@@ -932,6 +1023,10 @@ label {
   }
   #fonmm-form {
     margin-top: 190px;
+  }
+  .img-container {
+    width: auto;
+    height: auto;
   }
 }
 

@@ -145,7 +145,7 @@ const Finalists = (props) => {
         <div id='finalists' className='text-center'>
             <div className='container'>
                 <div className='section-title'>
-                    <h2>Our Finalists</h2>
+                    <h2 className={classes.text}>Our Finalists</h2>
                     <button className="btn btn-custom btn-lg" onClick={toggleView}>{
                         all
                         ? 'View Categories'

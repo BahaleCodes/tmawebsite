@@ -1,9 +1,9 @@
-import react from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 
 const OurModel = (props) => {
     return (
-        <div className="col-sm-6 col-md-4 col-lg-4">
+        <div id='our-model' className="col-sm-6 col-md-4 col-lg-4">
             <div className="portfolio-item">
                 <div className="hover-bg">
                     {" "}

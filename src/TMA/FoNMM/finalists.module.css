@@ -16,7 +16,7 @@
     flex-direction: column;
     place-items: center;
   }
-  h2{
+  .text{
     /* background: white; */
     color: #333;
     font-size: 26px;

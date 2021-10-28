@@ -1,17 +1,17 @@
 {
     "FAQ": [
-            {
-                "question": "Who can enroll?",
-                "answer": "Due to the fact that the academy is not stigmatized, plus size models, LGBTQI community are free to enroll."
-            },
-            {
-                "question": "Q21",
-                "answer": "A1"
-            },
-            {
-                "question": "Q1",
-                "answer": "A1"
-            }
+        {
+            "question": "Who can enroll?",
+            "answer": "Due to the fact that the academy is not stigmatized, plus size models, LGBTQI community are free to enroll."
+        },
+        {
+            "question": "Q21",
+            "answer": "A1"
+        },
+        {
+            "question": "Q1",
+            "answer": "A1"
+        }
     ],
     "Fitness": {
         "paragraph": "Taahirah Modeling Academy believes in keeping our models in shape. Their health and fitness is very important to us. As a result we offer:",
@@ -28,10 +28,10 @@
         ]
     },
     "Workshops": {
-        "paragraph": "TMA hosted its first workshop on the 29th of May 2021 at Mafikeng Innovation Hub. The purpose of the workshop was to officially welcome the models to the academy by educating them about the purpose of the academy. 2 guest speakers  were invited to have a talk with the models about being a leader, the importance of time management and the world of runway.",
-        "skills": [
-            "-Didintle Tlhabanyane",
-            "-Rebaone Mokwanatle"
+        "paragraph": "On the 18th of September 2021 we invited two influential women to speak with our models about self-acceptance and self-presentation.",
+        "speakers": [
+            "-Queen Molebatsi",
+            "-Rachel Shumba"
         ]
     },
     "Benefits": {
@@ -62,7 +62,8 @@
             "- For safety and security purposes, banking details will be sent to applicants via E-mail and WhatsApp after application form is submitted."
         ]
     },
-    "Team": [{
+    "Team": [
+        {
             "img": "img/team/01.jpg",
             "name": "John Doe",
             "job": "Director"
@@ -71,7 +72,8 @@
             "img": "img/team/02.jpg",
             "name": "Mike Doe",
             "job": "Senior Designer"
-        }, {
+        },
+        {
             "img": "img/team/03.jpg",
             "name": "Jane Doe",
             "job": "Senior Designer"
@@ -82,148 +84,183 @@
             "job": "Project Manager"
         }
     ],
-    "Models": [{
+    "Models": [
+        {
             "pic": "img/RemofilweDire/IMG_8593.jpg",
             "name": "Remofilwe Dire",
             "link": "/remofilwe"
-        },{
+        },
+        {
             "pic": "img/Tuelo/tuelo2.jpg",
             "name": "Tuelo Perez",
             "link": "/tuelo"
-        },{
+        },
+        {
             "pic": "img/Karabo/karabo.jpg",
             "name": "Karabo Sefatsa",
             "link": "/karabo"
-        },{
+        },
+        {
             "pic": "img/ThatoMotsatsi/ThatoM11.jpg",
             "name": "Thato Motsatsi",
             "link": "/thato"
-        },{
+        },
+        {
             "pic": "img/Refentse/IMG_8653.jpg",
             "name": "Refentse Phutieagae",
             "link": "/refentse"
-        },{
+        },
+        {
             "pic": "img/KitsoKwenamore/Kitso8.jpg",
             "name": "Kitso Kwenamore",
             "link": "/kitso"
-        },{
+        },
+        {
             "pic": "img/AyandaMbali/ayanda(2).jpg",
             "name": "Ayanda Mbali",
             "link": "/ayanda"
-        },{
+        },
+        {
             "pic": "img/BokamosoSebokolodi/BokamosoS(8).jpg",
             "name": "Bokamoso Sebokolodi",
             "link": "/bokamoso"
-        },{
+        },
+        {
             "pic": "img/BonoloDingoko/Bonolo17.jpg",
             "name": "Bonolo Dingoko",
             "link": "/bonolo-dingoko"
-        },{
+        },
+        {
             "pic": "img/BonoloSaliwe/Saliwe(8).jpg",
             "name": "Bonolo Saliwe",
             "link": "/bonolo-saliwe"
-        },{
+        },
+        {
             "pic": "img/BontleMokgosi/Bontle3.jpg",
             "name": "Bontle Mokgosi",
             "link": "/bontle"
-        },{
+        },
+        {
             "pic": "img/IpelengPelele/Ipeleng7.jpg",
             "name": "Ipeleng Pelele",
             "link": "/ipeleng"
-        },{
+        },
+        {
             "pic": "img/IzabelaMlambo/Izabella4.jpg",
             "name": "Izabela Mlambo",
             "link": "/izabella"
-        },{
+        },
+        {
             "pic": "img/JenniferGaegane/Jennifer4.jpg",
             "name": "Jennifer Gaegane",
             "link": "/jennifer"
-        },{
+        },
+        {
             "pic": "img/JeromeMolamu/Jerome7.jpg",
             "name": "Jerome Molamu",
             "link": "/jerome"
-        },{
+        },
+        {
             "pic": "img/JermaineSetzin/keenan(2).jpg",
             "name": "Jermaine Setzin",
             "link": "/keenan"
-        },{
+        },
+        {
             "pic": "img/KegomoditsweNageng/kegomoditswe4.jpg",
             "name": "Kegomoditswe Nageng",
-            "link": "/kegomoditswe" 
+            "link": "/kegomoditswe"
         },
         {
             "pic": "img/KekgabileMashaba/Kekgabile8.jpg",
             "name": "Kekgabile Mashaba",
             "link": "/kekgabile"
-        },{
+        },
+        {
             "pic": "img/KeletsoJonas/keletso(2).jpg",
             "name": "Keletso Jonas",
             "link": "/keletso"
-        },{
+        },
+        {
             "pic": "img/KetshepaoneDireng/ketshepaone(6).jpg",
             "name": "Ketshepaone Direng",
             "link": "/ketshepaone"
-        },{
+        },
+        {
             "pic": "img/LeratoPhologane/LeratoP4.jpg",
             "name": "Lerato Phologane",
             "link": "/lerato"
-        },{
+        },
+        {
             "pic": "img/MalebogoMashetla/Malebo(4).jpg",
             "name": "Malebogo Mashetla",
             "link": "/malebogo"
-        },{
+        },
+        {
             "pic": "img/MelagriesMlambo/Melagries6.jpg",
             "name": "Melagries Mlambo",
             "link": "/melagries"
-        },{
+        },
+        {
             "pic": "img/MiguelaMlambo/Miguela3.jpg",
             "name": "Miguela Mlambo",
             "link": "/miguela"
-        },{
+        },
+        {
             "pic": "img/NalediMmekwa/Naledi112.jpg",
             "name": "Naledi Mmekwa",
             "link": "/naledi-m"
-        },{
+        },
+        {
             "pic": "img/NalediSebokolodi/Mbali7.jpg",
             "name": "Naledi Sebokolodi",
             "link": "/naledi-s"
-        },{
+        },
+        {
             "pic": "img/OmphileMahura/OmphileM8.jpg",
             "name": "Omphile Mahura",
             "link": "/omphile"
-        },{
+        },
+        {
             "pic": "img/OrefileMale/Orefile13.jpg",
             "name": "Orefile Male",
             "link": "/orefile"
-        },{
+        },
+        {
             "pic": "img/OtengShuenyane/Oteng5.jpg",
             "name": "Oteng Shuenyane",
             "link": "/oteng"
-        },{
+        },
+        {
             "pic": "img/PabaleloMotlhabedi/Pabalelo6.jpg",
             "name": "Pabalelo Motlhabedi",
             "link": "/pabalelo"
-        },{
+        },
+        {
             "pic": "img/RemofilweBadise/Badise4.jpg",
             "name": "Remofilwe Badise",
             "link": "/remofilwe-b"
-        },{
+        },
+        {
             "pic": "img/ThabisoMakoto/Thabiso7.jpg",
             "name": "Thabiso Makoto",
             "link": "/thabiso"
-        },{
+        },
+        {
             "pic": "img/ThaboBadirwang/Thabo12.jpg",
             "name": "Thabo Badirwang",
             "link": "/thabo"
-        },{
+        },
+        {
             "pic": "img/TshegofatsoTshepe/Tshegofatso6.jpg",
             "name": "Tshegofatso Tshepe",
             "link": "/tshegofatso"
-        },{
+        },
+        {
             "pic": "img/TlotlegoSephiri/Tlotlego2.jpg",
             "name": "Tlotlego Sephiri",
             "link": "/tlotlego"
-        },{
+        },
+        {
             "pic": "img/ZureidaLeepo/Zureida13.jpg",
             "name": "Zureida Leepo",
             "link": "/zureida"
@@ -257,17 +294,25 @@
             "/img/IMG_8664.jpg"
         ]
     },
-    
     "Contact": {
         "address": "2696 James Watt Cres, Mafikeng Industrial, Mahikeng, 2745",
         "phone": "+27 81 361 3191",
         "email": "t.modelingacademy@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/taahirah-zungu-95a194203/?originalSubdomain=za",
         "facebook": "https://www.facebook.com/Taahirah-Modeling-Academy-100298541503442/",
-        "instagram": "https://www.instagram.com/taahirah_modeling_academy/?hl=en",
-        "paragraph": "TAAHIRAH MODELING ACADEMY established in 2019, with the aim to illuminate models with the modeling industry by pinning its focus firstly on modeling fundamental features such as cultivating one’s self esteem, confidence, and personality. Secondly, we will educate models with aspects such as runway and pageant walks; public speaking and fashion sense. Thirdly, the academy will outline how modeling and fitness intertwine. Furthermore, the academy will partake in encountering communal activities as part of the TMA charity foundation, like the community outreach. TAAHIRAH MODELING ACADEMY is a licensed agency located in North West, Mahikeng In addition to being a start-up academy in Mahikeng, we offer modeling development, photoshoot skills, public speaking skills, pageant and runway skills and life skills. Our mission is to provide them with training and once they are well trained, we take them to various competitions locally and nationally. TAAHIRAH MODELING ACADEMY represents both males and females between 5-35 years of age, including Plus Size and LGBTQ models."
+        "instagram": "https://www.instagram.com/taahirah_modeling_academy/?hl=en"
     },
     "About": {
-        "paragraph": "TAAHIRAH MODELING ACADEMY established in 2019, with the aim to illuminate models with the modeling industry by pinning its focus firstly on modeling fundamental features such as cultivating one’s self esteem, confidence, and personality. Secondly, we will educate models with aspects such as runway and pageant walks; public speaking and fashion sense. Thirdly, the academy will outline how modeling and fitness intertwine. Furthermore, the academy will partake in encountering communal activities as part of the TMA charity foundation, like the community outreach. TAAHIRAH MODELING ACADEMY is a licensed agency located in North West, Mahikeng In addition to being a start-up academy in Mahikeng, we offer modeling development, photoshoot skills, public speaking skills, pageant and runway skills and life skills. Our mission is to provide them with training and once they are well trained, we take them to various competitions locally and nationally. TAAHIRAH MODELING ACADEMY represents both males and females between 5-35 years of age, including Plus Size and LGBTQ models."
+        "paragraph": "TAAHIRAH MODELING ACADEMY established in 2019, with the aim to illuminate models with the modeling industry by pinning its focus firstly on modeling fundamental features such as cultivating one’s self esteem, confidence, and personality. Secondly, we will educate models with aspects such as runway and pageant walks; public speaking and fashion sense. Thirdly, the academy will outline how modeling and fitness intertwine. Furthermore, the academy will partake in encountering communal activities as part of the TMA charity foundation, like the community outreach. TAAHIRAH MODELING ACADEMY is a licensed agency located in North West, Mahikeng In addition to being a start-up academy in Mahikeng, we offer modeling development, photoshoot skills, public speaking skills, pageant and runway skills and life skills. Our mission is to provide them with training and once they are well trained, we take them to various competitions locally and nationally. TAAHIRAH MODELING ACADEMY represents both males and females between 5-35 years of age, including Plus Size and LGBTQ models.",
+        "sec2": [
+            {
+                "heading": "Vision and Mission",
+                "body": "Our vision is to have our own establishment where we will fulfill. Our mission of empowering, growing and cultivating various skills and talents that our youth have."
+            },
+            {
+                "heading": "Value Preposition",
+                "body": "The value preposition of the academy is to build a solid foundation for the youth to prepare them for bigger and future while taking up their spaces."
+            }
+        ]
     }
 }

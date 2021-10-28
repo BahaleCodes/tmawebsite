@@ -45,10 +45,11 @@ import RemofilweBadise from './TMA/OurModels/RemofilweBadise/RemofilweBadise';
 import jerome from './TMA/OurModels/Jerome/Jerome';
 import kegomoditswe from './TMA/OurModels/Kegomoditswe/Kegomoditswe';
 import tshegofatso from './TMA/OurModels/Tshegofatso/Tshegofatso';
-import Model from './TMA/OurModels/Model';
-import Fonmm from './TMA/FoNMM/fonmm';
 import fonmmForm from './TMA/FoNMM/fonmm-form';
 import Finalists from './TMA/FoNMM/finalists';
+import About from './TMA/About';
+import Navigation from './TMA/Navigation';
+import Footer from './Components/footer';
 
 export class App extends Component {
 	state = {
@@ -65,10 +66,12 @@ export class App extends Component {
 	render() {
 		return (
 			<div>
+				<Navigation />
 				<Route path="/" exact component={Sections} />
 				<Route path='/fonmm' component={fonmmForm} />
 				<Route path="/tma" component={Tma} />
 				{/* <Route path="/charity" component={Charity} /> */}
+				<Route path='/about-us' component={About} />
 				<Route path="/remofilwe" component={Remofilwe} />
 				<Route path="/tuelo" component={Tuelo} />
 				<Route path="/karabo" component={Karabo} />
@@ -105,8 +108,9 @@ export class App extends Component {
 				<Route path="/jerome" component={jerome} />
 				<Route path="/kegomoditswe" component={kegomoditswe} />
 				<Route path="/tshegofatso" component={tshegofatso} />
-				{/* <Route path="/application" component={AppForm} /> */}
+				<Route path="/applications" component={AppForm} />
 				<Route path='/finalists' render={(props) => (<Finalists data={this.state.landingPageData.fonmm}/>)} />
+				<Footer />
 			</div>
 		)
 	}
