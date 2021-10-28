@@ -21,7 +21,10 @@ const Contact = (props) => {
 	};
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		setData({ ...data, loading: true });
+		setData({
+			 ...data, 
+			 loading: true 
+		});
 		var nm = data.name;
 		var mess = data.message;
 		let templateParams = {
@@ -32,15 +35,27 @@ const Contact = (props) => {
 			from_email: data.email
 		};
 		emailjs.send(apiKeys.SERVICE_ID, "template_spkntrh", templateParams, apiKeys.USER_ID)
+		// emailjs.send("service_13w7zra", "template_bl9tkd7", templateParams, "user_dNtvx5ZFPmW0TGSPuEaZ6")
 			.then(result => {
 				alert('Message sent, we will respond shortly. Thank you.', result.text);
-				setData({ loading: false });
+				setData({ 
+					loading: false,
+					done: true
+				});
 			},
 				error => {
 					alert('An error was encounter, Please try again', error.text);
-					setData({ loading: false });
+					setData({ 
+						loading: false ,
+						error: true
+					});
 				}
 			)
+			setData({
+				...data,
+				done: true,
+				loading: false
+			})
 	}
 	const form = (
 		<form name="sentMessage" id="contactForm" onSubmit={handleSubmit}>
@@ -53,7 +68,6 @@ const Contact = (props) => {
 							className="form-control"
 							placeholder="Name"
 							required
-							value={data.name}
 							onChange={handleInputChange}
 						/>
 						<p className="help-block text-danger"></p>
@@ -67,7 +81,6 @@ const Contact = (props) => {
 							className="form-control"
 							placeholder="Email"
 							required="required"
-							value={data.email}
 							onChange={handleInputChange}
 						/>
 						<p className="help-block text-danger"></p>
@@ -82,7 +95,6 @@ const Contact = (props) => {
 					rows="4"
 					placeholder="Message"
 					required
-					value={data.message}
 					onChange={handleInputChange}
 				></textarea>
 				<p className="help-block text-danger"></p>
@@ -92,9 +104,33 @@ const Contact = (props) => {
 			</button>
 		</form>
 	)
-	const loading = (
+	const loadingForm = (
 		<div>
 			<Spinner />
+		</div>
+	);
+	const errorForm = (
+		<div className='body-padding text-center'>
+			<h1>ERROR!</h1>
+			<h1>Please try again</h1>
+			<button className='btn-custom' onClick={() => {
+				setData({
+					name: "",
+					email: "",
+					message: "",
+					loading: false,
+					error: false,
+					done: false
+				})
+			}} >Try Again</button>
+		</div>
+	);
+	const doneForm = (
+		<div className='body-padding text-center'>
+			<div className='section-title'>
+				<h1>Keep an eye open for a responce from the academy</h1>
+			</div>
+			<a href={'/tma'} className='btn-custom'>DONE</a>
 		</div>
 	)
 
@@ -113,9 +149,9 @@ const Contact = (props) => {
 								</p>
 							</div>
 							{!data.loading && !data.error && !data.done && form}
-							{data.loading && !data.error && !data.done}
-							{!data.loading && data.error && !data.done}
-							{!data.loading && !data.error && data.done}
+							{data.loading && !data.error && !data.done && loadingForm}
+							{!data.loading && data.error && !data.done && errorForm}
+							{!data.loading && !data.error && data.done && doneForm}
 						</div>
 					</div>
 					<div className="col-md-3 col-md-offset-1 contact-info">

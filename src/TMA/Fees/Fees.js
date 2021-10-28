@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Fees = (props) => {
+const Fees = () => {
     return (
         <div id='fees'>
             <div className='container'>

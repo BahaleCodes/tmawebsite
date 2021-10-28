@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import ImageSlider from '../../../Components/ImageSlider/ImageSlider';
 
-class ayanda extends Component{
+class ayanda extends Component {
     render() {
         const { state } = this.props.location;
         return (
@@ -12,9 +12,9 @@ class ayanda extends Component{
                     <h1>{state.name}</h1>
                 </div>
                 <ImageSlider images={[
-                                    'img/AyandaMbali/ayanda.jpg',
-                                    'img/AyandaMbali/ayanda(2).jpg'
-                                ]}/>
+                    'img/AyandaMbali/ayanda.jpg',
+                    'img/AyandaMbali/ayanda(2).jpg'
+                ]} />
             </div>
         )
     }
