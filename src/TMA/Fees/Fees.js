@@ -39,8 +39,8 @@ const Fees = () => {
                         <ul>
                             <li> - Registration fee: R180</li>
                             <li> - Monthly fee: R400</li>
-                            <li> - Quarterly fee (every 3 months): R1900</li>
-                            <li> - Once off payment (11 months): R4390</li>
+                            <li> - Quarterly fee (every 3 months): R1100</li>
+                            <li> - Once off payment (11 months): R4300</li>
                         </ul>
                     </div>
                 </div>

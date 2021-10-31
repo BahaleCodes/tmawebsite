@@ -17,7 +17,7 @@ const Navigation = () => {
 						<span className="icon-bar"></span>{" "}
 						<span className="icon-bar"></span>{" "}
 					</button>
-					<a className='navbar-brand page-scroll' href='/'>
+					<a className='navbar-brand page-scroll' href='/tma'>
 						<div className="nav-pic">
 							<img alt="Company Logo" className="img" src="img/TMA.jpg" />
 						</div>

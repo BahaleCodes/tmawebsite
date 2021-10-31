@@ -989,7 +989,7 @@ label {
   background-color: black;
   margin-top: 85px;
 }
-#app-form h2, h3, h4{
+#app-form .text{
   color: white;
 }
 #app-form .form-control{
