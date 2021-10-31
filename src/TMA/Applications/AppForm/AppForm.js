@@ -25,6 +25,9 @@ const AppForm = (props) => {
         shoesize: null,
         shirtsize: null,
         loading: false,
+        done: false, 
+        error: false,
+        minor: false
     });
 
     const handleInputChange = event => {
@@ -84,7 +87,7 @@ const AppForm = (props) => {
         emailjs.send(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, templateParams, apiKeys.USER_ID)
             .then(result => {
                 alert('Message sent, We will respond shortly. Thank you. Please go back to the Home page', result.text);
-                setData({ loading: false });
+                setData({ loading: false, done: true });
             },
                 error => {
                     alert('An error was encounter, Please try again', error.text);
@@ -105,7 +108,11 @@ const AppForm = (props) => {
         <form className={"AppForm"} onSubmit={handleSubmit} >
             <h1>Applicant's Information</h1>
             <div className="container">
-                <h4>Full Name</h4>
+                <h4>First Name</h4>
+                <input type="text" value={data.fullname} onChange={handleInputChange} name="fullname" size="50" placeholder="Your Answer" required />
+                <br />
+                <br />
+                <h4>Last Name</h4>
                 <input type="text" value={data.fullname} onChange={handleInputChange} name="fullname" size="50" placeholder="Your Answer" required />
                 <br />
                 <br />
@@ -113,14 +120,14 @@ const AppForm = (props) => {
             <br />
             <div className="container">
                 <h4>Age (must be between 5-35 years)</h4>
-                <input type="text" value={data.age} onChange={handleInputChange} name="age" size="50" placeholder="Your Answer" required />
+                <input  type="text" value={data.age} onChange={handleInputChange} name="age" size="50" placeholder="Your Answer" required />
                 <br />
                 <br />
             </div>
             <br />
             <div className="container">
                 <h4>ID Number</h4>
-                <input type="text" value={data.idnumber} onChange={handleInputChange} name="idnumber" size="50" placeholder="Your Answer" required />
+                <input  type="text" value={data.idnumber} onChange={handleInputChange} name="idnumber" size="50" placeholder="Your Answer" required />
                 <br />
                 <br />
             </div>
@@ -164,14 +171,14 @@ const AppForm = (props) => {
             <br />
             <div className="container">
                 <h4>Contact Number</h4>
-                <input value={data.contactnumber} onChange={handleInputChange} type="text" name="contactnumber" size="50" placeholder="Your Answer" required />
+                <input  value={data.contactnumber} onChange={handleInputChange} type="text" name="contactnumber" size="50" placeholder="Your Answer" required />
                 <br />
                 <br />
             </div>
             <br />
             <div className="container">
                 <h4>Email Address</h4>
-                <input value={data.email} onChange={handleInputChange} type="email" name="email" size="50" placeholder="Your Answer" required />
+                <input  value={data.email} onChange={handleInputChange} type="email" name="email" size="50" placeholder="Your Answer" required />
                 <br />
                 <br />
             </div>
@@ -181,15 +188,15 @@ const AppForm = (props) => {
             <div className="container">
                 <br />
                 <h4>Relationship to child</h4>
-                <input value={data.relationship} onChange={handleInputChange} type="text" name="relationship" size="50" placeholder="Your answer" />
+                <input  value={data.relationship} onChange={handleInputChange} type="text" name="relationship" size="50" placeholder="Your answer" />
                 <br />
                 { }
                 <br />
             </div>
-            <br />
+            <br />  
             <div className="container">
                 <h4>Name and Surname</h4>
-                <input value={data.guardname} onChange={handleInputChange} type="text" name="gname" size="50" placeholder="Your answer" />
+                <input  value={data.guardname} onChange={handleInputChange} type="text" name="gname" size="50" placeholder="Your answer" />
                 <br />
                 { }
                 <br />
@@ -197,12 +204,12 @@ const AppForm = (props) => {
             <br />
             <div className="container">
                 <h4>Contact Number</h4>
-                <input value={data.guardnumber} onChange={handleInputChange} type="text" name="gnumber" size="50" placeholder="Your answer" />
+                <input  value={data.guardnumber} onChange={handleInputChange} type="text" name="gnumber" size="50" placeholder="Your answer" />
             </div>
             <br />
             <div className="container">
                 <h4>Email Address</h4>
-                <input value={data.guardemail} onChange={handleInputChange} type="text" name="gemail" size="50" placeholder="Your answer" />
+                <input  value={data.guardemail} onChange={handleInputChange} type="text" name="gemail" size="50" placeholder="Your answer" />
 
             </div>
             <br />
@@ -212,7 +219,7 @@ const AppForm = (props) => {
             <div className="container">
                 <br />
                 <h4>Height (cm)</h4>
-                <input value={data.height} onChange={handleInputChange} type="text" name="height" size="10" placeholder="Your answer" required />
+                <input  value={data.height} onChange={handleInputChange} type="text" name="height" size="10" placeholder="Your answer" required />
                 <br />
                 { }
                 <br />
@@ -220,7 +227,7 @@ const AppForm = (props) => {
             <br />
             <div className="container">
                 <h4>Weight (kg)</h4>
-                <input value={data.weight} onChange={handleInputChange} type="text" name="weight" size="10" placeholder="Your answer" required />
+                <input  value={data.weight} onChange={handleInputChange} type="text" name="weight" size="10" placeholder="Your answer" required />
                 <br />
                 { }
                 <br />
@@ -228,12 +235,12 @@ const AppForm = (props) => {
             <br />
             <div className="container">
                 <h4>Waist (cm)</h4>
-                <input value={data.waist} onChange={handleInputChange} type="text" name="waist" size="10" placeholder="Your answer" required />
+                <input  value={data.waist} onChange={handleInputChange} type="text" name="waist" size="10" placeholder="Your answer" required />
             </div>
             <br />
             <div className="container">
                 <h4>Shoe size</h4>
-                <input value={data.shoesize} onChange={handleInputChange} type="text" name="shoesize" size="10" placeholder="Your answer" required />
+                <input  value={data.shoesize} onChange={handleInputChange} type="text" name="shoesize" size="10" placeholder="Your answer" required />
             </div>
             <div className="container">
                 <h4>T-shirt size</h4>
@@ -279,15 +286,17 @@ const AppForm = (props) => {
         form = <Spinner />;
     }
     return (
-        <div id="contact" className="text-center">
+        <div id="app-form" className="text-center">
             <Helmet>
                 <title>Application</title>
             </Helmet>
             <div className="container">
                 <div className="Heading">
                     <h2>TMA Application Form</h2>
-                    <h3>Applications are currently closed. However, we will be accepting applications for 2022 from the 1st of November.</h3>
+                    <h3>Applications are currently open.</h3>
+                    <h3>Please fill in the following form with your information</h3>
                     <br></br>
+                    {form}
                 </div>
                 <div className="col-md-12">
                     <div className="row">

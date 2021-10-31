@@ -984,6 +984,34 @@ label {
 #footer .social i.fa:hover {
   color: #800;
 }
+
+#app-form {
+  background-color: black;
+  margin-top: 85px;
+}
+#app-form h2, h3, h4{
+  color: white;
+}
+#app-form .form-control{
+  width: 35rem;
+}
+#app-form .AppForm {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+}
+#app-form .AppForm input, select {
+  margin-bottom: 1rem;
+  width: 32rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  color: black;
+  border-bottom: 2px solid black;
+}
 @media (min-width: 320px) {
   #footer .footer-img {
     width: 45px;
@@ -1068,5 +1096,26 @@ label {
     height: 50px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 325px) {
+  #app-form .AppForm input, select {
+    margin-bottom: 1rem;
+    width: 27rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    color: black;
+    border-bottom: 2px solid black;
+  }
 }
+@media only screen and (max-width: 290px) {
+  #app-form .AppForm input, select {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  }
+  
