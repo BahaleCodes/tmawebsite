@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import ReactWhatsapp from "react-whatsapp";
 
 import apiKeys from '../Applications/AppForm/apiKeys';
 import Spinner from "../../Components/Spinner/Spinner";
@@ -19,11 +20,11 @@ const Contact = (props) => {
 			[event.target.name]: event.target.value
 		});
 	};
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setData({
-			 ...data, 
-			 loading: true 
+			...data,
+			loading: true
 		});
 		var nm = data.name;
 		var mess = data.message;
@@ -34,28 +35,28 @@ const Contact = (props) => {
 			message_html: mess,
 			from_email: data.email
 		};
-		emailjs.send(apiKeys.SERVICE_ID, "template_spkntrh", templateParams, apiKeys.USER_ID)
-		// emailjs.send("service_13w7zra", "template_bl9tkd7", templateParams, "user_dNtvx5ZFPmW0TGSPuEaZ6")
+		await emailjs.send(apiKeys.SERVICE_ID, "template_spkntrh", templateParams, apiKeys.USER_ID)
+			// emailjs.send("service_13w7zra", "template_bl9tkd7", templateParams, "user_dNtvx5ZFPmW0TGSPuEaZ6")
 			.then(result => {
 				alert('Message sent, we will respond shortly. Thank you.', result.text);
-				setData({ 
+				setData({
 					loading: false,
 					done: true
 				});
 			},
 				error => {
 					alert('An error was encounter, Please try again', error.text);
-					setData({ 
-						loading: false ,
+					setData({
+						loading: false,
 						error: true
 					});
 				}
 			)
-			setData({
-				...data,
-				done: true,
-				loading: false
-			})
+		setData({
+			...data,
+			done: true,
+			loading: false
+		})
 	}
 	const form = (
 		<form name="sentMessage" id="contactForm" onSubmit={handleSubmit}>
@@ -200,6 +201,18 @@ const Contact = (props) => {
 										<a href={props.data ? props.data.instagram : '/'} >
 											<i className="fa fa-instagram"></i>
 										</a>
+									</li>
+									<li>
+										<ReactWhatsapp
+											number="+27-81-361-3191"
+											message={data.message}
+											type="submit"
+											style={{
+												border: "none",
+												backgroundColor: "black"
+											}}>
+											<i className='fa fa-whatsapp' style={{ color: "green" }}></i>
+										</ReactWhatsapp>
 									</li>
 								</ul>
 							</div>

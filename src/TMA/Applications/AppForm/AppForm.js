@@ -7,27 +7,27 @@ import Spinner from '../../../Components/Spinner/Spinner';
 
 const AppForm = (props) => {
     const [data, setData] = useState({
-        fullname: null,
-        age: null,
-        idnumber: null,
-        sex: null,
-        status: null,
-        occupation: null,
-        contactnumber: null,
-        email: null,
-        relationship: null,
-        guardname: null,
-        guardnumber: null,
-        guardemail: null,
-        height: null,
-        weight: null,
-        waist: null,
-        shoesize: null,
-        shirtsize: null,
+        firstName: "null",
+        lastName: "null",
+        age: "null",
+        sex: "null",
+        status: "null",
+        occupation: "null",
+        contactnumber: "null",
+        email: "null",
+        relationship: "null",
+        guardfname: "null",
+        guardlname: "null",
+        guardnumber: "null",
+        guardemail: "null",
+        height: "null",
+        weight: "null",
+        waist: "null",
+        shoesize: "null",
+        shirtsize: "null",
         loading: false,
-        done: false, 
+        done: false,
         error: false,
-        minor: false
     });
 
     const handleInputChange = event => {
@@ -36,65 +36,111 @@ const AppForm = (props) => {
             [event.target.name]: event.target.value
         });
     };
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setData({ 
+        setData({
             ...data,
-            loading: true 
+            loading: true
         });
-        var nm = data.fullname;
-        var ag = data.age;
-        var idn = data.idnumber;
-        var st = data.status;
-        var gen = data.sex;
-        var wrk = data.occupation;
-        var nmb = data.contactnumber;
-        var eml = data.email;
-        var gardname = data.guardname;
-        var gardemail = data.guardemail;
-        var gardnum = data.guardnumber;
-        var gardrele = data.relationship;
+        var nm = `${data.firstName} ${data.lastName}`;
 
-        var h = data.height;
-        var w = data.weight;
-        var wa = data.waist;
-        var ss = data.shoesize;
-        var tss = data.shirtsize;
-
-        const message = JSON.stringify(data);
+        const message = `You have an application from ${nm}.`
         let templateParams = {
             from_name: nm,
             name: 'Taahirah',
             subject: 'Application Form',
-            age: ag,
-            idNum: idn,
-            status: st,
-            gender: gen,
-            work: wrk,
-            num: nmb,
-            email: eml,
-            gardian: "Guardian Name: " + gardname +
-                ", Guardian E-mail: " + gardemail +
-                ", Guardian Number: " + gardnum +
-                ", Guardian Relationship: " + gardrele,
-            height: h,
-            weight: w,
-            waist: wa,
-            shoe: ss,
-            size: tss,
+            email: data.email,
             message_html: message
         };
-        emailjs.send(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, templateParams, apiKeys.USER_ID)
+        await fetch('http://localhost:8000/api/model/create', {
+            method: 'POST',
+            body: JSON.stringify({
+                "firstName": data.firstName,
+                "lastName": data.lastName,
+                "age": data.age,
+                "sex": data.sex,
+                "status": data.status,
+                "occupation": data.occupation,
+                "contactnumber": data.contactnumber,
+                "email": data.email,
+                "relationshipToChild": data.relationship,
+                "guardFirstname": data.guardfname,
+                "guardLastname": data.guardlname,
+                "guardnumber": data.guardnumber,
+                "guardemail": data.guardemail,
+                "height": data.height,
+                "weight": data.weight,
+                "waist": data.waist,
+                "shoesize": data.shoesize,
+                "shirtsize": data.shirtsize
+            }),
+            headers: ({
+                "Content-Type": "application/json"
+            })
+        })
             .then(result => {
-                alert('Message sent, We will respond shortly. Thank you. Please go back to the Home page', result.text);
-                setData({ loading: false, done: true });
-            },
-                error => {
-                    alert('An error was encounter, Please try again', error.text);
-                    setData({ loading: false });
+                if (result.ok) {
+                    emailjs.send(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, templateParams, apiKeys.USER_ID)
+                        .then(result => {
+                            alert('Message sent, We will respond shortly. Thank you. Please go back to the Home page', result.text);
+                            setData({
+                                loading: false,
+                                done: true
+                            });
+                        },
+                            error => {
+                                alert('An error was encounter, Please try again', error.text);
+                                setData({
+                                    loading: false,
+                                    error: true
+                                });
+                            }
+                        )
                 }
-            )
-        console.log(data.fullname);
+            })
+            .then(() => {
+                fetch('https://tmaapi.herokuapp.com/api/application/', {
+                    method: 'POST',
+                    body: JSON.stringify({
+                        "firstName": data.firstName,
+                        "lastName": data.lastName,
+                        "age": data.age,
+                        "sex": data.sex,
+                        "idNum": "null",
+                        "status": data.status,
+                        "occupation": data.occupation,
+                        "contactnumber": data.contactnumber,
+                        "email": data.email,
+                        "relationshipToChild": data.relationship,
+                        "guardFirstname": data.guardfname,
+                        "guardLastname": data.guardlname,
+                        "guardnumber": data.guardnumber,
+                        "guardemail": data.guardemail,
+                        "height": data.height,
+                        "weight": data.weight,
+                        "waist": data.waist,
+                        "shoesize": data.shoesize,
+                        "shirtsize": data.shirtsize
+                    }),
+                    headers: ({
+                        "Content-Type": "application/json"
+                    })
+                })
+            })
+            .catch(() => {
+                alert('An error was encounter, Please try again');
+                setData({
+                    loading: false,
+                    done: false,
+                    error: true
+                });
+            })
+        // setData({
+        //     ...data,
+        //     done: true,
+        //     error: false,
+        //     loading: false
+        // })
     }
 
     const formElementsArray = [];
@@ -104,181 +150,269 @@ const AppForm = (props) => {
             config: data[key]
         });
     }
-    let form = (
-        <form className={"AppForm"} onSubmit={handleSubmit} >
-            <h1 className='text'>Applicant's Information</h1>
-            <div className="container">
-                <h4 className='text'>First Name</h4>
-                <input type="text" value={data.fullname} onChange={handleInputChange} name="fullname" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-                <h4 className='text'>Last Name</h4>
-                <input type="text" value={data.fullname} onChange={handleInputChange} name="fullname" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Age (must be between 5-35 years)</h4>
-                <input  type="text" value={data.age} onChange={handleInputChange} name="age" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>ID Number</h4>
-                <input  type="text" value={data.idnumber} onChange={handleInputChange} name="idnumber" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Status</h4>
-                <select onChange={handleInputChange} value={data.status} className="dropdown" required >
-                    <option value={"null"}>Your Answer</option>
-                    <option value={"Married"}>Married</option>
-                    <option value={"Single"}>Single</option>
-                    <option value={"Divorced"}>Divorced</option>
-                    <option value={"Separated"}>Separated</option>
-                </select>
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Sex</h4>
-                <select onChange={handleInputChange} value={data.sex} className="dropdown" required >
-                    <option value={"null"}>Your Answer</option>
-                    <option value={"Female"}>Female</option>
-                    <option value={"Male"}>Male</option>
-                    <option value={"LGBTG"}>LGBTG</option>
-                </select>
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Occupation</h4>
-                <select onChange={handleInputChange} value={data.occupation} className="dropdown" required >
-                    <option value={"null"}>Your Answer</option>
-                    <option value={"Student"}>Student</option>
-                    <option value={"Unemployed"}>Unemployed</option>
-                    <option value={"Employed"}>Employed</option>
-                </select>
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Contact Number</h4>
-                <input  value={data.contactnumber} onChange={handleInputChange} type="text" name="contactnumber" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Email Address</h4>
-                <input  value={data.email} onChange={handleInputChange} type="email" name="email" size="50" placeholder="Your Answer" required />
-                <br />
-                <br />
-            </div>
-            <br />
+    const guardian = (
+        <div>
             <h1 className='text'>Guardian details</h1>
             <h4 className='text'>Please enter the guardian’s details if you are under 18 years</h4>
-            <div className="container">
-                <br />
-                <h4 className='text'>Relationship to child</h4>
-                <input  value={data.relationship} onChange={handleInputChange} type="text" name="relationship" size="50" placeholder="Your answer" />
-                <br />
-                { }
-                <br />
-            </div>
-            <br />  
-            <div className="container">
-                <h4 className='text'>Name and Surname</h4>
-                <input  value={data.guardname} onChange={handleInputChange} type="text" name="gname" size="50" placeholder="Your answer" />
-                <br />
-                { }
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Contact Number</h4>
-                <input  value={data.guardnumber} onChange={handleInputChange} type="text" name="gnumber" size="50" placeholder="Your answer" />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Email Address</h4>
-                <input  value={data.guardemail} onChange={handleInputChange} type="text" name="gemail" size="50" placeholder="Your answer" />
+            <h4 className='text'>Relationship to child</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="relationship"
+                size="50"
+                placeholder="Your answer" />
+            <h4 className='text'>First Name</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="guardfname"
+                size="50"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Surname</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="guardlname"
+                size="50"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Contact Number</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="guardnumber"
+                size="50"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Email Address</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="guardemail"
+                size="50"
+                placeholder="Your answer"
+            />
+        </div>
+    )
+    const form = (
+        <form className={"AppForm"} onSubmit={handleSubmit} >
+            <h1 className='text'>Applicant's Information</h1>
+            <h4 className='text'>First Name</h4>
+            <input
+                type="text"
+                onChange={handleInputChange}
+                name="firstName"
+                size="50"
+                placeholder="Your Answer"
+            />
+            <h4 className='text'>Last Name</h4>
+            <input
+                type="text"
+                onChange={handleInputChange}
+                name="lastName"
+                size="50"
+                placeholder="Your Answer"
+            />
+            <h4 className='text'>Age (must be between 5-35 years)</h4>
+            <input
+                type="text"
+                onChange={handleInputChange}
+                name="age"
+                size="50"
+                placeholder="Your Answer"
+            />
+            <h4 className='text'>Status</h4>
+            <select onChange={handleInputChange} className="dropdown" name='status' >
+                <option value={"null"}>Your Answer</option>
+                <option value={"Married"}>Married</option>
+                <option value={"Single"}>Single</option>
+                <option value={"Divorced"}>Divorced</option>
+                <option value={"Separated"}>Separated</option>
+            </select>
 
-            </div>
-            <br />
+
+            <h4 className='text'>Sex</h4>
+            <select onChange={handleInputChange} className="dropdown" name='sex' >
+                <option value={"null"}>Your Answer</option>
+                <option value={"Female"}>Female</option>
+                <option value={"Male"}>Male</option>
+                <option value={"LGBTG"}>LGBTG</option>
+            </select>
+
+
+            <h4 className='text'>Occupation</h4>
+            <select onChange={handleInputChange} className="dropdown" name='occupation' >
+                <option value={"null"}>Your Answer</option>
+                <option value={"Student"}>Student</option>
+                <option value={"Unemployed"}>Unemployed</option>
+                <option value={"Employed"}>Employed</option>
+            </select>
+            <h4 className='text'>Contact Number</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="contactnumber"
+                size="50"
+                placeholder="Your Answer"
+            />
+            <h4 className='text'>Email Address</h4>
+            <input
+                onChange={handleInputChange}
+                type="email"
+                name="email"
+                size="50"
+                placeholder="Your Answer"
+            />
+            {
+                data.age < 18
+                    ? guardian
+                    : <br />
+            }
             <div className="section-title"></div>
             <h1 className='text'>Measurements</h1>
             <h4 className='text'>Due to COVID-19, we will only have photo-shoots, private lessons and online coaching.</h4>
-            <div className="container">
-                <br />
-                <h4 className='text'>Height (cm)</h4>
-                <input  value={data.height} onChange={handleInputChange} type="text" name="height" size="10" placeholder="Your answer" required />
-                <br />
-                { }
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Weight (kg)</h4>
-                <input  value={data.weight} onChange={handleInputChange} type="text" name="weight" size="10" placeholder="Your answer" required />
-                <br />
-                { }
-                <br />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Waist (cm)</h4>
-                <input  value={data.waist} onChange={handleInputChange} type="text" name="waist" size="10" placeholder="Your answer" required />
-            </div>
-            <br />
-            <div className="container">
-                <h4 className='text'>Shoe size</h4>
-                <input  value={data.shoesize} onChange={handleInputChange} type="text" name="shoesize" size="10" placeholder="Your answer" required />
-            </div>
-            <div className="container">
-                <h4 className='text'>T-shirt size</h4>
-                <select onChange={handleInputChange} value={data.shirtsize} className="dropdown" required >
-                    <option value={"null"}>Your Answer</option>
-                    <option value={"XS"}>XS</option>
-                    <option value={"S"}>S</option>
-                    <option value={"M"}>M</option>
-                    <option value={"L"}>L</option>
-                    <option value={"XL"}>XL</option>
-                    <option value={"XXL"}>XXL</option>
-                </select>
-                <br />
-                <br />
-            </div>
-            <div className="container">
-                <h1 className='text'>N.B for application to be considered please remember to pay the application fee:</h1>
-                <h3 className='text'>Please revisit the <a className='text' href='/tma#fees'>2022 Fees Packages</a> in the landing page to get more information howmuch you should pay</h3>
-                <br />
-                <br />
-                <h1 className='text'>Banking Details</h1>
-                <h3 className='text'>Information on the banking details will be sent to you, as soon as application is reviewed</h3>
-                <br />
-                <h1 className='text'>After paying, please remember to email you:</h1>
-                <h4 className='text'>Proof of payment</h4>
-                <h4 className='text'>Copy of ID</h4>
-                <h4 className='text'>Half and full length Picture</h4>
-            </div>
-            <br />
-            <br />
+            <h4 className='text'>Height (cm)</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="height"
+                size="10"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Weight (kg)</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="weight"
+                size="10"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Waist (cm)</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="waist"
+                size="10"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>Shoe size</h4>
+            <input
+                onChange={handleInputChange}
+                type="text"
+                name="shoesize"
+                size="10"
+                placeholder="Your answer"
+            />
+            <h4 className='text'>T-shirt size</h4>
+            <select onChange={handleInputChange} className="dropdown" name='shirtsize' >
+                <option value={"null"}>Your Answer</option>
+                <option value={"XS"}>XS</option>
+                <option value={"S"}>S</option>
+                <option value={"M"}>M</option>
+                <option value={"L"}>L</option>
+                <option value={"XL"}>XL</option>
+                <option value={"XXL"}>XXL</option>
+            </select>
+            <h1 className='text'>N.B for application to be considered please remember to pay the application fee:</h1>
+            <h3 className='text'>Please revisit the <a className='text' href='/tma#fees'>2022 Fees Packages</a> in the landing page to get more information howmuch you should pay</h3>
+
+            <h1 className='text'>Banking Details</h1>
+            <h3 className='text'>Information on the banking details will be sent to you, as soon as application is reviewed</h3>
+
+            <h1 className='text'>After paying, please remember to email you:</h1>
+            <h4 className='text'>Proof of payment</h4>
+            <h4 className='text'>Copy of ID</h4>
+            <h4 className='text'>Half and full length Picture</h4>
+
+
             <button className="Apply">
                 Submit
             </button>
-        </form>
+        </form >
     );
-    if (data.loading) {
-        form = <Spinner />;
-    }
+    const loadingForm = (
+        <div>
+            <Spinner />
+            <h2 className='text'>Is this taking too long?</h2>
+            <button className='btn-custom' onClick={() => {
+                setData({
+                    firstName: "null",
+                    lastName: "null",
+                    age: "null",
+                    sex: "null",
+                    status: "null",
+                    occupation: "null",
+                    contactnumber: "null",
+                    email: "null",
+                    relationship: "null",
+                    guardfname: "null",
+                    guardlname: "null",
+                    guardnumber: "null",
+                    guardemail: "null",
+                    height: "null",
+                    weight: "null",
+                    waist: "null",
+                    shoesize: "null",
+                    shirtsize: "null",
+                    loading: false,
+                    done: false,
+                    error: false,
+        
+                })
+            }} >Try Again</button>
+            <br/>
+            <h3 className='text'>If you're tring this for the 3rd time please contact us and we will fix this error.</h3>
+            <br />
+            <a className='btn-custom' href='/tma#contact'>Tell us about the Error</a>
+        </div>
+    );
+    const errorForm = (
+        <div className='body-padding text-center'>
+            <h1 className='text'>ERROR!</h1>
+            <h1 className='text'>Please try again</h1>
+            <h3 className='text'>This error may be caused by using an email or phone number that is already ready in our system.</h3>
+            <h3 className='text'>We need you to fill in all the information that is relevant to your application.</h3>
+            <button className='btn-custom' onClick={() => {
+                setData({
+                    firstName: "null",
+                    lastName: "null",
+                    age: "null",
+                    sex: "null",
+                    status: "null",
+                    occupation: "null",
+                    contactnumber: "null",
+                    email: "null",
+                    relationship: "null",
+                    guardfname: "null",
+                    guardlname: "null",
+                    guardnumber: "null",
+                    guardemail: "null",
+                    height: "null",
+                    weight: "null",
+                    waist: "null",
+                    shoesize: "null",
+                    shirtsize: "null",
+                    loading: false,
+                    done: false,
+                    error: false,
+        
+                })
+            }} >Try Again</button>
+        </div>
+    );
+    const doneForm = (
+        <div className='body-padding text-center'>
+            <div className='section-title'>
+                <h1 className='text'>Keep an eye open for a response from the academy</h1>
+                <h3 className='text'>The bank details will be emailed to you after the review of your application</h3>
+                <h3 className='text'>In the mean time, please view the 2022 Fees packages to ensure you pay for the package that best suits you.</h3>
+                <br />
+                <a href='/tma#fees' className='btn-custom'>2022 FEES</a>
+            </div>
+            <a href={'/tma'} className='btn-custom'>DONE</a>
+        </div>
+    )
     return (
         <div id="app-form" className="text-center">
             <Helmet>
@@ -290,30 +424,11 @@ const AppForm = (props) => {
                     <h3 className='text'>Applications are currently open.</h3>
                     <h3 className='text'>Please fill in the following form with your information</h3>
                     <br></br>
-                    {form}
-                </div>
-                <div className="col-md-12">
-                    <div className="row">
-                        <div className="social">
-                            <ul>
-                                <li>
-                                    <a href={'https://www.facebook.com/Taahirah-Modeling-Academy-100298541503442/'} >
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={'https://www.linkedin.com/in/taahirah-zungu-95a194203/?originalSubdomain=za'} >
-                                        <i className="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={'https://www.instagram.com/taahirah_modeling_academy/?hl=en'} >
-                                        <i className="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    {!data.loading && !data.error && !data.done && form}
+                    {data.loading && !data.error && !data.done && loadingForm}
+                    {!data.loading && data.error && !data.done && errorForm}
+                    {!data.loading && !data.error && data.done && doneForm}
+                    <br />
                 </div>
             </div>
         </div>
