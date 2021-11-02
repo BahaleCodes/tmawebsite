@@ -52,7 +52,7 @@ const AppForm = (props) => {
             email: data.email,
             message_html: message
         };
-        await fetch('http://localhost:8000/api/model/create', {
+        await fetch('https://tmamern.herokuapp.com/api/model/create', {
             method: 'POST',
             body: JSON.stringify({
                 "firstName": data.firstName,
@@ -135,12 +135,6 @@ const AppForm = (props) => {
                     error: true
                 });
             })
-        // setData({
-        //     ...data,
-        //     done: true,
-        //     error: false,
-        //     loading: false
-        // })
     }
 
     const formElementsArray = [];
@@ -358,10 +352,10 @@ const AppForm = (props) => {
                     loading: false,
                     done: false,
                     error: false,
-        
+
                 })
             }} >Try Again</button>
-            <br/>
+            <br />
             <h3 className='text'>If you're tring this for the 3rd time please contact us and we will fix this error.</h3>
             <br />
             <a className='btn-custom' href='/tma#contact'>Tell us about the Error</a>
@@ -396,7 +390,7 @@ const AppForm = (props) => {
                     loading: false,
                     done: false,
                     error: false,
-        
+
                 })
             }} >Try Again</button>
         </div>
