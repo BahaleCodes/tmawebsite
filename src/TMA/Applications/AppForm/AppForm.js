@@ -52,7 +52,7 @@ const AppForm = (props) => {
             email: data.email,
             message_html: message
         };
-        await fetch('https://tmamern.herokuapp.com/api/model/create', {
+        await fetch('https://tmamern.herokuapp.com/api/model/create/', {
             method: 'POST',
             body: JSON.stringify({
                 "firstName": data.firstName,
