@@ -154,14 +154,16 @@ const AppForm = (props) => {
                 type="text"
                 name="relationship"
                 size="50"
-                placeholder="Your answer" />
+                placeholder="* Your answer"
+                required />
             <h4 className='text'>First Name</h4>
             <input
                 onChange={handleInputChange}
                 type="text"
                 name="guardfname"
                 size="50"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Surname</h4>
             <input
@@ -169,7 +171,8 @@ const AppForm = (props) => {
                 type="text"
                 name="guardlname"
                 size="50"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Contact Number</h4>
             <input
@@ -177,7 +180,8 @@ const AppForm = (props) => {
                 type="text"
                 name="guardnumber"
                 size="50"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Email Address</h4>
             <input
@@ -185,7 +189,8 @@ const AppForm = (props) => {
                 type="text"
                 name="guardemail"
                 size="50"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
         </div>
     )
@@ -198,7 +203,8 @@ const AppForm = (props) => {
                 onChange={handleInputChange}
                 name="firstName"
                 size="50"
-                placeholder="Your Answer"
+                placeholder="* Your Answer"
+                required
             />
             <h4 className='text'>Last Name</h4>
             <input
@@ -206,7 +212,8 @@ const AppForm = (props) => {
                 onChange={handleInputChange}
                 name="lastName"
                 size="50"
-                placeholder="Your Answer"
+                placeholder="* Your Answer"
+                required
             />
             <h4 className='text'>Age (must be between 5-35 years)</h4>
             <input
@@ -214,10 +221,11 @@ const AppForm = (props) => {
                 onChange={handleInputChange}
                 name="age"
                 size="50"
-                placeholder="Your Answer"
+                placeholder="* Your Answer"
+                required
             />
             <h4 className='text'>Status</h4>
-            <select onChange={handleInputChange} className="dropdown" name='status' >
+            <select required onChange={handleInputChange} className="dropdown" name='status' >
                 <option value={"null"}>Your Answer</option>
                 <option value={"Married"}>Married</option>
                 <option value={"Single"}>Single</option>
@@ -227,7 +235,7 @@ const AppForm = (props) => {
 
 
             <h4 className='text'>Sex</h4>
-            <select onChange={handleInputChange} className="dropdown" name='sex' >
+            <select required onChange={handleInputChange} className="dropdown" name='sex' >
                 <option value={"null"}>Your Answer</option>
                 <option value={"Female"}>Female</option>
                 <option value={"Male"}>Male</option>
@@ -236,7 +244,7 @@ const AppForm = (props) => {
 
 
             <h4 className='text'>Occupation</h4>
-            <select onChange={handleInputChange} className="dropdown" name='occupation' >
+            <select required onChange={handleInputChange} className="dropdown" name='occupation' >
                 <option value={"null"}>Your Answer</option>
                 <option value={"Student"}>Student</option>
                 <option value={"Unemployed"}>Unemployed</option>
@@ -248,7 +256,8 @@ const AppForm = (props) => {
                 type="text"
                 name="contactnumber"
                 size="50"
-                placeholder="Your Answer"
+                placeholder="* Your Answer"
+                required
             />
             <h4 className='text'>Email Address</h4>
             <input
@@ -256,7 +265,8 @@ const AppForm = (props) => {
                 type="email"
                 name="email"
                 size="50"
-                placeholder="Your Answer"
+                placeholder="* Your Answer"
+                required
             />
             {
                 data.age < 18
@@ -272,7 +282,8 @@ const AppForm = (props) => {
                 type="text"
                 name="height"
                 size="10"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Weight (kg)</h4>
             <input
@@ -280,7 +291,8 @@ const AppForm = (props) => {
                 type="text"
                 name="weight"
                 size="10"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Waist (cm)</h4>
             <input
@@ -288,7 +300,8 @@ const AppForm = (props) => {
                 type="text"
                 name="waist"
                 size="10"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>Shoe size</h4>
             <input
@@ -296,10 +309,11 @@ const AppForm = (props) => {
                 type="text"
                 name="shoesize"
                 size="10"
-                placeholder="Your answer"
+                placeholder="* Your answer"
+                required
             />
             <h4 className='text'>T-shirt size</h4>
-            <select onChange={handleInputChange} className="dropdown" name='shirtsize' >
+            <select required onChange={handleInputChange} className="dropdown" name='shirtsize' >
                 <option value={"null"}>Your Answer</option>
                 <option value={"XS"}>XS</option>
                 <option value={"S"}>S</option>
