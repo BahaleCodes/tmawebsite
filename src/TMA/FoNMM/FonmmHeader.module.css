@@ -1,0 +1,18 @@
+.slider__slide {
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    transition: all 0.8s ease-in-out;
+}
+.slider__slide[data-active="true"] {
+    opacity: 1;
+}
+@media only screen and (max-width: 650px) {
+    .slider__slide{
+        height: 50%;
+    }
+}

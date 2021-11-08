@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import classes from './finalists.module.css';
 import Card from './UI/Card/Card';
@@ -6,7 +6,6 @@ import Item from './UI/Item/Item';
 
 const Finalists = (props) => {
     const [all, setAll] = useState(false);
-    const [cat, setCat] = useState(true);
 
     const fetchPreTeen = props.data
         ? props.data.fonmmData.Pre_Teen.map((x) => (
@@ -142,16 +141,21 @@ const Finalists = (props) => {
 
 
     return (
-        <div id='finalists' className='text-center'>
+        <div id='finalists' style={{ marginTop: "80px" }} className='text-center'>
+            <div className='section-title'>
+                <h2 className={classes.text}>Our Finalists</h2>
+            </div>
+            <div className={classes.img__cnt}>
+                <img className={classes.top__img} alt='Face of Ngaka Modiri Molema Finalists' src='img/FONMM/IMG_9539.JPG' />
+            </div>
             <div className='container'>
-                <div className='section-title'>
-                    <h2 className={classes.text}>Our Finalists</h2>
-                    <button className="btn btn-custom btn-lg" onClick={toggleView}>{
+                <button className="btn btn-custom btn-lg" onClick={toggleView}>
+                    {
                         all
-                        ? 'View Categories'
-                        : 'View All'
-                    }</button>
-                </div>
+                            ? 'View Categories'
+                            : 'View All'
+                    }
+                </button>
                 {!all && categories}
             </div>
             {all && viewAll()}
