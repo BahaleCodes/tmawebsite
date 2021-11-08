@@ -80,7 +80,7 @@ hr {
 .special {
   color: gold;
   font-family: "Trocchi", serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -232,13 +232,9 @@ hr {
 .btn-default-secondary{
   margin: 30px 0;
   background: transparent;
-  border: 2px solid white;
+  border-bottom: 2px solid white;
   color: black;
   background: white;
-}
-.btn-default-secondary {
-  color: white;
-  background: black;
 }
 .btn-custom {
   margin: 30px 0;
@@ -988,6 +984,9 @@ label {
 #app-form {
   background-color: black;
   margin-top: 85px;
+}
+#app-form .text {
+  color: white;
 }
 #app-form .text{
   color: white;

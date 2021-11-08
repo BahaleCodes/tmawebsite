@@ -2,715 +2,305 @@
     "fonmm": {
         "allFonmm": [
             {
-                "name": "Onthatile Kgalalelo Pheelwane",
-                "age": "11",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Orefile Male",
-                "age": "10",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Oteng Shunyane",
-                "age": "10",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Bonolo Bakane",
-                "age": "13",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Karabo Molusi",
-                "age": "14",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kefilwe Chere",
-                "age": "15",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Karabo Molusi",
-                "age": "14",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Bonolo Saliwe",
-                "age": "14",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Omolemo Gopane",
-                "age": "15",
-                "image": "img/testPic.jpg"
-            },
-            {
                 "name": "Bonolo Dingoko",
                 "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Olerato Seima",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kitso Kwenamore",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Keweditse Seboletswe",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Omphile Mahura",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Olerato Seima",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Leago Tladi",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Reotshepile Sekonelo",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kamogelo Moabi",
-                "age": "19",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Thandeka Somfula",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Tumiso Kelaotswe",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Palesa Gaomphe",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Luciana Kaputeni",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kelebogile Sindi",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Pontsho Thato Seloe",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Koketso Letlotlo",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Amogelang Tlhale",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Zureida Leepo",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Naledi Jeniffer",
-                "age": "19",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Khumo Seremo",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Jermaine Keenan",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Nomatyala Goba",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Ponatshego Sekao",
-                "age": "17",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Onalenna Gaotlhongwe",
-                "age": "18",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Matshidiso Dikobe",
-                "age": "16",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Tshegofatso Mmolawa",
-                "age": "20",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Thabo Badirwang",
-                "age": "23",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Bonolo.PNG"
             },
             {
                 "name": "Bonolo Mdukaza",
                 "age": "25",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Bonolo3.PNG"
             },
             {
-                "name": "Keamogetse Jongane",
-                "age": "21",
-                "image": "img/testPic.jpg"
+                "name": "Bonolo Saliwe",
+                "age": "14",
+                "image": "img/FONMM/Bonolo2.PNG"
             },
             {
-                "name": "Thato Michelle Mokgalagadi",
-                "age": "20",
-                "image": "img/testPic.jpg"
+                "name": "Ipeleng Pelele",
+                "age": "NN",
+                "image": "img/FONMM/Ipeleng.PNG"
             },
             {
-                "name": "Bella Kebitsamang",
-                "age": "23",
-                "image": "img/testPic.jpg"
+                "name": "Jennifer Gaegane",
+                "age": "19",
+                "image": "img/FONMM/Jennifer.PNG"
             },
             {
-                "name": "Pelontle Koboeatau",
+                "name": "Jermaine Setzin",
+                "age": "16",
+                "image": "img/FONMM/Jermaine.PNG"
+            },
+            {
+                "name": "Karabo Molusi",
+                "age": "14",
+                "image": "img/FONMM/Karabo.PNG"
+            },
+            {
+                "name": "Kefilwe Chere",
+                "age": "15",
+                "image": "img/FONMM/Kefilwe.PNG"
+            },
+            {
+                "name": "Kelebogile Sindi",
+                "age": "16",
+                "image": "img/FONMM/Kelebogile.PNG"
+            },
+            {
+                "name": "Kitso Kwenamore",
+                "age": "17",
+                "image": "img/FONMM/Kitso.PNG"
+            },
+            {
+                "name": "Kutlwano Mabine",
                 "age": "22",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kelebogile Dumani",
-                "age": "20",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Onalenna Phatudi",
-                "age": "23",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Oratile Motsebe",
-                "age": "20",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Treasure Sabelo",
-                "age": "24",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Tshegofatso Lephoi",
-                "age": "22",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kaone Moino",
-                "age": "24",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Kutlwano.PNG"
             },
             {
                 "name": "Malikunye Rakosa",
                 "age": "22",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Malikunye.PNG"
             },
             {
-                "name": "Kgotso Lentswetshipi",
-                "age": "20",
-                "image": "img/testPic.jpg"
+                "name": "Matshidiso Dikobe",
+                "age": "16",
+                "image": "img/FONMM/Matshidiso.PNG"
             },
             {
-                "name": "Kebareng Rammekwa",
-                "age": "25",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Victoria Mosinki",
-                "age": "24",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kamogelo Matshaba",
-                "age": "25",
-                "image": "img/testPic.jpg"
+                "name": "Naledi Mmekwa",
+                "age": "NN",
+                "image": "img/FONMM/Naledi.PNG"
             },
             {
                 "name": "Nomakhwezi Mathole",
                 "age": "21",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Nomakhwezi.PNG"
             },
             {
-                "name": "Refentse Phutieagae",
-                "age": "21",
-                "image": "img/testPic.jpg"
+                "name": "Nomatyala Goba",
+                "age": "17",
+                "image": "img/FONMM/Nomatyala.PNG"
             },
             {
-                "name": "Lephoro Mosetsanagape",
-                "age": "20",
-                "image": "img/testPic.jpg"
+                "name": "Olerato Seima",
+                "age": "17",
+                "image": "img/FONMM/Olerato.PNG"
             },
             {
-                "name": "Thato Mc. Donald Mophuleng",
-                "age": "22",
-                "image": "img/testPic.jpg"
+                "name": "Omolemo Gopane",
+                "age": "15",
+                "image": "img/FONMM/Omolemo.PNG"
             },
             {
-                "name": "Bofelo Sefololo",
-                "age": "21",
-                "image": "img/testPic.jpg"
+                "name": "Onalenna Gaotlhongwe",
+                "age": "18",
+                "image": "img/FONMM/Ona.PNG"
             },
             {
-                "name": "Karabo Ditsele",
-                "age": "20",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Refilwe Kesenoogile",
-                "age": "28",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Tsholofetso Charity Setlhabetsi",
+                "name": "Onalenna Phatudi",
                 "age": "23",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Onalenna.PNG"
             },
             {
-                "name": "Oratile Mooketsi",
-                "age": "24",
-                "image": "img/testPic.jpg"
+                "name": "Orefile Male",
+                "age": "10",
+                "image": "img/FONMM/Orefile.PNG"
             },
             {
-                "name": "Galaletsang Mmono",
-                "age": "21",
-                "image": "img/testPic.jpg"
+                "name": "Oteng Shuenyane",
+                "age": "10",
+                "image": "img/FONMM/Oteng.PNG"
             },
             {
-                "name": "Mmannuku Ditlhake",
+                "name": "Pelontle Koboeatau",
                 "age": "22",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Peloentle.PNG"
             },
             {
-                "name": "Olebogeng Moreotsile",
-                "age": "26",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Tokollo Mabuza",
-                "age": "20",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Kgotso Senne",
-                "age": "22",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Goitsemodimo Monageng",
-                "age": "23",
-                "image": "img/testPic.jpg"
-            },
-            {
-                "name": "Melicia Keamogetse",
-                "age": "22",
-                "image": "img/testPic.jpg"
+                "name": "Ponatshego Sekao",
+                "age": "17",
+                "image": "img/FONMM/Ponatshego.PNG"
             },
             {
                 "name": "Thabiso Makoto",
                 "age": "20",
-                "image": "img/testPic.jpg"
+                "image": "img/FONMM/Thabiso.PNG"
             },
             {
-                "name": "Kutlwano Anitta",
-                "age": "22",
-                "image": "img/testPic.jpg"
+                "name": "Thabo Badirwang",
+                "age": "23",
+                "image": "img/FONMM/Thabo.PNG"
+            },
+            {
+                "name": "Thandeka Somfula",
+                "age": "18",
+                "image": "img/FONMM/Thandeka.PNG"
+            },
+            {
+                "name": "Victoria Mosinki",
+                "age": "24",
+                "image": "img/FONMM/Victoria.PNG"
+            },
+            {
+                "name": "Zureida Leepo",
+                "age": "18",
+                "image": "img/FONMM/Zureida.PNG"
             }
         ],
         "fonmmData": {
             "Pre_Teen": [
                 {
-                    "name": "Onthatile Kgalalelo Pheelwane",
-                    "age": "11",
-                    "image": "img/testPic.jpg"
+                    "name": "Ipeleng Pelele",
+                    "age": "NN",
+                    "image": "img/FONMM/Ipeleng.PNG"
                 },
                 {
                     "name": "Orefile Male",
                     "age": "10",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Orefile.PNG"
                 },
                 {
-                    "name": "Oteng Shunyane",
+                    "name": "Oteng Shuenyane",
                     "age": "10",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Oteng.PNG"
                 }
             ],
             "Jnr_Teen": [
                 {
-                    "name": "Bonolo Bakane",
-                    "age": "13",
-                    "image": "img/testPic.jpg"
+                    "name": "Bonolo Saliwe",
+                    "age": "14",
+                    "image": "img/FONMM/Bonolo2.PNG"
                 },
                 {
                     "name": "Karabo Molusi",
                     "age": "14",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Karabo.PNG"
                 },
                 {
                     "name": "Kefilwe Chere",
                     "age": "15",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Karabo Molusi",
-                    "age": "14",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Bonolo Saliwe",
-                    "age": "14",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Kefilwe.PNG"
                 },
                 {
                     "name": "Omolemo Gopane",
                     "age": "15",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Omolemo.PNG"
                 }
             ],
             "Teen": [
                 {
                     "name": "Bonolo Dingoko",
                     "age": "16",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Bonolo.PNG"
                 },
                 {
-                    "name": "Olerato Seima",
-                    "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kitso Kwenamore",
-                    "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Keweditse Seboletswe",
-                    "age": "16",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Omphile Mahura",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Olerato Seima",
-                    "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Leago Tladi",
-                    "age": "16",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Reotshepile Sekonelo",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kamogelo Moabi",
+                    "name": "Jennifer Gaegane",
                     "age": "19",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Jennifer.PNG"
                 },
                 {
-                    "name": "Thandeka Somfula",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Tumiso Kelaotswe",
+                    "name": "Jermaine Setzin",
                     "age": "16",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Palesa Gaomphe",
-                    "age": "16",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Luciana Kaputeni",
-                    "age": "16",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Jermaine.PNG"
                 },
                 {
                     "name": "Kelebogile Sindi",
                     "age": "16",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Kelebogile.PNG"
                 },
                 {
-                    "name": "Pontsho Thato Seloe",
+                    "name": "Kitso Kwenamore",
                     "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Koketso Letlotlo",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Amogelang Tlhale",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Zureida Leepo",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Naledi Jeniffer",
-                    "age": "19",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Khumo Seremo",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Jermaine Keenan",
-                    "age": "16",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Nomatyala Goba",
-                    "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Ponatshego Sekao",
-                    "age": "17",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Onalenna Gaotlhongwe",
-                    "age": "18",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Kitso.PNG"
                 },
                 {
                     "name": "Matshidiso Dikobe",
                     "age": "16",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Matshidiso.PNG"
+                },
+                {
+                    "name": "Naledi Mmekwa",
+                    "age": "NN",
+                    "image": "img/FONMM/Naledi.PNG"
+                },
+                {
+                    "name": "Nomatyala Goba",
+                    "age": "17",
+                    "image": "img/FONMM/Nomatyala.PNG"
+                },
+                {
+                    "name": "Olerato Seima",
+                    "age": "17",
+                    "image": "img/FONMM/Olerato.PNG"
+                },
+                {
+                    "name": "Onalenna Gaotlhongwe",
+                    "age": "18",
+                    "image": "img/FONMM/Ona.PNG"
+                },
+                {
+                    "name": "Ponatshego Sekao",
+                    "age": "17",
+                    "image": "img/FONMM/Ponatshego.PNG"
+                },
+                {
+                    "name": "Thandeka Somfula",
+                    "age": "18",
+                    "image": "img/FONMM/Thandeka.PNG"
+                },
+                {
+                    "name": "Zureida Leepo",
+                    "age": "18",
+                    "image": "img/FONMM/Zureida.PNG"
                 }
             ],
             "Senior": [
                 {
-                    "name": "Tshegofatso Mmolawa",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Thabo Badirwang",
-                    "age": "23",
-                    "image": "img/testPic.jpg"
-                },
-                {
                     "name": "Bonolo Mdukaza",
                     "age": "25",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Bonolo3.PNG"
                 },
                 {
-                    "name": "Keamogetse Jongane",
-                    "age": "21",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Thato Michelle Mokgalagadi",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Bella Kebitsamang",
-                    "age": "23",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Pelontle Koboeatau",
+                    "name": "Kutlwano Mabine",
                     "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kelebogile Dumani",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Onalenna Phatudi",
-                    "age": "23",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Oratile Motsebe",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Treasure Sabelo",
-                    "age": "24",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Tshegofatso Lephoi",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kaone Moino",
-                    "age": "24",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Kutlwano.PNG"
                 },
                 {
                     "name": "Malikunye Rakosa",
                     "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kgotso Lentswetshipi",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kebareng Rammekwa",
-                    "age": "25",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Victoria Mosinki",
-                    "age": "24",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kamogelo Matshaba",
-                    "age": "25",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Malikunye.PNG"
                 },
                 {
                     "name": "Nomakhwezi Mathole",
                     "age": "21",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Nomakhwezi.PNG"
                 },
                 {
-                    "name": "Refentse Phutieagae",
-                    "age": "21",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Lephoro Mosetsanagape",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Thato Mc. Donald Mophuleng",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Bofelo Sefololo",
-                    "age": "21",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Karabo Ditsele",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Refilwe Kesenoogile",
-                    "age": "28",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Tsholofetso Charity Setlhabetsi",
+                    "name": "Onalenna Phatudi",
                     "age": "23",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Onalenna.PNG"
                 },
                 {
-                    "name": "Oratile Mooketsi",
+                    "name": "Pelontle Koboeatau",
+                    "age": "22",
+                    "image": "img/FONMM/Peloentle.PNG"
+                },
+                {
+                    "name": "Thabo Badirwang",
+                    "age": "23",
+                    "image": "img/FONMM/Thabo.PNG"
+                },
+                {
+                    "name": "Victoria Mosinki",
                     "age": "24",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Galaletsang Mmono",
-                    "age": "21",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Mmannuku Ditlhake",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Olebogeng Moreotsile",
-                    "age": "26",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Tokollo Mabuza",
-                    "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kgotso Senne",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Goitsemodimo Monageng",
-                    "age": "23",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Victoria.PNG"
                 }
             ],
             "Miss_Drag": [
                 {
-                    "name": "Melicia Keamogetse",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
-                },
-                {
                     "name": "Thabiso Makoto",
                     "age": "20",
-                    "image": "img/testPic.jpg"
-                },
-                {
-                    "name": "Kutlwano Anitta",
-                    "age": "22",
-                    "image": "img/testPic.jpg"
+                    "image": "img/FONMM/Thabiso.PNG"
                 }
             ]
         }

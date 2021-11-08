@@ -10,13 +10,13 @@ const Item = (props) => {
                     <img loading='lazy'src={props.image} alt='Category' />
                 </div>
                 <h3>{props.name}</h3>
-                <div className={classes.age}>
+                {/* <div className={classes.age}>
                     {
                         props.age
                             ? `${props.age} Years old`
                             : ''
                     }
-                </div>
+                </div> */}
             </div>
         </li>
     )

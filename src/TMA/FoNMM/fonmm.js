@@ -20,8 +20,8 @@ const Fonmm = (props) => {
                     <h1>Applications are currently closed.</h1>
                     <h4>Follow us on our social media pages to stay in the loop about the pageant.</h4>
                     <br />
-                    {/* <h1>Click the link bellow to see the finalist</h1>
-                    <a href={'/finalists'} className="btn btn-custom btn-lg">Finalist</a> */}
+                    <h1>Click the link bellow to see the finalist</h1>
+                    <a href={'/finalists'} className="btn btn-custom btn-lg">Finalist</a>
                     <div className='Cnt1 text-center'>
                         <div className="col-md-12">
                             <div className="row">

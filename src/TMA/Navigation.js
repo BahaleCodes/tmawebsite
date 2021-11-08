@@ -50,9 +50,9 @@ const Navigation = () => {
 							</a>
 						</li>
 					</ul>
-					{/* <a className="navbar-brand page-scroll" href="/tma#fonmm">
+					<a className="navbar-brand page-scroll" href="/tma#fonmm">
 						<span className='special'>FoNMM</span>
-					</a>{" "} */}
+					</a>{" "}
 				</div>
 			</div>
 		</nav>

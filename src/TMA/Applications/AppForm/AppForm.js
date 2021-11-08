@@ -28,6 +28,8 @@ const AppForm = (props) => {
         loading: false,
         done: false,
         error: false,
+        concent: false,
+        reject: false
     });
 
     const handleInputChange = event => {
@@ -35,6 +37,23 @@ const AppForm = (props) => {
             ...data,
             [event.target.name]: event.target.value
         });
+    };
+    const handleConcent = (e) => {
+        e.preventDefault();
+        setData({
+            ...data,
+            concent: true,
+            reject: false
+        });
+    };
+    const handleRejection = (e) => {
+        e.preventDefault();
+        setData({
+            ...data,
+            concent: false,
+            reject: true
+        });
+        console.log(data);
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -330,7 +349,7 @@ const AppForm = (props) => {
 
             <h1 className='text'>After paying, please remember to email you:</h1>
             <h4 className='text'>Proof of payment</h4>
-            <h4 className='text'>Copy of ID</h4>
+            <h4 className='text'>Copy of Identification Document</h4>
             <h4 className='text'>Half and full length Picture</h4>
 
 
@@ -421,6 +440,11 @@ const AppForm = (props) => {
             <a href={'/tma'} className='btn-custom'>DONE</a>
         </div>
     )
+    const rejectDiv = (
+        <div>
+            Rejected
+        </div>
+    )
     return (
         <div id="app-form" className="text-center">
             <Helmet>
@@ -430,16 +454,38 @@ const AppForm = (props) => {
                 <div className="Heading">
                     <h2 className='text'>TMA Application Form</h2>
                     <h3 className='text'>Applications are currently open.</h3>
-                    <h3 className='text'>Please fill in the following form with your information</h3>
                     <br></br>
-                    {!data.loading && !data.error && !data.done && form}
-                    {data.loading && !data.error && !data.done && loadingForm}
-                    {!data.loading && data.error && !data.done && errorForm}
-                    {!data.loading && !data.error && data.done && doneForm}
+                    {
+                        data.concent
+                            ? <div>
+                                <h4 className='text'>We appreciate you trusting us with your personal information.</h4>
+                                <p className='text'>Please fill in the following form with your information.</p>
+                                {!data.loading && !data.error && !data.done && form}
+                                {data.loading && !data.error && !data.done && loadingForm}
+                                {!data.loading && data.error && !data.done && errorForm}
+                                {!data.loading && !data.error && data.done && doneForm}
+                            </div>
+                            : data.reject
+                                ? <div>
+                                    <h4 className='text'>Personal Information Concent Rejected</h4>
+                                    <h4 className='text'>Learn more about the <a className={'btn-default-secondary'} href='https://www.michalsons.com/focus-areas/privacy-and-data-protection/protection-of-personal-information-act-popia' >Protection of Personal Information Act</a>.</h4>
+                                    <br />
+                                    <a href='/tma' className='btn-custom' >Home</a>
+                                    <br />
+                                </div>
+                                : <div>
+                                    <h4 className='text'>Please note that we are requiring some personal information for the application.</h4>
+                                    <h4 className='text'>As a result we need your concent to collect such information.</h4>
+                                    <button className='btn-custom' onClick={handleConcent} >Yes, I Accept</button>
+                                    <br />
+                                    <br />
+                                    <button className='btn-custom' onClick={handleRejection} >No, I Reject</button>
+                                </div>
+                    }
                     <br />
                 </div>
             </div>
-        </div>
+        </div >
         // <div className={"text-center"}>
         //     <Helmet>
         //         <title>Application</title>
