@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import classes from './finalists.module.css';
+import FonmmHeader from './FonmmHeader';
 import Card from './UI/Card/Card';
 import Item from './UI/Item/Item';
 
@@ -141,14 +142,14 @@ const Finalists = (props) => {
 
 
     return (
-        <div id='finalists' style={{ marginTop: "80px" }} className='text-center'>
+        <div id='finalists' style={{ marginTop: "85px" }} className='text-center'>
             <div className='section-title'>
-                <h2 className={classes.text}>Our Finalists</h2>
+                <h2 className={classes.text}>Our Winners</h2>
             </div>
             <div className={classes.img__cnt}>
-                <img className={classes.top__img} alt='Face of Ngaka Modiri Molema Finalists' src='img/FONMM/IMG_9539.JPG' />
+                <FonmmHeader />
             </div>
-            <div className='container'>
+            {/* <div className='container'>
                 <button className="btn btn-custom btn-lg" onClick={toggleView}>
                     {
                         all
@@ -157,7 +158,7 @@ const Finalists = (props) => {
                     }
                 </button>
                 {!all && categories}
-            </div>
+            </div> */}
             {all && viewAll()}
         </div>
     )

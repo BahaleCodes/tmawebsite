@@ -12,12 +12,13 @@ const Fonmm = (props) => {
                             src='https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/tma%2Fface.jpeg?alt=media&token=80357c29-27cf-4c3a-b91e-dbd240411c49`w' 
                             className='img-responsive' alt='' />
                         <div className='abtContainer'>
-                            <p>{props.data ? props.data.about1 : 'loading...'}</p>
+                            <p>{props.data ? props.data.statement : 'loading...'}</p>
+                            {/* <p>{props.data ? props.data.about1 : 'loading...'}</p>
                             <p>{props.data ? props.data.about2 : 'loading...'}</p>
-                            <p>{props.data ? props.data.about3 : 'loading...'}</p>
+                            <p>{props.data ? props.data.about3 : 'loading...'}</p> */}
                         </div>
                     </div>
-                    <h1>Applications are currently closed.</h1>
+                    <h1 style={{color: "white"}}>Applications are currently closed.</h1>
                     <h4>Follow us on our social media pages to stay in the loop about the pageant.</h4>
                     <br />
                     <h1>Click the link bellow to see the finalist</h1>

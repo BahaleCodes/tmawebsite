@@ -2,6 +2,76 @@
     "fonmm": {
         "allFonmm": [
             {
+                "name": "Ipeleng Pelele",
+                "age": "7",
+                "image": "img/FONMM/Ipeleng.PNG"
+            },
+            {
+                "name": "Orefile Male",
+                "age": "10",
+                "image": "img/FONMM/Orefile.PNG"
+            },
+            {
+                "name": "Oteng Shuenyane",
+                "age": "10",
+                "image": "img/FONMM/Oteng.PNG"
+            },
+            {
+                "name": "Omolemo Gopane",
+                "age": "15",
+                "image": "img/FONMM/Omolemo.PNG"
+            },
+            {
+                "name": "Karabo Molusi",
+                "age": "14",
+                "image": "img/FONMM/Karabo.PNG"
+            },
+            {
+                "name": "Bonolo Saliwe",
+                "age": "14",
+                "image": "img/FONMM/Bonolo2.PNG"
+            },
+            {
+                "name": "Ponatshego Sekao",
+                "age": "17",
+                "image": "img/FONMM/Ponatshego.PNG"
+            },
+            {
+                "name": "Kelebogile Sindi",
+                "age": "16",
+                "image": "img/FONMM/Kelebogile.PNG"
+            },
+            {
+                "name": "Thandeka Somfula",
+                "age": "18",
+                "image": "img/FONMM/Thandeka.PNG"
+            },
+            {
+                "name": "Nomakhwezi Mathole",
+                "age": "21",
+                "image": "img/FONMM/Nomakhwezi.PNG"
+            },
+            {
+                "name": "Malikunye Rakosa",
+                "age": "22",
+                "image": "img/FONMM/Malikunye.PNG"
+            },
+            {
+                "name": "Victoria Mosinki",
+                "age": "24",
+                "image": "img/FONMM/Victoria.PNG"
+            },
+            {
+                "name": "Thabo Badirwang",
+                "age": "23",
+                "image": "img/FONMM/Thabo.PNG"
+            },
+            {
+                "name": "Thabiso Makoto",
+                "age": "20",
+                "image": "img/FONMM/Thabiso.PNG"
+            },
+            {
                 "name": "Bonolo Dingoko",
                 "age": "16",
                 "image": "img/FONMM/Bonolo.PNG"
@@ -10,16 +80,6 @@
                 "name": "Bonolo Mdukaza",
                 "age": "25",
                 "image": "img/FONMM/Bonolo3.PNG"
-            },
-            {
-                "name": "Bonolo Saliwe",
-                "age": "14",
-                "image": "img/FONMM/Bonolo2.PNG"
-            },
-            {
-                "name": "Ipeleng Pelele",
-                "age": "7",
-                "image": "img/FONMM/Ipeleng.PNG"
             },
             {
                 "name": "Jennifer Gaegane",
@@ -32,19 +92,9 @@
                 "image": "img/FONMM/Jermaine.PNG"
             },
             {
-                "name": "Karabo Molusi",
-                "age": "14",
-                "image": "img/FONMM/Karabo.PNG"
-            },
-            {
                 "name": "Kefilwe Chere",
                 "age": "15",
                 "image": "img/FONMM/Kefilwe.PNG"
-            },
-            {
-                "name": "Kelebogile Sindi",
-                "age": "16",
-                "image": "img/FONMM/Kelebogile.PNG"
             },
             {
                 "name": "Kitso Kwenamore",
@@ -57,11 +107,6 @@
                 "image": "img/FONMM/Kutlwano.PNG"
             },
             {
-                "name": "Malikunye Rakosa",
-                "age": "22",
-                "image": "img/FONMM/Malikunye.PNG"
-            },
-            {
                 "name": "Matshidiso Dikobe",
                 "age": "16",
                 "image": "img/FONMM/Matshidiso.PNG"
@@ -72,11 +117,6 @@
                 "image": "img/FONMM/Naledi.PNG"
             },
             {
-                "name": "Nomakhwezi Mathole",
-                "age": "21",
-                "image": "img/FONMM/Nomakhwezi.PNG"
-            },
-            {
                 "name": "Nomatyala Goba",
                 "age": "17",
                 "image": "img/FONMM/Nomatyala.PNG"
@@ -85,11 +125,6 @@
                 "name": "Olerato Seima",
                 "age": "17",
                 "image": "img/FONMM/Olerato.PNG"
-            },
-            {
-                "name": "Omolemo Gopane",
-                "age": "15",
-                "image": "img/FONMM/Omolemo.PNG"
             },
             {
                 "name": "Onalenna Gaotlhongwe",
@@ -117,31 +152,6 @@
                 "image": "img/FONMM/Peloentle.PNG"
             },
             {
-                "name": "Ponatshego Sekao",
-                "age": "17",
-                "image": "img/FONMM/Ponatshego.PNG"
-            },
-            {
-                "name": "Thabiso Makoto",
-                "age": "20",
-                "image": "img/FONMM/Thabiso.PNG"
-            },
-            {
-                "name": "Thabo Badirwang",
-                "age": "23",
-                "image": "img/FONMM/Thabo.PNG"
-            },
-            {
-                "name": "Thandeka Somfula",
-                "age": "18",
-                "image": "img/FONMM/Thandeka.PNG"
-            },
-            {
-                "name": "Victoria Mosinki",
-                "age": "24",
-                "image": "img/FONMM/Victoria.PNG"
-            },
-            {
                 "name": "Zureida Leepo",
                 "age": "18",
                 "image": "img/FONMM/Zureida.PNG"
@@ -152,42 +162,66 @@
                 {
                     "name": "Ipeleng Pelele",
                     "age": "7",
-                    "image": "img/FONMM/Ipeleng.PNG"
+                    "image": "img/FONMM/Ipeleng.PNG",
+                    "winner": "Winner"
                 },
                 {
                     "name": "Orefile Male",
                     "age": "10",
-                    "image": "img/FONMM/Orefile.PNG"
+                    "image": "img/FONMM/Orefile.PNG",
+                    "winner": "Winner"
                 },
                 {
                     "name": "Oteng Shuenyane",
                     "age": "10",
-                    "image": "img/FONMM/Oteng.PNG"
+                    "image": "img/FONMM/Oteng.PNG",
+                    "winner": "Winner"
                 }
             ],
             "Jnr_Teen": [
                 {
-                    "name": "Bonolo Saliwe",
-                    "age": "14",
-                    "image": "img/FONMM/Bonolo2.PNG"
+                    "name": "Omolemo Gopane",
+                    "age": "15",
+                    "image": "img/FONMM/Omolemo.PNG",
+                    "winner": "Winner"
                 },
                 {
                     "name": "Karabo Molusi",
                     "age": "14",
-                    "image": "img/FONMM/Karabo.PNG"
+                    "image": "img/FONMM/Karabo.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Bonolo Saliwe",
+                    "age": "14",
+                    "image": "img/FONMM/Bonolo2.PNG",
+                    "winner": "Winner"
                 },
                 {
                     "name": "Kefilwe Chere",
                     "age": "15",
                     "image": "img/FONMM/Kefilwe.PNG"
-                },
-                {
-                    "name": "Omolemo Gopane",
-                    "age": "15",
-                    "image": "img/FONMM/Omolemo.PNG"
                 }
             ],
             "Teen": [
+                {
+                    "name": "Ponatshego Sekao",
+                    "age": "17",
+                    "image": "img/FONMM/Ponatshego.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Kelebogile Sindi",
+                    "age": "16",
+                    "image": "img/FONMM/Kelebogile.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Thandeka Somfula",
+                    "age": "18",
+                    "image": "img/FONMM/Thandeka.PNG",
+                    "winner": "Winner"
+                },
                 {
                     "name": "Bonolo Dingoko",
                     "age": "16",
@@ -202,11 +236,6 @@
                     "name": "Jermaine Setzin",
                     "age": "16",
                     "image": "img/FONMM/Jermaine.PNG"
-                },
-                {
-                    "name": "Kelebogile Sindi",
-                    "age": "16",
-                    "image": "img/FONMM/Kelebogile.PNG"
                 },
                 {
                     "name": "Kitso Kwenamore",
@@ -226,7 +255,8 @@
                 {
                     "name": "Nomatyala Goba",
                     "age": "17",
-                    "image": "img/FONMM/Nomatyala.PNG"
+                    "image": "img/FONMM/Nomatyala.PNG",
+                    "winner": "1st Winner"
                 },
                 {
                     "name": "Olerato Seima",
@@ -239,22 +269,36 @@
                     "image": "img/FONMM/Ona.PNG"
                 },
                 {
-                    "name": "Ponatshego Sekao",
-                    "age": "17",
-                    "image": "img/FONMM/Ponatshego.PNG"
-                },
-                {
-                    "name": "Thandeka Somfula",
-                    "age": "18",
-                    "image": "img/FONMM/Thandeka.PNG"
-                },
-                {
                     "name": "Zureida Leepo",
                     "age": "18",
                     "image": "img/FONMM/Zureida.PNG"
                 }
             ],
             "Senior": [
+                {
+                    "name": "Nomakhwezi Mathole",
+                    "age": "21",
+                    "image": "img/FONMM/Nomakhwezi.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Malikunye Rakosa",
+                    "age": "22",
+                    "image": "img/FONMM/Malikunye.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Victoria Mosinki",
+                    "age": "24",
+                    "image": "img/FONMM/Victoria.PNG",
+                    "winner": "Winner"
+                },
+                {
+                    "name": "Thabo Badirwang",
+                    "age": "23",
+                    "image": "img/FONMM/Thabo.PNG",
+                    "winner": "Winner"
+                },
                 {
                     "name": "Bonolo Mdukaza",
                     "age": "25",
@@ -266,16 +310,6 @@
                     "image": "img/FONMM/Kutlwano.PNG"
                 },
                 {
-                    "name": "Malikunye Rakosa",
-                    "age": "22",
-                    "image": "img/FONMM/Malikunye.PNG"
-                },
-                {
-                    "name": "Nomakhwezi Mathole",
-                    "age": "21",
-                    "image": "img/FONMM/Nomakhwezi.PNG"
-                },
-                {
                     "name": "Onalenna Phatudi",
                     "age": "23",
                     "image": "img/FONMM/Onalenna.PNG"
@@ -284,25 +318,24 @@
                     "name": "Pelontle Koboeatau",
                     "age": "22",
                     "image": "img/FONMM/Peloentle.PNG"
-                },
-                {
-                    "name": "Thabo Badirwang",
-                    "age": "23",
-                    "image": "img/FONMM/Thabo.PNG"
-                },
-                {
-                    "name": "Victoria Mosinki",
-                    "age": "24",
-                    "image": "img/FONMM/Victoria.PNG"
                 }
             ],
             "Miss_Drag": [
                 {
                     "name": "Thabiso Makoto",
                     "age": "20",
-                    "image": "img/FONMM/Thabiso.PNG"
+                    "image": "img/FONMM/Thabiso.PNG",
+                    "winner": "1st Winner"
                 }
             ]
-        }
+        },
+        "winners": [
+            {
+                "name": "",
+                "age": "",
+                "category": "",
+                "image": ""
+            }
+        ]
     }
 }

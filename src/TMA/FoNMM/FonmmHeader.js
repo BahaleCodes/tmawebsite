@@ -25,22 +25,20 @@ class FonmmHeader extends Component {
             interval: 3,
             autoplay: true,
             slides: [
-                {
-                    background: "img/FONMM/Finalist.png"
-                },
-                {
-                    background: "img/FONMM/Finalist.png"
-                },
-                {
-                    background: "img/FONMM/Finalist.png"
-                }
+                "img/FONMM/winners1.jpg",
+                "img/FONMM/winners2.jpg",
+                "img/FONMM/winners3.jpg",
+                "img/FONMM/winners4.jpg",
+                "img/FONMM/winners5.jpg",
+                "img/FONMM/winners6.jpg",
+                "img/FONMM/winners7.jpg",
+                "img/FONMM/winners8.jpg"
             ]
         };
     }
 
     componentDidMount() {
         this.timerId = setInterval(() => {
-            console.log(this.state.autoplay);
             if (this.state.autoplay) {
                 this.nextSlide();
             }
@@ -83,7 +81,7 @@ class FonmmHeader extends Component {
                 {this.state.slides.map((slide, index) => {
                     return (
                         <Slide
-                            background={slide.background}
+                            background={slide}
                             active={index === this.state.activeSlide}
                         />
                     );

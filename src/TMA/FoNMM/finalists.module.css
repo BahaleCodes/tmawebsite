@@ -28,6 +28,7 @@
     flex-flow: column;
     height: 75rem;
     width: 100%;
+    position: relative;
 }
 .top__img {
   background-repeat: no-repeat;
@@ -60,24 +61,55 @@
   }
   
 @media only screen and (max-width: 1000px) {
-  .top__img{
-      height: 25rem;
-  }
-  .img__cnt{
-    display: flex;
-    flex-flow: column;
-    height: 25rem;
-    width: 100%;
+    .top__img{
+		height: 75rem;
+	}
+	.img__cnt{
+		display: flex;
+		flex-flow: column;
+		height: 75rem;
+		width: 100%;
+	}
 }
+@media only screen and (max-width: 850px) {
+	.img__cnt {
+		height: 60rem;
+	}
 }
-  
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .cards_md {
-      display: none;
-    }
+		display: none;
+	}
     .cards {
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
     }
-  }
+    .img__cnt{
+		display: flex;
+		flex-flow: column;
+		height: 30rem;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.img__cnt {
+		height: 25rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.img__cnt {
+		height: 25rem;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.img__cnt {
+		height: 25rem;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.img__cnt {
+		height: 25rem;
+		/* margin-bottom: 5rem; */
+	}
+}

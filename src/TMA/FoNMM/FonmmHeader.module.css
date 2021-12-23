@@ -1,8 +1,8 @@
 .slider__slide {
-    height: 75%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
     opacity: 0;
     width: 100%;
     position: absolute;
@@ -11,8 +11,13 @@
 .slider__slide[data-active="true"] {
     opacity: 1;
 }
+@media only screen and (max-width: 850px) {
+    .slider__slide{
+        height: 45rem;
+    }
+}
 @media only screen and (max-width: 650px) {
     .slider__slide{
-        height: 50%;
+        height: 25rem;
     }
 }
