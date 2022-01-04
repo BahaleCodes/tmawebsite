@@ -1,0 +1,110 @@
+.ImageSlider {
+    margin-top: 8.5rem;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.ImageSliderController{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    height: 70rem;
+}
+.ImageSliderController span{
+    padding: 10px;
+    width: 100px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+.ImageSliderController span:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.ImageSliderController span:active{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.img_responsive_sl{
+    max-width: 100%;
+    height: 70rem;
+    align-items: center;
+}
+
+.span-P{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+.span-N{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+#imageSlider .span-N i.fa {
+	font-size: 36px;
+	width: 30px;
+	height: 30px;
+	color: black;
+    background-color: white;
+	border-radius: 50%;
+	/* transition: all 0.3s; */
+}
+#imageSlider .span-P i.fa {
+	font-size: 36px;
+	width: 30px;
+	height: 30px;
+	color: black;
+    background-color: white;
+	border-radius: 50%;
+	/* transition: all 0.3s; */
+}
+@media (max-width: 1500px) {
+    
+}
+@media (max-width: 1300px) {
+    
+}
+@media (max-width: 1000px) {
+    
+}
+@media (max-width: 500px) {
+    .ImageSlider{
+        margin-top: -10rem;
+        width: 100%;
+        height: 35rem;
+        top: 0;
+    }
+    .span-P{
+        position: absolute;
+        left: 0;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
+    .span-N{
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
+    .ImageSliderController{
+        margin: 0;
+        /* height: 10rem; */
+    }
+    .img_responsive_sl{
+        margin-top: 8.5rem;
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './ImageSlider.css';
+import classes from './ImageSlider.module.css';
 
 export default function ImageSlider({images=[]}){
     const [thumbnails, setThumnails] = useState([]);
@@ -34,12 +34,12 @@ export default function ImageSlider({images=[]}){
     }
 
     return (
-        <section id="imageSlider" className={"ImageSlider"}>
-            <div className={"ImageSliderController"}>
+        <section id="imageSlider" className={classes.ImageSlider}>
+            <div className={classes.ImageSliderController}>
                 <div >
                 <section>
                     <div>
-                        <img loading='lazy' className={"img-responsive-sl"} src={images[currentSlide]} />
+                        <img loading='lazy' alt='Taahirah Modeling Academy Slider' className={classes.img_responsive_sl} src={images[currentSlide]} />
                     </div>
                 </section>
             </div>

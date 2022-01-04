@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './Slideshow.css';
+import classes from './Slideshow.module.css';
 
 export default function Slideshow({images=[], interval=3000}){
     const [thumbnails, setThumnails] = useState([]);
@@ -53,7 +53,7 @@ export default function Slideshow({images=[], interval=3000}){
     }, [images, currentSlide, interval]);
 
     return (
-        <section className={"Slideshow"}>
+        <section className={classes.Slideshow}>
             <div >
                 <div >
                     <div >
