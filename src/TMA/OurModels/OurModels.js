@@ -2,16 +2,16 @@ import React from "react";
 
 import OurModel from './OurModel';
 
-const OurModels = () => {
+const OurModels = (props) => {
 	return (
 		<div id="our-models" className="text-center">
 			<div className="container">
-				<button onClick={this.props.toggle} className='btn-custom'>Hide 2021 Models</button>
+				<button onClick={props.toggle} className='btn-custom'>Hide 2021 Models</button>
 
 				<div className="row">
 					{
-						this.props.data
-							? this.props.data.map((d, i) => (
+						props.data
+							? props.data.map((d, i) => (
 								<OurModel key={`${d.name}-${i}`}
 									link={d.link}
 									name={d.name}

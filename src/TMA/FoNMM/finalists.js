@@ -149,21 +149,9 @@ const Finalists = (props) => {
             <div className={classes.img__cnt}>
                 <FonmmHeader />
             </div>
-            {all && viewAll()}
+            {/* {all && viewAll()} */}
         </div>
     )
 };
 
 export default Finalists;
-
-
-{/* <div className='container'>
-                <button className="btn btn-custom btn-lg" onClick={toggleView}>
-                    {
-                        all
-                            ? 'View Categories'
-                            : 'View All'
-                    }
-                </button>
-                {!all && categories}
-            </div> */}
